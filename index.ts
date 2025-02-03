@@ -26,6 +26,7 @@ const blacklist: string[] = [
   "extension",
   ".type",
   "image",
+  "locale",
   "productType",
   "currency",
   "barColor",
