@@ -1,0 +1,6986 @@
+{
+  "id": "69",
+  "locale": "pt",
+  "initialQuestion": 2,
+  "coupon": {
+    "percentage": 40,
+    "code": "NewYear2025-40%"
+  },
+  "lastLevelQuestionFollowUpQuestion": 41,
+  "levelQuestionRules": [
+    {
+      "followUpQuestion": 40,
+      "no": 3
+    },
+    {
+      "followUpQuestion": 40,
+      "maybe": 2,
+      "no": 2
+    }
+  ],
+  "productConfigurations": [
+    {
+      "paymentTexts": {
+        "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
+        "typeText": "Sua assinatura será renovada mensalmente até que você a cancele. Você pode cancelar sua assinatura e seu programa a qualquer momento.\n\nEnviaremos um e-mail 3 dias antes de completar os 6 meses de duração do seu programa para que você se lembre de cancelar sua assinatura antes de renovar no 7º mês, se assim desejar."
+      },
+      "productPlan": "1M",
+      "productType": "subscription",
+      "selectionTexts": {
+        "header": "Assinatura mensal",
+        "price": "#ME_FEE#"
+      }
+    },
+    {
+      "discounts": [
+        {
+          "currency": "MXN",
+          "percentage": 11,
+          "tag": "AHORRE<br/>11%"
+        },
+        {
+          "currency": "USD",
+          "percentage": 9,
+          "tag": "AHORRE<br/>9%"
+        },
+        {
+          "currency": "ARS",
+          "percentage": 12,
+          "tag": "AHORRE<br/>12%"
+        }
+      ],
+      "paymentTexts": {
+        "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
+        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.\n\nSua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
+      },
+      "productPlan": "3M",
+      "productType": "subscription",
+      "selectionTexts": {
+        "footer": "Serão cobrados #ME_TOTAL_FEE# a cada #ME_MONTHS# meses. Equivale a #ME_FEE_PER_MONTH# por mês.",
+        "header": "Assinatura de 3 meses",
+        "price": "#ME_FEE#"
+      }
+    },
+    {
+      "discounts": [
+        {
+          "currency": "MXN",
+          "percentage": 16,
+          "tag": "AHORRE<br/>16%"
+        },
+        {
+          "currency": "USD",
+          "percentage": 17,
+          "tag": "AHORRE<br/>17%"
+        },
+        {
+          "currency": "ARS",
+          "percentage": 17,
+          "tag": "ECONOMIZE<br/>17%"
+        }
+      ],
+      "paymentTexts": {
+        "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
+        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.\n\nSua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
+      },
+      "productPlan": "6M",
+      "productType": "subscription",
+      "selectionTexts": {
+        "footer": "Serão cobrados #ME_TOTAL_FEE# a cada #ME_MONTHS# meses. Equivale a #ME_FEE_PER_MONTH# por mês.",
+        "header": "Assinatura de 6 meses",
+        "price": "#ME_FEE#"
+      }
+    },
+    {
+      "discounts": [
+        {
+          "currency": "MXN",
+          "percentage": 22,
+          "tag": "AHORRE<br/>22%"
+        },
+        {
+          "currency": "USD",
+          "percentage": 19,
+          "tag": "ECONOMIZE<br/>19%"
+        },
+        {
+          "currency": "ARS",
+          "percentage": 22,
+          "tag": "AHORRE<br/>22%"
+        }
+      ],
+      "paymentTexts": {
+        "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
+        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.\n\nSua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
+      },
+      "productPlan": "9M",
+      "productType": "subscription",
+      "selectionTexts": {
+        "footer": "Serão cobrados #ME_TOTAL_FEE# a cada #ME_MONTHS# meses. Equivale a #ME_FEE_PER_MONTH# por mês.",
+        "header": "Assinatura de 9 meses",
+        "price": "#ME_FEE#"
+      }
+    }
+  ],
+  "progress": {
+    "end": 155,
+    "start": 6
+  },
+  "questions": [
+    {
+      "badge": "DiscountBadge",
+      "contents": [
+        {
+          "text": "Inglês avançado",
+          "type": "title"
+        },
+        {
+          "text": "A aprendizagem personalizada é a chave para alcançar um nível avançado de inglês. O que você gostaria de conseguir?",
+          "type": "description"
+        }
+      ],
+      "id": 2,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Confiança",
+          "followUpQuestion": 3,
+          "id": 1
+        },
+        {
+          "description": "Habilidades profissionais",
+          "followUpQuestion": 3,
+          "id": 2
+        },
+        {
+          "description": "Tudo o que foi mencionado acima",
+          "followUpQuestion": 3,
+          "id": 3
+        }
+      ],
+      "progress": false,
+      "tiles": true,
+      "type": "QuestionView",
+      "header": {
+        "filename": "NewYearHeaderBackground",
+        "extension": "png",
+        "flexible": false,
+        "alt": ""
+      }
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu nível de inglês",
+          "type": "title"
+        },
+        {
+          "text": "Qual nível de inglês você acha que tem?\n\nVocê pode estimar. Mais adiante, especificaremos de forma mais precisa.",
+          "type": "description"
+        }
+      ],
+      "id": 3,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Apenas vou começar",
+          "followUpQuestion": 6,
+          "id": 1,
+          "meta": {
+            "initialLevelType": "beginner",
+            "initialLevel": "Iniciante",
+            "initialLevelText": "desde um nível de iniciante até"
+          }
+        },
+        {
+          "description": "Básico",
+          "followUpQuestion": 6,
+          "id": 2,
+          "meta": {
+            "initialLevelType": "basic",
+            "initialLevel": "Básico",
+            "initialLevelText": "desde um nível básico até"
+          }
+        },
+        {
+          "description": "Intermediario",
+          "followUpQuestion": 6,
+          "id": 3,
+          "meta": {
+            "initialLevelType": "intermediate",
+            "initialLevel": "Intermediario",
+            "initialLevelText": "desde um nível intermediário até"
+          }
+        },
+        {
+          "description": "Intermedio alto",
+          "followUpQuestion": 6,
+          "id": 4,
+          "meta": {
+            "initialLevelType": "upperintermediate",
+            "initialLevel": "Intermedio alto",
+            "initialLevelText": "de um nível intermediário alto até"
+          }
+        },
+        {
+          "description": "Avançado",
+          "followUpQuestion": 4,
+          "id": 5,
+          "meta": {
+            "initialLevelType": "advanced",
+            "initialLevel": "Avançado",
+            "initialLevelText": "a"
+          }
+        },
+        {
+          "description": "Não sei",
+          "followUpQuestion": 5,
+          "id": 6,
+          "meta": {
+            "initialLevelType": "basic",
+            "initialLevel": "Básico",
+            "initialLevelText": "desde um nível básico até"
+          }
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "InitialLevelView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Você tem um nível avançado!",
+          "type": "title"
+        },
+        {
+          "text": "Ficamos felizes por você! No entanto, nossa especialidade é ajudar a melhorar o nível de inglês de pessoas com nível básico ou intermediário. Gostaria de saber mais sobre nosso programa?",
+          "type": "description"
+        }
+      ],
+      "id": 4,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 6,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": -1,
+          "id": 2,
+          "type": "ToHomePage"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "79"
+          }
+        },
+        {
+          "text": "Vamos resolver isso",
+          "type": "title"
+        },
+        {
+          "text": "Podemos especificar seu nível de inglês mais tarde.",
+          "type": "description"
+        }
+      ],
+      "id": 5,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Genial!",
+          "followUpQuestion": 6,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "34"
+          }
+        },
+        {
+          "text": "Seu objetivo",
+          "type": "title"
+        },
+        {
+          "text": "Qual nível de inglês você quer alcançar?",
+          "type": "description"
+        }
+      ],
+      "id": 6,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Avançado",
+          "meta": {
+            "targetLevel": "Avançado"
+          },
+          "followUpQuestion": 7,
+          "id": 1
+        },
+        {
+          "description": "Intermedio alto",
+          "meta": {
+            "targetLevel": "Intermedio alto"
+          },
+          "followUpQuestion": 8,
+          "id": 2
+        },
+        {
+          "description": "Intermediario",
+          "meta": {
+            "targetLevel": "Intermediario"
+          },
+          "followUpQuestion": 8,
+          "id": 3
+        },
+        {
+          "description": "Básico",
+          "meta": {
+            "targetLevel": "Básico"
+          },
+          "followUpQuestion": 8,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "TargetLevelView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "34"
+          }
+        },
+        {
+          "text": "Seu objetivo",
+          "type": "title"
+        },
+        {
+          "text": "Ótimo! Agora já sabemos qual é o seu objetivo. Você pode alterá-lo mais tarde, se precisar.",
+          "type": "description"
+        }
+      ],
+      "id": 7,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 9,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "34"
+          }
+        },
+        {
+          "text": "Seu primeiro objetivo",
+          "type": "title"
+        },
+        {
+          "text": "Estamos especializados em levar as pessoas até um nível avançado de inglês, independentemente do seu nível inicial. Vamos guiá-lo passo a passo em cada nível, mas teremos o objetivo a longo prazo de que você alcance um nível avançado.",
+          "type": "description"
+        }
+      ],
+      "id": 8,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 9,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "16"
+          }
+        },
+        {
+          "text": "Sua língua materna",
+          "type": "title"
+        },
+        {
+          "text": "Qual é a sua língua materna?",
+          "type": "description"
+        }
+      ],
+      "id": 9,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Português (Brasil)",
+          "followUpQuestion": 10,
+          "id": 1
+        },
+        {
+          "description": "Outra",
+          "followUpQuestion": 11,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "71"
+          }
+        },
+        {
+          "text": "Feito para você!",
+          "type": "title"
+        },
+        {
+          "text": "Ótimo! O programa Master English é desenvolvido para falantes de português.",
+          "type": "description"
+        }
+      ],
+      "id": 10,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 14,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Tenha em mente",
+          "type": "title"
+        },
+        {
+          "text": "O programa Master English é desenvolvido para falantes de português. Você pode usar o português como idioma de estudo?",
+          "type": "description"
+        }
+      ],
+      "id": 11,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 13,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 12,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Tenha em mente",
+          "type": "title"
+        },
+        {
+          "text": "Se você não pode estudar em português, infelizmente, o Master English não é a solução certa para você. Obrigado por pensar em nós!",
+          "type": "description"
+        }
+      ],
+      "id": 12,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sair",
+          "followUpQuestion": -1,
+          "id": 1,
+          "type": "ToHomePage"
+        },
+        {
+          "description": "Espere, sim eu posso!",
+          "followUpQuestion": 13,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "71"
+          }
+        },
+        {
+          "text": "Feito para você!",
+          "type": "title"
+        },
+        {
+          "text": "Ótimo! Nesse caso, você pode estudar inglês conosco.",
+          "type": "description"
+        }
+      ],
+      "id": 13,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 14,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "A chave é a personalização",
+          "type": "title"
+        },
+        {
+          "text": "O app Master English se baseia na <strong>personalização avançada</strong> para facilitar um aprendizado eficaz. Nos certificamos de que você aprende o que <strong>você precisa para alcançar seus objetivos</strong>.\n\nAjudamos mais de 1,2 milhões de adultos a melhorar seu inglês, o que nos permitiu otimizar o processo de aprendizado.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 15,
+          "rules": [
+            {
+              "optionId": 1,
+              "questionId": 6
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "followUpQuestion": 16,
+          "rules": [
+            {
+              "optionId": 2,
+              "questionId": 6
+            },
+            {
+              "optionId": 3,
+              "questionId": 6
+            },
+            {
+              "optionId": 4,
+              "questionId": 6
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "id": 14,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 15,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView",
+      "header": {
+        "filename": "PersonalisedSpotlight",
+        "extension": "jpg",
+        "flexible": false,
+        "alt": ""
+      }
+    },
+    {
+      "contents": [
+        {
+          "text": "Motivação",
+          "type": "title"
+        },
+        {
+          "text": "Qual é a sua principal razão para querer alcançar um nível avançado de inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 15,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Quero um emprego melhor ou salário",
+          "followUpQuestion": 17,
+          "id": 1
+        },
+        {
+          "description": "Preciso melhorar minhas habilidades de inglês para manter meu emprego atual",
+          "followUpQuestion": 17,
+          "id": 2
+        },
+        {
+          "description": "Quero viajar ou morar em um país de língua inglesa",
+          "followUpQuestion": 17,
+          "id": 3
+        },
+        {
+          "description": "Quero participar de conversas em inglês",
+          "followUpQuestion": 17,
+          "id": 4
+        },
+        {
+          "description": "Outra",
+          "followUpQuestion": 17,
+          "id": 5
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Motivação",
+          "type": "title"
+        },
+        {
+          "text": "Qual é a sua principal razão para querer melhorar seu nível de inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 16,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Quero um emprego melhor ou salário",
+          "followUpQuestion": 17,
+          "id": 1
+        },
+        {
+          "description": "Preciso melhorar minhas habilidades de inglês para manter meu emprego atual",
+          "followUpQuestion": 17,
+          "id": 2
+        },
+        {
+          "description": "Quero viajar ou morar em um país de língua inglesa",
+          "followUpQuestion": 17,
+          "id": 3
+        },
+        {
+          "description": "Quero participar de conversas em inglês",
+          "followUpQuestion": 17,
+          "id": 4
+        },
+        {
+          "description": "Outra",
+          "followUpQuestion": 17,
+          "id": 5
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "91"
+          }
+        },
+        {
+          "text": "Excelente!",
+          "type": "title"
+        },
+        {
+          "text": "Ter um motivo claro te manterá motivado durante seu aprendizado.\n\nMaster English te ajudará a estar cada dia mais perto de cumprir seus objetivos.",
+          "type": "description"
+        }
+      ],
+      "id": 17,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Parece bom",
+          "followUpQuestion": 18,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "61"
+          }
+        },
+        {
+          "text": "Tempo de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Por favor, responda às seguintes perguntas sobre suas habilidades de inglês para estimar <strong>em quanto tempo você pode alcançar um nível avançado</strong>.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 19,
+          "rules": [
+            {
+              "optionId": 1,
+              "questionId": 3
+            },
+            {
+              "optionId": 2,
+              "questionId": 3
+            },
+            {
+              "optionId": 6,
+              "questionId": 3
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "followUpQuestion": 25,
+          "rules": [
+            {
+              "optionId": 3,
+              "questionId": 3
+            },
+            {
+              "optionId": 4,
+              "questionId": 3
+            },
+            {
+              "optionId": 5,
+              "questionId": 3
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "id": 18,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos fazer isso!",
+          "followUpQuestion": 19,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "15"
+          }
+        },
+        {
+          "text": "Apresentar você",
+          "type": "title"
+        },
+        {
+          "text": "Você pode se apresentar em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 19,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 20,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 20,
+          "id": 2,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "43"
+          }
+        },
+        {
+          "text": "Mensagens de texto",
+          "type": "title"
+        },
+        {
+          "text": "Você consegue entender mensagens de texto curtas em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 20,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 21,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas às vezes preciso usar o tradutor",
+          "followUpQuestion": 21,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 21,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "18"
+          }
+        },
+        {
+          "text": "Registrar-se",
+          "type": "title"
+        },
+        {
+          "text": "Você consegue fazer o check-in em um hotel falando inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 21,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 22,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas teria dificuldades",
+          "followUpQuestion": 22,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 22,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "19"
+          }
+        },
+        {
+          "text": "Fazer conversa",
+          "type": "title"
+        },
+        {
+          "text": "Você pode perguntar a um amigo dos Estados Unidos como ele está?",
+          "type": "description"
+        }
+      ],
+      "id": 22,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, poderia conversar um pouco",
+          "followUpQuestion": 23,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas pode ser que eu não entenda a resposta",
+          "followUpQuestion": 23,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 23,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "20"
+          }
+        },
+        {
+          "text": "Fim de semana",
+          "type": "title"
+        },
+        {
+          "text": "Você pode falar sobre seu fim de semana em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 23,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, facilmente",
+          "followUpQuestion": 24,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, poderia contar algo",
+          "followUpQuestion": 24,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não poderia fazer isso",
+          "followUpQuestion": 24,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "44"
+          }
+        },
+        {
+          "text": "Emails curtos",
+          "type": "title"
+        },
+        {
+          "text": "Você pode escrever um e-mail de trabalho curto em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 24,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, facilmente",
+          "followUpQuestion": 25,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas levaria tempo",
+          "followUpQuestion": 25,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 25,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "45"
+          }
+        },
+        {
+          "text": "Reunião",
+          "type": "title"
+        },
+        {
+          "text": "Se você tem uma reunião de trabalho em inglês, você consegue entender o que está sendo dito?",
+          "type": "description"
+        }
+      ],
+      "id": 25,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 26,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Entenderia parte da reunião",
+          "followUpQuestion": 26,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 26,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "46"
+          }
+        },
+        {
+          "text": "Apresentação",
+          "type": "title"
+        },
+        {
+          "text": "Você pode fazer uma apresentação em inglês sobre seus projetos de trabalho?",
+          "type": "description"
+        }
+      ],
+      "id": 26,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 27,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas eu me sentiria desconfortável",
+          "followUpQuestion": 27,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 27,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "47"
+          }
+        },
+        {
+          "text": "Perguntas",
+          "type": "title"
+        },
+        {
+          "text": "E você pode responder perguntas sobre sua apresentação?",
+          "type": "description"
+        }
+      ],
+      "id": 27,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, sem nenhuma dúvida",
+          "followUpQuestion": 28,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Depende da dificuldade das perguntas",
+          "followUpQuestion": 28,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, seria muito difícil",
+          "followUpQuestion": 28,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "48"
+          }
+        },
+        {
+          "text": "Email",
+          "type": "title"
+        },
+        {
+          "text": "Você consegue entender e-mails de trabalho mais longos em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 28,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, facilmente",
+          "followUpQuestion": 29,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, se eu posso usar um tradutor",
+          "followUpQuestion": 29,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 29,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "49"
+          }
+        },
+        {
+          "text": "Falar ao telefone",
+          "type": "title"
+        },
+        {
+          "text": "Você se sente confortável falando em inglês por telefone?",
+          "type": "description"
+        }
+      ],
+      "id": 29,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, sempre",
+          "followUpQuestion": 30,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, se os temas forem fáceis",
+          "followUpQuestion": 30,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 30,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "50"
+          }
+        },
+        {
+          "text": "E-mails longos",
+          "type": "title"
+        },
+        {
+          "text": "Você pode escrever e-mails de trabalho mais longos em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 30,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, sem nenhuma dificuldade",
+          "followUpQuestion": 31,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas pode ser que eu precise de ajuda",
+          "followUpQuestion": 31,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, seria muito difícil",
+          "followUpQuestion": 31,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "51"
+          }
+        },
+        {
+          "text": "Imagem profissional",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que transmite uma imagem profissional quando fala em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 31,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, em qualquer situação",
+          "followUpQuestion": 32,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas apenas em situações fáceis",
+          "followUpQuestion": 32,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Acho que não",
+          "followUpQuestion": 32,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "52"
+          }
+        },
+        {
+          "text": "Reunião com clientes",
+          "type": "title"
+        },
+        {
+          "text": "Seu supervisor pode confiar em você para falar com um cliente estrangeiro em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 32,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, pode contar comigo",
+          "followUpQuestion": 33,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Não tenho certeza",
+          "followUpQuestion": 33,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, seria muito difícil",
+          "followUpQuestion": 33,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "53"
+          }
+        },
+        {
+          "text": "Ascenso",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que seu nível atual de inglês é bom o suficiente para ser promovido ou conseguir um emprego melhor?",
+          "type": "description"
+        }
+      ],
+      "id": 33,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, totalmente",
+          "followUpQuestion": 34,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas ainda preciso melhorar meu inglês",
+          "followUpQuestion": 34,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 34,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "54"
+          }
+        },
+        {
+          "text": "Responsabilidade",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que seu nível atual de inglês permite que você tenha responsabilidades suficientes no trabalho?",
+          "type": "description"
+        }
+      ],
+      "id": 34,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, definitivamente",
+          "followUpQuestion": 35,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas poderia ter mais se eu melhorar meu inglês",
+          "followUpQuestion": 35,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, meu nível de inglês me impede disso",
+          "followUpQuestion": 35,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "30"
+          }
+        },
+        {
+          "requirements": {
+            "rules": [
+              {
+                "countryIs": "US"
+              }
+            ]
+          },
+          "text": "Viver nos Estados Unidos",
+          "type": "title"
+        },
+        {
+          "requirements": {
+            "rules": [
+              {
+                "countryIsNot": "US"
+              }
+            ]
+          },
+          "text": "Viver no exterior",
+          "type": "title"
+        },
+        {
+          "requirements": {
+            "rules": [
+              {
+                "countryIs": "US"
+              }
+            ]
+          },
+          "text": "Seu nível de inglês dificulta sua vida nos Estados Unidos?",
+          "type": "description"
+        },
+        {
+          "requirements": {
+            "rules": [
+              {
+                "countryIsNot": "US"
+              }
+            ]
+          },
+          "text": "Você se sentiria confortável em se mudar para um país de língua inglesa?",
+          "type": "description"
+        }
+      ],
+      "id": 35,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 36,
+          "id": 1,
+          "requirements": {
+            "rules": [
+              {
+                "countryIs": "US"
+              }
+            ]
+          },
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, seria divertido!",
+          "followUpQuestion": 36,
+          "id": 2,
+          "requirements": {
+            "rules": [
+              {
+                "countryIsNot": "US"
+              }
+            ]
+          },
+          "type": "Yes"
+        },
+        {
+          "description": "Ter um melhor nível de inglês facilitaria algumas situações",
+          "followUpQuestion": 36,
+          "id": 3,
+          "requirements": {
+            "rules": [
+              {
+                "countryIs": "US"
+              }
+            ]
+          },
+          "type": "Maybe"
+        },
+        {
+          "description": "Só se antes eu pudesse melhorar meu nível de inglês",
+          "followUpQuestion": 36,
+          "id": 4,
+          "requirements": {
+            "rules": [
+              {
+                "countryIsNot": "US"
+              }
+            ]
+          },
+          "type": "Maybe"
+        },
+        {
+          "description": "Sim, minhas limitações com o inglês dificultam minha vida aqui",
+          "followUpQuestion": 36,
+          "id": 5,
+          "requirements": {
+            "rules": [
+              {
+                "countryIs": "US"
+              }
+            ]
+          },
+          "type": "No"
+        },
+        {
+          "description": "Não, eu me sentiria desconfortável",
+          "followUpQuestion": 36,
+          "id": 6,
+          "requirements": {
+            "rules": [
+              {
+                "countryIsNot": "US"
+              }
+            ]
+          },
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "55"
+          }
+        },
+        {
+          "text": "Dialetos",
+          "type": "title"
+        },
+        {
+          "text": "Você consegue entender diferentes dialetos do inglês e expressões coloquiais?",
+          "type": "description"
+        }
+      ],
+      "id": 36,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, bastante bem",
+          "followUpQuestion": 37,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, mas apenas se a pessoa não falar muito rápido",
+          "followUpQuestion": 37,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, acho difícil",
+          "followUpQuestion": 37,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "56"
+          }
+        },
+        {
+          "text": "Expressões",
+          "type": "title"
+        },
+        {
+          "text": "Você é capaz de usar expressões idiomáticas de forma natural em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 37,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, facilmente",
+          "followUpQuestion": 38,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, pelo menos os mais comuns",
+          "followUpQuestion": 38,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 38,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "57"
+          }
+        },
+        {
+          "text": "Situações complexas",
+          "type": "title"
+        },
+        {
+          "text": "Você se sente igualmente confortável falando inglês em qualquer situação como faria em português?",
+          "type": "description"
+        }
+      ],
+      "id": 38,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 39,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Eu me saio melhor em português.",
+          "followUpQuestion": 39,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 39,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "58"
+          }
+        },
+        {
+          "text": "Falante nativo",
+          "type": "title"
+        },
+        {
+          "text": "Quando você fala inglês, as pessoas pensam que você é nativo?",
+          "type": "description"
+        }
+      ],
+      "id": 39,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, quase sempre",
+          "followUpQuestion": 40,
+          "id": 1,
+          "type": "Yes"
+        },
+        {
+          "description": "Sim, às vezes",
+          "followUpQuestion": 40,
+          "id": 2,
+          "type": "Maybe"
+        },
+        {
+          "description": "Não, nunca",
+          "followUpQuestion": 40,
+          "id": 3,
+          "type": "No"
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "LevelQuestion"
+    },
+    {
+      "contents": [
+        {
+          "text": "Tempo de estudo estimado",
+          "type": "title"
+        },
+        {
+          "text": "Obrigado por suas respostas! Agora já sabemos em quanto tempo você pode alcançar um nível avançado de inglês.\n\nQuando você praticar com seu programa, vamos registrar seu progresso e adaptar as lições com base em suas necessidades pessoais.",
+          "type": "description"
+        }
+      ],
+      "id": 40,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 43,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Você tem um nível avançado",
+          "type": "title"
+        },
+        {
+          "text": "Parabéns! De acordo com suas respostas, você já tem um nível avançado.\n\nNossa especialidade é ajudar pessoas com um nível básico ou intermediário a conseguir um nível avançado de inglês. Ainda assim, você gostaria de saber mais sobre nosso programa?",
+          "type": "description"
+        }
+      ],
+      "id": 41,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, quero saber mais",
+          "followUpQuestion": 43,
+          "id": 1
+        },
+        {
+          "description": "Quero refazer o questionário",
+          "followUpQuestion": 25,
+          "id": 2
+        },
+        {
+          "description": "Não, obrigado",
+          "followUpQuestion": 42,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "59"
+          }
+        },
+        {
+          "text": "Sair",
+          "type": "title"
+        },
+        {
+          "text": "Você vai sair do programa sem salvar seus resultados, tem certeza?",
+          "type": "description"
+        }
+      ],
+      "id": 42,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": -1,
+          "id": 1,
+          "type": "ToHomePage"
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 43,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "O programa\nMaster English",
+          "type": "title"
+        },
+        {
+          "text": "É um programa online criado <strong>por professores de inglês altamente qualificados</strong>. Está desenvolvido <strong>para adultos falantes de português</strong> que precisam de um nível avançado de inglês.",
+          "type": "description"
+        },
+        {
+          "type": "proofProgress"
+        }
+      ],
+      "id": 43,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 44,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "scroll": "afterDelay",
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Email",
+          "type": "title"
+        },
+        {
+          "text": "Insira seu endereço de e-mail para ver em quanto tempo você pode alcançar um nível avançado de inglês com o Master English.",
+          "type": "description"
+        },
+        {
+          "type": "signupEmail"
+        },
+        {
+          "text": "*Precisamos do seu e-mail para salvar seus resultados e personalizar seu programa. Inserir seu endereço de e-mail não te compromete a nada.",
+          "type": "footnote"
+        }
+      ],
+      "id": 44,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 45,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "SignupView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Senha",
+          "type": "title"
+        },
+        {
+          "text": "Crie sua senha!",
+          "type": "description"
+        },
+        {
+          "type": "signupPassword"
+        }
+      ],
+      "id": 45,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 46,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "SignupView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Nome",
+          "type": "title"
+        },
+        {
+          "text": "E como te chamamos?",
+          "type": "description"
+        },
+        {
+          "type": "signupName"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 47,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 48,
+          "rules": [
+            {
+              "lastLevelQuestion": [25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 49,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 46,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 47,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "SignupView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu programa personalizado",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, você alcançará um nível avançado para #9_MONTHS_LATER#.",
+          "type": "description"
+        },
+        {
+          "type": "programPromise",
+          "programPromiseOptions": {
+            "months": 9
+          }
+        },
+        {
+          "text": "Vamos confirmar esta estimativa.",
+          "type": "description"
+        }
+      ],
+      "id": 47,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos!",
+          "followUpQuestion": 50,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu programa personalizado",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, você alcançará um nível avançado para #9_MONTHS_LATER#.",
+          "type": "description"
+        },
+        {
+          "type": "programPromise",
+          "programPromiseOptions": {
+            "months": 9
+          }
+        },
+        {
+          "text": "Vamos confirmar esta estimativa.",
+          "type": "description"
+        }
+      ],
+      "id": 48,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos!",
+          "followUpQuestion": 50,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu programa personalizado",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, você alcançará um nível avançado para #6_MONTHS_LATER#.",
+          "type": "description"
+        },
+        {
+          "type": "programPromise",
+          "programPromiseOptions": {
+            "months": 6
+          }
+        },
+        {
+          "text": "Vamos confirmar esta estimativa.",
+          "type": "description"
+        }
+      ],
+      "id": 49,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos!",
+          "followUpQuestion": 50,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "scroll": "afterDelay",
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "No meio do caminho",
+          "type": "title"
+        },
+        {
+          "text": "A seguir, vamos continuar personalizando seu programa.\n\nPara isso, precisamos que você defina as áreas onde apresenta maiores dificuldades em inglês. Por favor, responda às seguintes perguntas.",
+          "type": "description"
+        }
+      ],
+      "id": 50,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 51,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu aprendizado prévio",
+          "type": "title"
+        },
+        {
+          "text": "Você já estudou inglês anteriormente?",
+          "type": "description"
+        }
+      ],
+      "id": 51,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, atualmente estou estudando",
+          "followUpQuestion": 53,
+          "id": 1
+        },
+        {
+          "description": "Sim, eu estudei anteriormente",
+          "followUpQuestion": 52,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 58,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu aprendizado prévio",
+          "type": "title"
+        },
+        {
+          "text": "Há quanto tempo você não estuda inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 52,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Há menos de 6 meses",
+          "followUpQuestion": 54,
+          "id": 1
+        },
+        {
+          "description": "Há 6 - 12 meses",
+          "followUpQuestion": 54,
+          "id": 2
+        },
+        {
+          "description": "Há 1 - 3 anos",
+          "followUpQuestion": 54,
+          "id": 3
+        },
+        {
+          "description": "Há mais de 3 anos",
+          "followUpQuestion": 54,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu aprendizado anterior",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que seus estudos atuais estão adaptados ao seu nível?",
+          "type": "description"
+        }
+      ],
+      "id": 53,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, se adaptam a mim perfeitamente",
+          "followUpQuestion": 55,
+          "id": 1
+        },
+        {
+          "description": "Poderiam estar melhor adaptados",
+          "followUpQuestion": 57,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 57,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 57,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu aprendizado prévio",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que seus estudos estavam adaptados ao seu nível?",
+          "type": "description"
+        }
+      ],
+      "id": 54,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, se adaptavam a mim perfeitamente",
+          "followUpQuestion": 56,
+          "id": 1
+        },
+        {
+          "description": "Poderiam ter sido melhor adaptados",
+          "followUpQuestion": 57,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 57,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 57,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu aprendizado prévio",
+          "type": "title"
+        },
+        {
+          "text": "E você considera que está avançando em um ritmo adequado?",
+          "type": "description"
+        }
+      ],
+      "id": 55,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, o ritmo é adequado para mim",
+          "followUpQuestion": 59,
+          "id": 1
+        },
+        {
+          "description": "Poderia estar melhor adaptado",
+          "followUpQuestion": 57,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 57,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 57,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu aprendizado prévio",
+          "type": "title"
+        },
+        {
+          "text": "E você considera que avançava em um ritmo adequado?",
+          "type": "description"
+        }
+      ],
+      "id": 56,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, o ritmo era adequado para mim",
+          "followUpQuestion": 59,
+          "id": 1
+        },
+        {
+          "description": "Poderia ter sido mais adaptado para mim",
+          "followUpQuestion": 57,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 57,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 57,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Vamos nos concentrar em você",
+          "type": "title"
+        },
+        {
+          "text": "No que se refere ao aprendizado de inglês para adultos, cada um tem seu próprio nível inicial, áreas de dificuldade e ritmo de aprendizado.\n\nO app Master English utiliza tecnologia avançada para personalizar sua experiência de aprendizado de acordo com suas necessidades.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 60,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 74,
+          "rules": [
+            {
+              "lastLevelQuestion": [25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 89,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 57,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 58,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Vamos nos concentrar em você",
+          "type": "title"
+        },
+        {
+          "text": "Vamos garantir que sua primeira experiência aprendendo inglês seja positiva.\n\nQuando se trata de aprender inglês para adultos, cada um tem seu próprio nível inicial, áreas de dificuldade e ritmo de aprendizado.\n\nO app Master English utiliza tecnologia avançada para personalizar sua experiência de aprendizado de acordo com suas necessidades.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 60,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 74,
+          "rules": [
+            {
+              "lastLevelQuestion": [25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 89,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 58,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 59,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Vamos nos concentrar em você",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, você já tem um método de aprendizado adaptado ao seu nível. Estupendo!\n\nAinda assim, vamos ver se podemos melhorar seus resultados de aprendizado.\n\nNo app Master English, utilizamos tecnologia avançada para que você possa se concentrar em suas áreas de dificuldade. Além disso, você desenvolverá habilidades que depois <strong>poderá utilizar em conversas reais em inglês</strong>.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 60,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 74,
+          "rules": [
+            {
+              "lastLevelQuestion": [25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 89,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 59,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 60,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "3"
+          }
+        },
+        {
+          "text": "Vocabulário",
+          "type": "title"
+        },
+        {
+          "text": "Você tem problemas com o vocabulário em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 60,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 61,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 61,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 62,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "3"
+          }
+        },
+        {
+          "text": "Vocabulário",
+          "type": "title"
+        },
+        {
+          "text": "Master English agilizará seu aprendizado de vocabulário graças ao nosso modelo de vanguarda com base na repetição espaçada. Com este método, nosso app se adapta ao seu ritmo de aprendizado.",
+          "type": "description"
+        }
+      ],
+      "id": 61,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 62,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "4"
+          }
+        },
+        {
+          "text": "Formar frases",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldades para formar frases completas em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 62,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 63,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 63,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 64,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "4"
+          }
+        },
+        {
+          "text": "Formar frases",
+          "type": "title"
+        },
+        {
+          "text": "Vamos te ensinar a formar frases que você poderá usar em conversas reais em inglês.\n\nÀ medida que você for melhorando seu nível, vamos introduzir frases mais complexas.",
+          "type": "description"
+        }
+      ],
+      "id": 63,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 64,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldades para entender o que os outros dizem em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 64,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 65,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 65,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 67,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "Você teve a oportunidade de praticar suas habilidades de compreensão auditiva ouvindo conversas reais em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 65,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 67,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 66,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.\n\nAlém disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
+          "type": "description"
+        }
+      ],
+      "id": 66,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 67,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldade em pronunciar bem em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 67,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 68,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 68,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 70,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "Você recebeu feedback sobre sua pronúncia com <strong>instruções detalhadas</strong> para melhorá-la?",
+          "type": "description"
+        }
+      ],
+      "id": 68,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 70,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 69,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nAlém disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
+          "type": "description"
+        }
+      ],
+      "id": 69,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 70,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "1"
+          }
+        },
+        {
+          "text": "Conversação",
+          "type": "title"
+        },
+        {
+          "text": "¿Você se identifica com o seguinte?: \"Não começaria uma conversa em inglês porque não saberia como continuá-la.\"",
+          "type": "description"
+        }
+      ],
+      "id": 70,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 71,
+          "id": 1
+        },
+        {
+          "description": "Mais ou menos",
+          "followUpQuestion": 71,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 72,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "1"
+          }
+        },
+        {
+          "text": "Conversação",
+          "type": "title"
+        },
+        {
+          "text": "Para participar de uma conversa, são necessárias <strong>habilidades de conversação</strong>. A única maneira de desenvolvê-las é por meio de exercícios interativos onde você adota um papel ativo e pode praticar falando em inglês.\n\nVamos fornecer esses exercícios ambientados em contextos e situações da vida real.",
+          "type": "description"
+        }
+      ],
+      "id": 71,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 72,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "2"
+          }
+        },
+        {
+          "text": "Confiança",
+          "type": "title"
+        },
+        {
+          "text": "¿Você se identifica com o seguinte?: \"Não me sinto seguro com meu inglês, nem mesmo para usá-lo em situações simples.\"",
+          "type": "description"
+        }
+      ],
+      "id": 72,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 73,
+          "id": 1
+        },
+        {
+          "description": "Mais ou menos",
+          "followUpQuestion": 73,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 108,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "2"
+          }
+        },
+        {
+          "text": "Confiança",
+          "type": "title"
+        },
+        {
+          "text": "Pode ser que agora você não se sinta confiante com o seu inglês, mas depois de estudar conosco, <strong>você não terá mais medo</strong>, pois no seu caminho de aprendizado, vamos garantir que:",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "text": "Pratique"
+            },
+            {
+              "number": 2,
+              "text": "Receba feedback"
+            },
+            {
+              "number": 3,
+              "text": "Reforce suas habilidades"
+            },
+            {
+              "number": 4,
+              "text": "Tenha uma rotina"
+            },
+            {
+              "number": 5,
+              "text": "<strong>Ganhe confiança</strong>"
+            }
+          ],
+          "listType": "number",
+          "type": "list"
+        }
+      ],
+      "id": 73,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 108,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "3"
+          }
+        },
+        {
+          "text": "Vocabulário",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que sua falta de vocabulário dificulta sua comunicação em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 74,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 75,
+          "id": 1
+        },
+        {
+          "description": "Meu vocabulário poderia ser mais amplo",
+          "followUpQuestion": 75,
+          "id": 2
+        },
+        {
+          "description": "Não, meu vocabulário é suficientemente amplo",
+          "followUpQuestion": 76,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "3"
+          }
+        },
+        {
+          "text": "Vocabulário",
+          "type": "title"
+        },
+        {
+          "text": "Master English agilizará seu aprendizado de vocabulário graças ao nosso modelo de vanguarda com base na repetição espaçada. Com este método, nosso app se adapta ao seu ritmo de aprendizado.",
+          "type": "description"
+        }
+      ],
+      "id": 75,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 76,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "5"
+          }
+        },
+        {
+          "text": "Gramática",
+          "type": "title"
+        },
+        {
+          "text": "Ter um conhecimento limitado de gramática dificulta que você possa se expressar?",
+          "type": "description"
+        }
+      ],
+      "id": 76,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, é um problema",
+          "followUpQuestion": 77,
+          "id": 1
+        },
+        {
+          "description": "Tenho alguns problemas com isso",
+          "followUpQuestion": 77,
+          "id": 2
+        },
+        {
+          "description": "Não é um problema",
+          "followUpQuestion": 78,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "5"
+          }
+        },
+        {
+          "text": "Gramática",
+          "type": "title"
+        },
+        {
+          "text": "Para muitos, a gramática é a parte mais pesada ao aprender um idioma. Queremos aliviar esse peso utilizando uma abordagem pragmática:",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "text": "Trabalharemos as habilidades que mais dificultam sua comunicação em inglês."
+            },
+            {
+              "number": 2,
+              "text": "Conforme você for melhorando, irá aprendendo gramática de forma contextualizada, na medida certa e sem se sobrecarregar."
+            }
+          ],
+          "listType": "number",
+          "type": "list"
+        }
+      ],
+      "id": 77,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 78,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldade em entender as pessoas quando falam em um ritmo normal em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 78,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, para mim é rápido demais",
+          "followUpQuestion": 79,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 79,
+          "id": 2
+        },
+        {
+          "description": "Não, entendo o que dizem",
+          "followUpQuestion": 81,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "Você teve a oportunidade de praticar suas habilidades de compreensão auditiva e de reação ouvindo conversas reais em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 79,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 81,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 80,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.\n\nAlém disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
+          "type": "description"
+        }
+      ],
+      "id": 80,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 81,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldade em pronunciar bem em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 81,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 82,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 82,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 84,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "Você recebeu feedback sobre sua pronúncia com <strong>instruções detalhadas</strong> para melhorá-la?",
+          "type": "description"
+        }
+      ],
+      "id": 82,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 84,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 83,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nAlém disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
+          "type": "description"
+        }
+      ],
+      "id": 83,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 84,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "0"
+          }
+        },
+        {
+          "text": "Expressar ideias",
+          "type": "title"
+        },
+        {
+          "text": "Você sente que não encontra as palavras adequadas quando quer explicar algo em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 84,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, tenho problemas com isso",
+          "followUpQuestion": 85,
+          "id": 1
+        },
+        {
+          "description": "Me enrolo em algumas ocasiões",
+          "followUpQuestion": 85,
+          "id": 2
+        },
+        {
+          "description": "Não é um problema",
+          "followUpQuestion": 87,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "0"
+          }
+        },
+        {
+          "text": "Expressar ideias",
+          "type": "title"
+        },
+        {
+          "text": "Então, você sente que já conhece as palavras, mas não consegue lembrá-las rapidamente?",
+          "type": "description"
+        }
+      ],
+      "id": 85,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 86,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 87,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "0"
+          }
+        },
+        {
+          "text": "Expressar ideias",
+          "type": "title"
+        },
+        {
+          "text": "As palavras são <strong>informação</strong>, mas a arte de saber usá-las é uma <strong>habilidade</strong>.\n\n<strong>Você pode adquirir essa habilidade</strong> com exercícios interativos onde adota um papel ativo. Assim, você será capaz de usar palavras e expressões de forma fluida em diferentes contextos.",
+          "type": "description"
+        }
+      ],
+      "id": 86,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 87,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "2"
+          }
+        },
+        {
+          "text": "Confiança",
+          "type": "title"
+        },
+        {
+          "text": "¿Você se identifica com o seguinte?: \"Não me sinto tão seguro com meu nível de inglês para participar de uma conversação.\"",
+          "type": "description"
+        }
+      ],
+      "id": 87,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 88,
+          "id": 1
+        },
+        {
+          "description": "Mais ou menos",
+          "followUpQuestion": 88,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 108,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "2"
+          }
+        },
+        {
+          "text": "Confiança",
+          "type": "title"
+        },
+        {
+          "text": "Pode ser que agora você não se sinta confiante com o seu inglês, mas depois de estudar conosco, <strong>você não terá mais medo</strong>, pois no seu caminho de aprendizado, vamos garantir que:",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "text": "Pratique"
+            },
+            {
+              "number": 2,
+              "text": "Receba feedback"
+            },
+            {
+              "number": 3,
+              "text": "Reforce suas habilidades"
+            },
+            {
+              "number": 4,
+              "text": "Tenha uma rotina"
+            },
+            {
+              "number": 5,
+              "text": "<strong>Ganhe confiança</strong>"
+            }
+          ],
+          "listType": "number",
+          "type": "list"
+        }
+      ],
+      "id": 88,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 108,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "3"
+          }
+        },
+        {
+          "text": "Vocabulário",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que seu vocabulário não é suficiente para se comunicar em situações complexas em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 89,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 90,
+          "id": 1
+        },
+        {
+          "description": "Meu vocabulário poderia ser mais amplo",
+          "followUpQuestion": 90,
+          "id": 2
+        },
+        {
+          "description": "Não, meu vocabulário já é amplo",
+          "followUpQuestion": 91,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "3"
+          }
+        },
+        {
+          "text": "Vocabulário",
+          "type": "title"
+        },
+        {
+          "text": "Master English agilizará seu aprendizado de vocabulário graças ao nosso modelo de vanguarda com base na repetição espaçada. Com este método, nosso app se adapta ao seu ritmo de aprendizado.",
+          "type": "description"
+        }
+      ],
+      "id": 90,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 91,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "5"
+          }
+        },
+        {
+          "text": "Gramática",
+          "type": "title"
+        },
+        {
+          "text": "Você sente que sua gramática não é suficiente quando quer se expressar em situações complexas em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 91,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, é um problema",
+          "followUpQuestion": 92,
+          "id": 1
+        },
+        {
+          "description": "Tenho alguns problemas com isso",
+          "followUpQuestion": 92,
+          "id": 2
+        },
+        {
+          "description": "Não é um problema",
+          "followUpQuestion": 93,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "5"
+          }
+        },
+        {
+          "text": "Gramática",
+          "type": "title"
+        },
+        {
+          "text": "Para muitos, a gramática é a parte mais pesada ao aprender um idioma. Queremos aliviar esse peso utilizando uma abordagem pragmática:",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "text": "Trabalharemos as habilidades que mais dificultam sua comunicação em inglês."
+            },
+            {
+              "number": 2,
+              "text": "Conforme você for melhorando, irá aprendendo gramática de forma contextualizada, na medida certa e sem se sobrecarregar."
+            }
+          ],
+          "listType": "number",
+          "type": "list"
+        }
+      ],
+      "id": 92,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 93,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldade em entender falantes nativos de inglês quando falam em um ritmo normal?",
+          "type": "description"
+        }
+      ],
+      "id": 93,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, falam rápido demais",
+          "followUpQuestion": 94,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 94,
+          "id": 2
+        },
+        {
+          "description": "Não, entendo o que dizem",
+          "followUpQuestion": 96,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "Você teve a oportunidade de praticar suas habilidades de compreensão auditiva e de reação ouvindo conversas reais em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 94,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 96,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 95,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "8"
+          }
+        },
+        {
+          "text": "Ouvir os outros",
+          "type": "title"
+        },
+        {
+          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.\n\nAlém disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
+          "type": "description"
+        }
+      ],
+      "id": 95,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 96,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "Você se sente inseguro com sua pronúncia?",
+          "type": "description"
+        }
+      ],
+      "id": 96,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, frequentemente",
+          "followUpQuestion": 97,
+          "id": 1
+        },
+        {
+          "description": "Às vezes",
+          "followUpQuestion": 97,
+          "id": 2
+        },
+        {
+          "description": "Não, nunca",
+          "followUpQuestion": 99,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "Você recebeu feedback sobre sua pronúncia com <strong>instruções detalhadas</strong> para melhorá-la?",
+          "type": "description"
+        }
+      ],
+      "id": 97,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 99,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 98,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "6"
+          }
+        },
+        {
+          "text": "Pronúncia",
+          "type": "title"
+        },
+        {
+          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nAlém disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
+          "type": "description"
+        }
+      ],
+      "id": 98,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 99,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "0"
+          }
+        },
+        {
+          "text": "Expressar ideias",
+          "type": "title"
+        },
+        {
+          "text": "Você sente que às vezes não encontra as palavras adequadas quando quer dizer ou escrever algo em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 99,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, tenho problemas com isso",
+          "followUpQuestion": 100,
+          "id": 1
+        },
+        {
+          "description": "Me enrolo em algumas ocasiões",
+          "followUpQuestion": 100,
+          "id": 2
+        },
+        {
+          "description": "Não é um problema",
+          "followUpQuestion": 102,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "0"
+          }
+        },
+        {
+          "text": "Expressar ideias",
+          "type": "title"
+        },
+        {
+          "text": "Então, você sente que já conhece as palavras, mas não consegue lembrá-las rapidamente?",
+          "type": "description"
+        }
+      ],
+      "id": 100,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 101,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 102,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "0"
+          }
+        },
+        {
+          "text": "Expressar ideias",
+          "type": "title"
+        },
+        {
+          "text": "As palavras são <strong>informação</strong>, mas a arte de saber usá-las é uma <strong>habilidade</strong>.\n\n<strong>Você pode adquirir essa habilidade</strong> com exercícios interativos onde adota um papel ativo. Assim, você será capaz de usar palavras e expressões de forma fluida em diferentes contextos.",
+          "type": "description"
+        }
+      ],
+      "id": 101,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 102,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "9"
+          }
+        },
+        {
+          "text": "Expressões",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldade em entender os modismos ou as expressões que as pessoas usam ao falar em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 102,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, frequentemente",
+          "followUpQuestion": 103,
+          "id": 1
+        },
+        {
+          "description": "Às vezes tenho problemas",
+          "followUpQuestion": 103,
+          "id": 2
+        },
+        {
+          "description": "Não tenho problemas",
+          "followUpQuestion": 104,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "9"
+          }
+        },
+        {
+          "text": "Expressões",
+          "type": "title"
+        },
+        {
+          "text": "Não se preocupe, uma vez que você entenda de onde vêm essas expressões, será muito mais fácil lembrá-las.",
+          "type": "description"
+        }
+      ],
+      "id": 103,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 104,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "2"
+          }
+        },
+        {
+          "text": "Confiança",
+          "type": "title"
+        },
+        {
+          "text": "¿Você se identifica com o seguinte?: \"Não me sinto tão seguro com meu nível de inglês para participar de qualquer conversação sem hesitar.\"",
+          "type": "description"
+        }
+      ],
+      "id": 104,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 105,
+          "id": 1
+        },
+        {
+          "description": "Mais ou menos",
+          "followUpQuestion": 105,
+          "id": 2
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 106,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "2"
+          }
+        },
+        {
+          "text": "Confiança",
+          "type": "title"
+        },
+        {
+          "text": "Pode ser que agora você não se sinta confiante com o seu inglês, mas depois de estudar conosco, <strong>você não terá mais medo</strong>, pois no seu caminho de aprendizado, vamos garantir que:",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "text": "Pratique"
+            },
+            {
+              "number": 2,
+              "text": "Receba feedback"
+            },
+            {
+              "number": 3,
+              "text": "Reforce suas habilidades"
+            },
+            {
+              "number": 4,
+              "text": "Tenha uma rotina"
+            },
+            {
+              "number": 5,
+              "title": "Ganhe confiança"
+            }
+          ],
+          "listType": "number",
+          "type": "list"
+        }
+      ],
+      "id": 105,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 106,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "83"
+          }
+        },
+        {
+          "text": "Ser natural",
+          "type": "title"
+        },
+        {
+          "text": "Você tem dificuldade em reagir ou responder de forma natural em inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 106,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, tenho dificuldade",
+          "followUpQuestion": 107,
+          "id": 1
+        },
+        {
+          "description": "Me custa um pouco",
+          "followUpQuestion": 107,
+          "id": 2
+        },
+        {
+          "description": "Não me custa",
+          "followUpQuestion": 108,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "83"
+          }
+        },
+        {
+          "text": "Ser natural",
+          "type": "title"
+        },
+        {
+          "text": "Pois isso vai mudar! Vamos nos concentrar em fazer com que você interiorize suas habilidades de conversação para que se sinta muito mais natural ao participar de qualquer conversação em inglês.\n\nQuanto mais interiorizadas estiverem suas habilidades, menores serão seus esforços cognitivos para pensar no que deve dizer.",
+          "type": "description"
+        }
+      ],
+      "id": 107,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 108,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Seu programa de inglês",
+          "type": "title"
+        },
+        {
+          "text": "Master English tem um enfoque sistemático para levar suas habilidades de Speaking, Listening, Writing, Reading e Grammar até um nível avançado.",
+          "type": "description"
+        },
+        {
+          "listHeading": "Com base em suas respostas, vamos nos concentrar nas seguintes áreas:",
+          "listItems": [
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 60
+                  }
+                ]
+              },
+              "title": "Vocabulário"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 62
+                  }
+                ]
+              },
+              "title": "Formação de frases"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 64
+                  }
+                ]
+              },
+              "title": "Habilidades de Listening"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 67
+                  }
+                ]
+              },
+              "title": "Pronúncia"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 70
+                  }
+                ]
+              },
+              "title": "Habilidades de conversação"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 72
+                  }
+                ]
+              },
+              "title": "Desenvolvimento de confiança através de rotinas"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 74
+                  }
+                ]
+              },
+              "title": "Vocabulário"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 76
+                  }
+                ]
+              },
+              "title": "Conhecimentos de gramática"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 78
+                  }
+                ]
+              },
+              "title": "Habilidades de Listening"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 81
+                  }
+                ]
+              },
+              "title": "Fluência na sua pronúncia"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 84
+                  }
+                ]
+              },
+              "title": "Expressão oral e escrita"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 87
+                  }
+                ]
+              },
+              "title": "Habilidades conversacionais"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 89
+                  }
+                ]
+              },
+              "title": "Vocabulario avançado"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 91
+                  }
+                ]
+              },
+              "title": "Gramática avançada"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 93
+                  }
+                ]
+              },
+              "title": "Habilidades de Listening e de reação avançadas"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 96
+                  }
+                ]
+              },
+              "title": "Fluência na sua pronúncia"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 99
+                  }
+                ]
+              },
+              "title": "Expressão oral e escrita"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 102
+                  }
+                ]
+              },
+              "title": "Modismos e expressões"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 104
+                  }
+                ]
+              },
+              "title": "Habilidades de conversação"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 106
+                  }
+                ]
+              },
+              "title": "Naturalidade ao conversar"
+            }
+          ],
+          "type": "list"
+        },
+        {
+          "text": "Uma vez que você comece a praticar com seu programa e <strong>nosso app tenha mais informações sobre seu aprendizado</strong>, personalizaremos seu programa ainda mais para garantir que você está aprendendo <strong>o que você precisa</strong> para alcançar seus objetivos.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 109,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 110,
+          "rules": [
+            {
+              "lastLevelQuestion": [25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 111,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 108,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Parece bom",
+          "followUpQuestion": 93,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "O programa de inglês de #FIRSTNAME#",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, continuamos acreditando que você alcançará um nível avançado para #9_MONTHS_LATER#.",
+          "type": "description"
+        },
+        {
+          "type": "programPromise",
+          "programPromiseOptions": {
+            "months": 9
+          }
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você já está estudando inglês"
+            },
+            {
+              "number": 2,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Vamos melhorar seus resultados ao personalizar sua aprendizagem"
+            },
+            {
+              "number": 3,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você já estudou inglês anteriormente?"
+            },
+            {
+              "number": 4,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Desta vez, você conseguirá melhores resultados graças à personalização"
+            },
+            {
+              "number": 5,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você não estudou inglês anteriormente"
+            },
+            {
+              "number": 6,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Vamos começar seu aprendizado com um programa personalizado"
+            }
+          ],
+          "type": "list"
+        }
+      ],
+      "id": 109,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Mostre-me como!",
+          "followUpQuestion": 112,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "O programa de inglês de #FIRSTNAME#",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, continuamos acreditando que você alcançará um nível avançado para #9_MONTHS_LATER#.",
+          "type": "description"
+        },
+        {
+          "type": "programPromise",
+          "programPromiseOptions": {
+            "months": 9
+          }
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Já está estudando inglês"
+            },
+            {
+              "number": 2,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Vamos melhorar seus resultados ao personalizar sua aprendizagem"
+            },
+            {
+              "number": 3,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você já estudou inglês anteriormente?"
+            },
+            {
+              "number": 4,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Desta vez, você conseguirá melhores resultados graças à personalização"
+            },
+            {
+              "number": 5,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você não estudou inglês anteriormente"
+            },
+            {
+              "number": 6,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Vamos começar seu aprendizado com um programa personalizado"
+            }
+          ],
+          "type": "list"
+        }
+      ],
+      "id": 110,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Mostre-me como!",
+          "followUpQuestion": 112,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "O programa de inglês de #FIRSTNAME#",
+          "type": "title"
+        },
+        {
+          "text": "Com base em suas respostas, continuamos acreditando que você alcançará um nível avançado até #6_MONTHS_LATER#.",
+          "type": "description"
+        },
+        {
+          "type": "programPromise",
+          "programPromiseOptions": {
+            "months": 6
+          }
+        },
+        {
+          "listItems": [
+            {
+              "number": 1,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você já está estudando inglês"
+            },
+            {
+              "number": 2,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Vamos melhorar seus resultados ao personalizar seu aprendizado"
+            },
+            {
+              "number": 3,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você já estudou inglês anteriormente?"
+            },
+            {
+              "number": 4,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Desta vez, você conseguirá melhores resultados graças à personalização"
+            },
+            {
+              "number": 5,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Você não estudou inglês anteriormente"
+            },
+            {
+              "number": 6,
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 51
+                  }
+                ]
+              },
+              "text": "Vamos começar seu aprendizado com um programa personalizado"
+            }
+          ],
+          "type": "list"
+        }
+      ],
+      "id": 111,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Mostre-me como!",
+          "followUpQuestion": 112,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "App móvel",
+          "type": "title"
+        },
+        {
+          "text": "Você terá um programa de inglês <strong>feito sob medida para você</strong> e poderá acessá-lo a partir do <strong>app móvel Master English.</strong>\n\nTodos os nossos exercícios são muito interativos e foram desenvolvidos por professores de inglês altamente qualificados. Além disso, utilizamos modelos de voz de falantes nativos de inglês em todos os nossos exercícios.\n\nVamos criar seu programa <strong>com base no seu nível atual de inglês</strong> e personalizá-lo à medida que identificamos <strong>suas áreas de dificuldade e seu ritmo de aprendizado.</strong>\n\nVamos ajudá-lo a falar fluentemente e a alcançar <strong>um nível avançado de inglês.</strong>",
+          "type": "description"
+        }
+      ],
+      "id": 112,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Quero saber mais",
+          "followUpQuestion": 113,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView",
+      "header": {
+        "filename": "iphoneMethod",
+        "extension": "jpg",
+        "flexible": false,
+        "alt": ""
+      }
+    },
+    {
+      "contents": [
+        {
+          "text": "Um programa personalizado",
+          "type": "title"
+        },
+        {
+          "text": "Embora você tenha um aprendizado independente, não estará sozinho. <strong>Seu programa sempre dirá o que fazer</strong> e fornecerá feedback constantemente.\n\nPela primeira vez, você poderá ter acesso a <strong>um programa completo e totalmente personalizado</strong> a partir de um app móvel.\n\nVamos criar lições de revisão com base no seu progresso e utilizar uma tecnologia de ponta para identificar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nMaster English é muito diferente de qualquer outro app de idiomas que você já tenha experimentado antes.",
+          "type": "description"
+        }
+      ],
+      "id": 113,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Quero ver!",
+          "followUpQuestion": 114,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "QuestionView",
+      "header": {
+        "filename": "iphoneMethod",
+        "extension": "jpg",
+        "flexible": false,
+        "alt": ""
+      }
+    },
+    {
+      "contents": [
+        {
+          "slideshowOptions": {
+            "items": [
+              {
+                "image": "Phone0",
+                "text": "Enquanto preparamos seu programa, vamos mostrar como funciona..."
+              },
+              {
+                "image": "Phone1",
+                "text": "Usamos lições personalizadas para melhorar seu vocabulário."
+              },
+              {
+                "image": "Phone2",
+                "text": "Ensinamos você a se expressar naturalmente em inglês."
+              },
+              {
+                "image": "Phone3",
+                "text": "Ajudamos você a aplicar a gramática de maneira prática."
+              },
+              {
+                "image": "Phone4",
+                "text": "Você participará de conversas interativas e realistas."
+              },
+              {
+                "image": "Phone5",
+                "text": "Ganhará confiança para falar em inglês."
+              },
+              {
+                "image": "Phone6",
+                "text": "Você receberá feedback personalizado sobre sua pronúncia."
+              },
+              {
+                "image": "Phone7",
+                "text": "Vamos mostrar o seu progresso para mantê-lo motivado."
+              },
+              {
+                "image": "Phone8",
+                "text": "Você desenvolverá habilidades que poderá utilizar na vida real."
+              },
+              {
+                "image": "Phone9",
+                "text": "Vamos nos concentrar naquelas áreas onde você precisa melhorar."
+              },
+              {
+                "image": "Phone10",
+                "text": "Vamos levar você a um nível avançado de inglês."
+              }
+            ],
+            "progress": true,
+            "size": "large"
+          },
+          "type": "slideshow"
+        }
+      ],
+      "id": 114,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 115,
+          "id": 1
+        }
+      ],
+      "progress": false,
+      "tiles": false,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "92"
+          }
+        },
+        {
+          "text": "Você está em boas mãos",
+          "type": "title"
+        },
+        {
+          "text": "Nos últimos 12 anos, nos dedicamos a pesquisar como os adultos podem melhorar seu inglês da forma mais eficaz possível. Sabemos como te ajudar.",
+          "type": "description"
+        },
+        {
+          "text": "<strong>O programa é 100% online no nosso app móvel.</strong> Depois que terminarmos de personalizá-lo, você receberá acesso ao seu programa. Você só precisará do seu dispositivo móvel (iPhone ou Android) e conexão à Internet.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 116,
+          "rules": [
+            {
+              "optionId": 1,
+              "questionId": 51
+            },
+            {
+              "optionId": 2,
+              "questionId": 51
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "followUpQuestion": 117,
+          "rules": [
+            {
+              "optionId": 3,
+              "questionId": 51
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "id": 115,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 116,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Sua experiência anterior",
+          "type": "title"
+        },
+        {
+          "text": "Master English utiliza exercícios interativos para que você desenvolva habilidades de conversação.\n\nAnteriormente, como foram suas experiências de aprendizado com o inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 116,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Principalmente passivas, ouvindo o professor",
+          "followUpQuestion": 117,
+          "id": 1
+        },
+        {
+          "description": "Estou acostumado a fazer exercícios interativos de conversação",
+          "followUpQuestion": 117,
+          "id": 2
+        },
+        {
+          "description": "Não tive muitas experiências",
+          "followUpQuestion": 117,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Foco",
+          "type": "title"
+        },
+        {
+          "text": "Você se identifica com esta afirmação?\n\n\"Gostaria que um profissional me desenvolvesse um programa de aprendizagem que <strong>se encaixasse nas minhas necessidades</strong> e no qual eu pudesse confiar.\"",
+          "type": "description"
+        }
+      ],
+      "id": 117,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Totalmente",
+          "followUpQuestion": 118,
+          "id": 1
+        },
+        {
+          "description": "Até certo ponto",
+          "followUpQuestion": 118,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 118,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 118,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Motivação",
+          "type": "title"
+        },
+        {
+          "text": "Acreditamos que os exercícios de conversação focados na vida real, e com exemplos de falantes nativos, são a chave para que o aprendizado de inglês seja prático e motivador.\n\nMas, quão motivado você está para melhorar seu inglês?",
+          "type": "description"
+        }
+      ],
+      "id": 118,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Muito motivado",
+          "followUpQuestion": 120,
+          "id": 1
+        },
+        {
+          "description": "Algo motivado",
+          "followUpQuestion": 119,
+          "id": 2
+        },
+        {
+          "description": "Ainda estou buscando a motivação",
+          "followUpQuestion": 119,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Velocidade",
+          "type": "title"
+        },
+        {
+          "text": "Você se identifica com esta afirmação?\n\n\"Quando tentei aprender inglês no passado, o progresso era tão lento que perdi a motivação.\"",
+          "type": "description"
+        }
+      ],
+      "id": 119,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Totalmente",
+          "followUpQuestion": 120,
+          "id": 1
+        },
+        {
+          "description": "Até certo ponto",
+          "followUpQuestion": 120,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 120,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 120,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Relevancia",
+          "type": "title"
+        },
+        {
+          "text": "Você se identifica com esta afirmação?\n\n\"Para me manter motivado, preciso aprender conteúdo que eu possa aplicar no meu dia a dia.\"",
+          "type": "description"
+        }
+      ],
+      "id": 120,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Totalmente",
+          "followUpQuestion": 121,
+          "id": 1
+        },
+        {
+          "description": "Até certo ponto",
+          "followUpQuestion": 121,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 122,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 122,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "40"
+          }
+        },
+        {
+          "text": "O entusiasmo é a chave",
+          "type": "title"
+        },
+        {
+          "text": "Quando sentimos que algo é importante e útil para nós, isso nos motiva a aprendê-lo. Por outro lado, tendemos a esquecer o que nos parece chato, e isso dificulta o aprendizado.",
+          "type": "description"
+        }
+      ],
+      "id": 121,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 122,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Razões para melhorar",
+          "type": "title"
+        },
+        {
+          "text": "Você se identifica com esta afirmação?\n\n\"Fatores externos, como melhores oportunidades de trabalho, me motivam a melhorar meu inglês.\"",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 123,
+          "rules": [
+            {
+              "optionId": 1,
+              "questionId": 51
+            },
+            {
+              "optionId": 2,
+              "questionId": 51
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "followUpQuestion": 125,
+          "rules": [
+            {
+              "optionId": 3,
+              "questionId": 51
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "id": 122,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Totalmente",
+          "followUpQuestion": 123,
+          "id": 1
+        },
+        {
+          "description": "Até certo ponto",
+          "followUpQuestion": 123,
+          "id": 2
+        },
+        {
+          "description": "No muito",
+          "followUpQuestion": 123,
+          "id": 3
+        },
+        {
+          "description": "Não, de jeito nenhum",
+          "followUpQuestion": 123,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Conservar habilidades",
+          "type": "title"
+        },
+        {
+          "text": "Alguma vez você sentiu que quando se esforça é capaz de melhorar seu inglês, mas com o passar do tempo tende a esquecer o que já aprendeu?",
+          "type": "description"
+        }
+      ],
+      "id": 123,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 124,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 125,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Esta é a questão",
+          "type": "title"
+        },
+        {
+          "text": "É fácil esquecer o que você aprendeu nos níveis básicos ou intermediários, mas quando você alcança um nível mais elevado, é muito mais provável que o aprendizado seja permanente.",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "title": "Por que?"
+            },
+            {
+              "text": "Quanto mais você souber inglês, mais oportunidades terá de usá-lo na vida real, como, por exemplo, no seu trabalho. Ou seja, você melhorará seu inglês ao poder usá-lo no seu dia a dia."
+            }
+          ],
+          "listType": "none",
+          "type": "list"
+        }
+      ],
+      "id": 124,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 125,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView",
+      "header": {
+        "filename": "HappyOffice",
+        "extension": "jpg",
+        "flexible": false,
+        "alt": ""
+      }
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "35"
+          }
+        },
+        {
+          "text": "Horário pessoal",
+          "type": "title"
+        },
+        {
+          "text": "Normalmente, quão ocupado você está no seu dia a dia?",
+          "type": "description"
+        }
+      ],
+      "id": 125,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Estou sempre muito ocupado",
+          "followUpQuestion": 126,
+          "id": 1
+        },
+        {
+          "description": "Estou ocupado, mas tento ter tempo para mim.",
+          "followUpQuestion": 127,
+          "id": 2
+        },
+        {
+          "description": "Tenho tempo para novos desafios",
+          "followUpQuestion": 128,
+          "id": 3
+        },
+        {
+          "description": "Meu horário é muito flexível",
+          "followUpQuestion": 128,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "35"
+          }
+        },
+        {
+          "text": "Obrigado por compartilhar",
+          "type": "title"
+        },
+        {
+          "text": "Entendemos você. Vamos tentar encontrar um horário realista que permita obter resultados.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 129,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 130,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 126,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos!",
+          "followUpQuestion": 127,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "35"
+          }
+        },
+        {
+          "text": "Obrigado por compartilhar",
+          "type": "title"
+        },
+        {
+          "text": "Deveríamos poder encontrar uma solução que não tome muito do seu tempo, mas que permita obter resultados.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 129,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 130,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 127,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos!",
+          "followUpQuestion": 128,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "35"
+          }
+        },
+        {
+          "text": "Excelente!",
+          "type": "title"
+        },
+        {
+          "text": "Podemos estabelecer um horário que te permita obter resultados.",
+          "type": "description"
+        }
+      ],
+      "followUps": [
+        {
+          "followUpQuestion": 129,
+          "rules": [
+            {
+              "lastLevelQuestion": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+            }
+          ]
+        },
+        {
+          "followUpQuestion": 130,
+          "rules": [
+            {
+              "lastLevelQuestion": [32, 33, 34, 35, 36, 37, 38, 39]
+            }
+          ]
+        }
+      ],
+      "id": 128,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos!",
+          "followUpQuestion": 129,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Horário de estudo",
+          "type": "title"
+        },
+        {
+          "text": "De acordo com nossos estudos, é mais eficaz aprender inglês quando se estuda entre 2 horas e 30 minutos e 4 horas por semana, divididas em 3 sessões.\n\nQual desses 3 horários se adapta melhor às suas necessidades?",
+          "type": "description"
+        },
+        {
+          "studySchedules": [
+            {
+              "breakWeeks": 4,
+              "followUpQuestion": 131,
+              "id": 1,
+              "practiseDaysPerWeek": 5,
+              "practiseDaysPerWeekText": "sessões por semana",
+              "minutesPerSession": 30,
+              "minutesPerSessionText": "min por sessão",
+              "months": 9,
+              "monthsText": "meses",
+              "monthsTextBottom": "Alcance um nível avançado de inglês para #9_MONTHS_LATER#"
+            },
+            {
+              "breakWeeks": 4,
+              "followUpQuestion": 132,
+              "id": 2,
+              "practiseDaysPerWeek": 3,
+              "practiseDaysPerWeekText": "sessões por semana",
+              "minutesPerSession": 50,
+              "minutesPerSessionText": "min por sessão",
+              "months": 9,
+              "monthsText": "meses",
+              "monthsTextBottom": "Alcance um nível avançado de inglês em #9_MONTHS_LATER#"
+            },
+            {
+              "breakWeeks": 3,
+              "followUpQuestion": 131,
+              "id": 3,
+              "practiseDaysPerWeek": 5,
+              "practiseDaysPerWeekText": "sessões por semana",
+              "minutesPerSession": 45,
+              "minutesPerSessionText": "min por sessão",
+              "months": 6,
+              "monthsText": "meses",
+              "monthsTextBottom": "Alcance um nível avançado de inglês para #6_MONTHS_LATER#"
+            }
+          ],
+          "type": "studySchedule"
+        }
+      ],
+      "id": 129,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 130,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "scroll": "onPass",
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Horário de estudo",
+          "type": "title"
+        },
+        {
+          "text": "De acordo com nossos estudos, é mais eficaz aprender inglês quando se estuda entre 2 horas e 30 minutos e 5 horas por semana, divididas em 3 sessões.\n\nQual desses 3 horários se adapta melhor às suas necessidades?",
+          "type": "description"
+        },
+        {
+          "studySchedules": [
+            {
+              "breakWeeks": 3,
+              "followUpQuestion": 131,
+              "id": 4,
+              "practiseDaysPerWeek": 5,
+              "practiseDaysPerWeekText": "sessões por semana",
+              "minutesPerSession": 30,
+              "minutesPerSessionText": "min por sessão",
+              "months": 6,
+              "monthsText": "meses",
+              "monthsTextBottom": "Alcance um nível avançado de inglês para #6_MONTHS_LATER#"
+            },
+            {
+              "breakWeeks": 3,
+              "followUpQuestion": 132,
+              "id": 5,
+              "practiseDaysPerWeek": 3,
+              "practiseDaysPerWeekText": "sessões por semana",
+              "minutesPerSession": 50,
+              "minutesPerSessionText": "min por sessão",
+              "months": 6,
+              "monthsText": "meses",
+              "monthsTextBottom": "Alcance um nível avançado de inglês para #6_MONTHS_LATER#"
+            },
+            {
+              "breakWeeks": 2,
+              "followUpQuestion": 131,
+              "id": 6,
+              "practiseDaysPerWeek": 5,
+              "practiseDaysPerWeekText": "sessões por semana",
+              "minutesPerSession": 60,
+              "minutesPerSessionText": "min por sessão",
+              "months": 3,
+              "monthsText": "meses",
+              "monthsTextBottom": "Alcance um nível avançado de inglês para #3_MONTHS_LATER#"
+            }
+          ],
+          "type": "studySchedule"
+        }
+      ],
+      "id": 130,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 131,
+          "id": 4
+        }
+      ],
+      "progress": true,
+      "scroll": "onPass",
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Horário de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Excelente escolha! Você gostaria de planejar em quais dias terá suas 5 sessões semanais?\n\nA vantagem de completar seu programa em nosso app é que você pode praticar quando tiver tempo e mudar seu horário sempre que precisar.\n\nLembre-se de que para alcançar um bom resultado é melhor seguir um horário fixo.",
+          "type": "description"
+        }
+      ],
+      "id": 131,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, quero decidir os dias",
+          "followUpQuestion": 133,
+          "id": 1
+        },
+        {
+          "description": "Não quero decidir os dias. Prefiro praticar quando tiver tempo.",
+          "followUpQuestion": 135,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Horário de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Excelente escolha! Gostaria de planejar em quais dias você terá suas 3 sessões semanais?\n\nA vantagem de completar seu programa em nosso app é que você pode praticar quando tiver tempo e mudar seu horário sempre que precisar.\n\nLembre-se de que, para obter um bom resultado, é melhor seguir um horário fixo.",
+          "type": "description"
+        }
+      ],
+      "id": 132,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim, quero decidir os dias",
+          "followUpQuestion": 134,
+          "id": 1
+        },
+        {
+          "description": "Não quero decidir os dias. Prefiro praticar quando tiver tempo.",
+          "followUpQuestion": 135,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Dias de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Em quais dias você gostaria de praticar?",
+          "type": "description"
+        },
+        {
+          "type": "daySelection",
+          "daySelectionOptions": {
+            "days": 5,
+            "textInProgress": "Continue após selecionar ##DAYS## dias.",
+            "textDone": "Pronto! Você já pode continuar."
+          }
+        }
+      ],
+      "id": 133,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 136,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "scroll": "onPass",
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Dias de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Em quais dias você gostaria de praticar?",
+          "type": "description"
+        },
+        {
+          "type": "daySelection",
+          "daySelectionOptions": {
+            "days": 3,
+            "textInProgress": "Continue após selecionar ##DAYS## dias.",
+            "textDone": "Pronto! Você já pode continuar."
+          }
+        }
+      ],
+      "id": 134,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 137,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "scroll": "onPass",
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Pratique quando puder",
+          "type": "title"
+        },
+        {
+          "text": "Não tem problema. Você pode praticar com nosso app quando tiver tempo.",
+          "type": "description"
+        }
+      ],
+      "id": 135,
+      "navbar": true,
+      "options": [
+        {
+          "description": "OK",
+          "followUpQuestion": 138,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Dias de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Boa escolha! Você terá suas 5 sessões semanais nos:",
+          "type": "description"
+        },
+        {
+          "type": "daySelectionConfirm"
+        },
+        {
+          "text": "A vantagem de usar um app é que você pode praticar a qualquer hora do dia.",
+          "type": "description"
+        }
+      ],
+      "id": 136,
+      "navbar": true,
+      "options": [
+        {
+          "buttonStyle": "primary",
+          "description": "OK",
+          "followUpQuestion": 138,
+          "id": 1
+        },
+        {
+          "buttonStyle": "link",
+          "description": "Quero mudar meu horário agora",
+          "followUpQuestion": 133,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Dias de estudo",
+          "type": "title"
+        },
+        {
+          "text": "Boa escolha! Você terá suas 3 sessões semanais nos:",
+          "type": "description"
+        },
+        {
+          "type": "daySelectionConfirm"
+        },
+        {
+          "text": "A vantagem de usar um app é que você pode praticar a qualquer hora do dia.",
+          "type": "description"
+        }
+      ],
+      "id": 137,
+      "navbar": true,
+      "options": [
+        {
+          "buttonStyle": "primary",
+          "description": "OK",
+          "followUpQuestion": 138,
+          "id": 1
+        },
+        {
+          "buttonStyle": "link",
+          "description": "Quero mudar meu horário agora",
+          "followUpQuestion": 134,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Meta",
+          "type": "title"
+        },
+        {
+          "text": "#FIRSTNAME#, seu programa está quase pronto.\n\nMas antes, você sabia que ter uma meta definida nos ajuda a manter o foco e a motivação?\n\nQuando temos uma ideia clara de <strong>por que fazemos algo</strong>, é mais fácil continuar e não desistir.\n\nEntão, vamos definir sua meta!",
+          "type": "description"
+        }
+      ],
+      "id": 138,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Definir minha meta",
+          "followUpQuestion": 139,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "41"
+          }
+        },
+        {
+          "text": "Meta",
+          "type": "title"
+        },
+        {
+          "text": "Meu objetivo para alcançar um nível avançado de inglês é:",
+          "type": "description"
+        }
+      ],
+      "id": 139,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Ter boas e interessantes conversas",
+          "followUpQuestion": 140,
+          "id": 1
+        },
+        {
+          "description": "Ter confiança ao falar em inglês",
+          "followUpQuestion": 140,
+          "id": 2
+        },
+        {
+          "description": "Conseguir o emprego dos meus sonhos",
+          "followUpQuestion": 140,
+          "id": 3
+        },
+        {
+          "description": "Viajar para um país de língua inglesa e se conectar com as pessoas do local",
+          "followUpQuestion": 140,
+          "id": 4
+        },
+        {
+          "description": "Tenho minha própria meta em mente",
+          "followUpQuestion": 140,
+          "id": 5
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "EdTechQuestionnaire"
+          }
+        },
+        {
+          "text": "Método premiado",
+          "type": "title"
+        },
+        {
+          "text": "Em 2020, Master English obteve o prêmio <strong>EdTech Breakthrough Award</strong> graças ao seu método de aprendizado excepcionalmente rápido e eficiente.",
+          "type": "description"
+        }
+      ],
+      "id": 140,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Interessante!",
+          "followUpQuestion": 141,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "O que nos diferencia?",
+          "type": "title"
+        },
+        {
+          "text": "Descubra por que o Master English é diferente de outros métodos.",
+          "type": "description"
+        },
+        {
+          "tableOptions": {
+            "columns": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "logo",
+                "width": 10,
+                "small": true
+              },
+              {
+                "content": "Outros<br/>apps",
+                "type": "string",
+                "width": 10,
+                "small": true
+              },
+              {
+                "content": "Aulas<br/>ao vivo",
+                "type": "string",
+                "width": 10,
+                "small": true
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Criado por professores de inglês certificados",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Horário flexível",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Material incluído",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Preço acessível",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Feedback preciso sobre sua pronúncia",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Aprendizagem completa",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  },
+                  {
+                    "type": "positive-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Nível inicial adequado",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "align": "left",
+                    "content": "Programa personalizado",
+                    "type": "title"
+                  },
+                  {
+                    "type": "positive-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  },
+                  {
+                    "type": "negative-icon"
+                  }
+                ]
+              }
+            ]
+          },
+          "type": "table"
+        }
+      ],
+      "id": 141,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Continuar",
+          "followUpQuestion": 142,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "appRatingTexts": {
+            "def": "<strong>Mais de 14.900 avaliações</strong>\n\nNosso app tem uma avaliação de <strong>4.9/5</strong> na App Store.",
+            "MX": "<strong>Mais de 3 100 avaliações</strong>\n\nNosso app tem uma avaliação de <strong>4.9/5</strong> na App Store."
+          },
+          "type": "appRating"
+        },
+        {
+          "text": "A chave é a personalização",
+          "type": "title"
+        },
+        {
+          "testimonialOptions": {
+            "country": "México",
+            "name": "Gretchen",
+            "text": "Experimentei vários cursos de inglês no passado e nunca consegui aprender tanto quanto com este. Ele se adapta ao seu horário e ajuda você a alcançar seus objetivos. Recomendo 100%."
+          },
+          "type": "testimonial"
+        },
+        {
+          "text": "Agora, faremos algumas perguntas sobre o aprendizado de inglês para entender melhor a sua opinião e assim personalizar ainda mais o seu programa.",
+          "type": "description"
+        }
+      ],
+      "id": 142,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 143,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView",
+      "header": {
+        "filename": "GoldenStarsHeader",
+        "extension": "jpg",
+        "flexible": false,
+        "alt": ""
+      }
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "65"
+          }
+        },
+        {
+          "text": "Quem é mais rápido?",
+          "type": "title"
+        },
+        {
+          "text": "Você acha que os adultos podem aprender mais rápido do que as crianças na escola?",
+          "type": "description"
+        }
+      ],
+      "id": 143,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Sim",
+          "followUpQuestion": 144,
+          "id": 1
+        },
+        {
+          "description": "Não",
+          "followUpQuestion": 145,
+          "id": 2
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Correto!",
+          "type": "title"
+        },
+        {
+          "text": "Com um programa otimizado, os adultos podem aprender mais rápido que as crianças.\n\nSomos capazes de armazenar grandes quantidades de informação quando as aprendemos em contextos significativos e mediante explicações claras.\n\nQuando levamos em conta nossas necessidades de aprendizado, podemos melhorar nossas habilidades de inglês rapidamente.",
+          "type": "description"
+        }
+      ],
+      "id": 144,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 146,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Boas notícias!",
+          "type": "title"
+        },
+        {
+          "text": "Com um programa otimizado, os adultos podem aprender mais rápido que as crianças.\n\nSomos capazes de armazenar grandes quantidades de informação quando as aprendemos em contextos significativos e mediante explicações claras.\n\nQuando levamos em conta nossas necessidades de aprendizado, podemos melhorar nossas habilidades de inglês rapidamente.",
+          "type": "description"
+        }
+      ],
+      "id": 145,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 146,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Vamos raciocinar sobre o seu horário",
+          "type": "title"
+        },
+        {
+          "text": "Seu programa inclui #DAYS# sessões semanais de #MINUTES_PER_SESSION# minutos cada uma.\n\nMas, por que não reduzimos a prática a uma única sessão de #TOTAL_WEEKLY_TIME# por semana?",
+          "type": "description"
+        }
+      ],
+      "id": 146,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Ninguém consegue se concentrar por tanto tempo ",
+          "followUpQuestion": 147,
+          "id": 1
+        },
+        {
+          "description": "É difícil encontrar tempo para uma sessão tão longa",
+          "followUpQuestion": 148,
+          "id": 2
+        },
+        {
+          "description": "Não é possível revisar o que foi aprendido em intervalos adequados",
+          "followUpQuestion": 149,
+          "id": 3
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Bom esforço!",
+          "type": "title"
+        },
+        {
+          "text": "Resposta correta: <strong>Não seria possível revisar o que foi aprendido em intervalos adequados</strong>.\n\nClaro que manter o foco durante #TOTAL_WEEKLY_TIME# seria muito complicado. Mas essa não é a razão mais importante.\n\nPor que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória.\n\n<strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
+          "type": "description"
+        }
+      ],
+      "id": 147,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos continuar!",
+          "followUpQuestion": 150,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Bom esforço!",
+          "type": "title"
+        },
+        {
+          "text": "Resposta correta: <strong>Não seria possível revisar o que foi aprendido em intervalos adequados</strong>.\n\nClaro que é difícil encontrar tempo para uma sessão longa de #TOTAL_WEEKLY_TIME#. Mas essa não é a razão mais importante.\n\nPor que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória.\n\n<strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
+          "type": "description"
+        }
+      ],
+      "id": 148,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Vamos continuar!",
+          "followUpQuestion": 150,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Você acertou!",
+          "type": "title"
+        },
+        {
+          "text": "<strong>Não se poderia revisar o aprendido em intervalos adequados</strong>.\n\nE por que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória. \n \n<strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
+          "type": "description"
+        }
+      ],
+      "id": 149,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 150,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Obrigado pelas suas respostas!",
+          "type": "title"
+        },
+        {
+          "text": "Sabemos que você está pronto para começar com seu programa! Estamos personalizando para garantir que você vai aprender o que precisa.",
+          "type": "description"
+        }
+      ],
+      "id": 150,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Próximo",
+          "followUpQuestion": 151,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Uma coisa mais",
+          "type": "title"
+        },
+        {
+          "text": "Reservamos o melhor para o final:\n\nNo Master English, estamos comprometidos a ajudar pessoas falantes de português a conseguir um nível avançado em inglês. Consideramos que, se você não alcançar um nível avançado com nosso programa, não deve pagar.\n\nEstamos dispostos a assumir o risco para que você obtenha resultados.",
+          "type": "description"
+        }
+      ],
+      "id": 151,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Interessante, quero saber mais",
+          "followUpQuestion": 152,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Garantia de resultados",
+          "type": "title"
+        },
+        {
+          "text": "Garantimos que se você completar seu programa Master English online em\n\n#MONTHS# meses\n#PRACTICE_DAYS_PER_WEEK# sessões de #MINUTES_PER_SESSION# minutos por semana\n\nvocê alcançará um nível avançado de inglês. Caso contrário, <strong>reembolsaremos todas as suas taxas de assinatura na íntegra</strong>.",
+          "type": "description"
+        }
+      ],
+      "id": 152,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Como funciona?",
+          "followUpQuestion": 153,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "text": "Garantia de resultados",
+          "type": "title"
+        },
+        {
+          "text": "Depois de completar seu programa Master English, você terá um nível avançado de inglês. Se não for assim, você receberá seu dinheiro de volta na íntegra.",
+          "type": "description"
+        },
+        {
+          "text": "Para verificar se você alcançou um nível avançado, você pode fazer qualquer um dos seguintes exames oficiais de inglês. Se você não obtiver, no mínimo, os resultados listados abaixo, reembolsaremos todas as suas taxas de assinatura na íntegra.",
+          "type": "description"
+        },
+        {
+          "listItems": [
+            {
+              "text": "TOEFL iBT: 72 pontos\n TOEFL ITP: 585 pontos",
+              "title": "TOEFL"
+            },
+            {
+              "text": "6.0 pontos",
+              "title": "IELTS"
+            },
+            {
+              "text": "B2 First (FCE)",
+              "title": "Cambridge English test"
+            },
+            {
+              "text": "TOEIC Listening & Reading: 865 pontos\nTOEIC Speaking & Writing: 335 pontos",
+              "title": "TOEIC"
+            }
+          ],
+          "type": "list"
+        },
+        {
+          "text": "Para obter seu reembolso, faça um exame de inglês e envie-nos seus resultados (suporte@masterenglish.com) no prazo de 2 meses após ter concluído seu programa Master English.\n\nVocê só precisa fazer um exame de inglês caso queira um reembolso.",
+          "type": "description"
+        }
+      ],
+      "id": 153,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Entendido",
+          "followUpQuestion": 154,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "QuestionView"
+    },
+    {
+      "contents": [
+        {
+          "preparingProgramItems": [
+            {
+              "barColor": "#0CB531",
+              "duration": 6000,
+              "label": "Habilidades atuais",
+              "textColor": "#109D2F",
+              "titles": [
+                "Estamos preparando seu programa",
+                "Levando em consideração suas habilidades atuais de inglês"
+              ]
+            },
+            {
+              "barColor": "#FF5C5C",
+              "duration": 12000,
+              "label": "Áreas de dificuldade",
+              "textColor": "#F44646",
+              "titles": [
+                "Examinando suas principais áreas de dificuldade",
+                "Seu programa se adaptará a você constantemente",
+                "Todos os dias",
+                "Conforme formos aprendendo mais sobre você"
+              ]
+            },
+            {
+              "barColor": "#007AFF",
+              "duration": 3000,
+              "label": "Objetivo e horário",
+              "textColor": "#0C7AF2",
+              "titles": ["Verificando seu horário de estudo"]
+            }
+          ],
+          "type": "preparingProgram"
+        },
+        {
+          "text": "Estamos criando seu programa personalizado com base nos milhões de dados obtidos a partir de nossos usuários satisfeitos durante os últimos 12 anos.",
+          "type": "footnote"
+        }
+      ],
+      "id": 154,
+      "navbar": true,
+      "options": [
+        {
+          "description": "OK",
+          "followUpQuestion": 155,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": false,
+      "type": "PreparingProgram"
+    },
+    {
+      "contents": [
+        {
+          "type": "bubble",
+          "bubbleOptions": {
+            "filename": "60"
+          }
+        },
+        {
+          "text": "Seu programa está pronto",
+          "type": "title"
+        },
+        {
+          "text": "#FIRSTNAME#, criamos seu programa para que você alcance um nível avançado de inglês.",
+          "type": "description"
+        }
+      ],
+      "id": 155,
+      "navbar": true,
+      "options": [
+        {
+          "description": "Ótimo, me mostre!",
+          "followUpQuestion": 156,
+          "id": 1
+        }
+      ],
+      "progress": true,
+      "tiles": true,
+      "type": "ThankYouView"
+    },
+    {
+      "badge": "DiscountBadge",
+      "contents": [
+        {
+          "text": "O programa\nde inglês de #FIRSTNAME#",
+          "type": "title"
+        },
+        {
+          "listHeading": "<span style='color: white; font-weight: 600;'>Objetivos:</span>",
+          "listItems": [
+            {
+              "text": "Consiga <span style='color: #007AFF;'>um nível avançado</span> de inglês para o <span style='color: #007AFF;'>#END_DATE_LONG#</span>"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 1,
+                    "questionId": 139
+                  }
+                ]
+              },
+              "text": "Ter boas e interessantes conversas"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 2,
+                    "questionId": 139
+                  }
+                ]
+              },
+              "text": "Ter confiança ao falar em inglês"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 3,
+                    "questionId": 139
+                  }
+                ]
+              },
+              "text": "Conseguir o emprego dos meus sonhos"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 4,
+                    "questionId": 139
+                  }
+                ]
+              },
+              "text": "Viajar para um país de língua inglesa e se conectar com as pessoas do local"
+            },
+            {
+              "requirements": {
+                "rules": [
+                  {
+                    "optionId": 5,
+                    "questionId": 139
+                  }
+                ]
+              },
+              "text": "Tenho minha própria meta em mente"
+            }
+          ],
+          "listType": "normal",
+          "type": "list"
+        },
+        {
+          "paragraphs": [
+            {
+              "id": 1,
+              "label": "Nível inicial:",
+              "text": "##INITIAL_LEVEL##. Assim que você começar a praticar, especificaremos seu nível."
+            }
+          ],
+          "type": "paragraphs"
+        },
+        {
+          "paragraphs": [
+            {
+              "id": 3,
+              "label": "Áreas de aprendizado de inglês:",
+              "text": "Speaking, Listening, Reading, Writing e Grammar"
+            }
+          ],
+          "type": "paragraphs"
+        },
+        {
+          "paragraphs": [
+            {
+              "id": 4,
+              "label": "Como funciona:",
+              "text": "Uma vez que você comece sua assinatura, poderá acessar imediatamente seu programa no app a partir do seu dispositivo móvel (iPhone ou Android). Complete seu programa online de forma independente no aplicativo Master English."
+            }
+          ],
+          "type": "paragraphs"
+        },
+        {
+          "guaranteeOptions": {
+            "label": "Garantia:",
+            "text": "Você terá um nível avançado de inglês uma vez que tenha completado seu programa até <span style='color: #007AFF;'>#END_DATE_LONG#</span>. Caso contrário, reembolsaremos todas as suas taxas de assinatura na íntegra (é necessário um exame oficial de inglês, mais informações em #HANDLE#).",
+            "modal": {
+              "handle": "Instruções e Termos de garantia",
+              "title": "Instruções e Termos de garantia",
+              "contents": [
+                {
+                  "type": "list",
+                  "listType": "none",
+                  "listItems": [
+                    {
+                      "text": "1. Complete seu programa para o <span style='color: #007AFF;'>#END_DATE_LONG#</span>.\n\n2. Realize um exame de inglês e nos envie seus resultados (soporte@masterenglish.com) no prazo de 2 meses após ter completado seu programa.\n\n3. Se você não obtiver, no mínimo, os resultados listados a seguir, reembolsaremos todas as suas cobranças de assinatura na íntegra:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "listType": "normal",
+                  "listItems": [
+                    {
+                      "text": "TOEFL iBT: 72 pontos\n TOEFL ITP: 585 pontos",
+                      "title": "TOEFL"
+                    },
+                    {
+                      "text": "6.0 pontos",
+                      "title": "IELTS"
+                    },
+                    {
+                      "text": "B2 First (FCE)",
+                      "title": "Cambridge English test"
+                    },
+                    {
+                      "text": "TOEIC Listening & Reading: 865 pontos\nTOEIC Speaking & Writing: 335 pontos",
+                      "title": "TOEIC"
+                    }
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": "Você só precisa fazer um exame de inglês caso queira um reembolso."
+                }
+              ]
+            }
+          },
+          "type": "guarantee"
+        },
+        {
+          "paymentOptions": {
+            "productSelector": "single-frame",
+            "badge": "DiscountBadge2"
+          },
+          "paymentTexts": {
+            "description": "Sem compromisso. Cancele a qualquer momento.",
+            "paymentHeader": "Selecione um método de pagamento para começar seu programa",
+            "title": "Inicie uma assinatura mensal para começar seu programa",
+            "typeOnetime": "O valor total pelo seu programa de #ME_MONTHS# meses é de #ME_TOTAL_FEE#. A cobrança será realizada no mesmo dia da compra.\n\nDepois de completar seu programa, você terá um nível avançado de inglês. Se isso não for cumprido, reembolsaremos a quantia de #ME_TOTAL_FEE# (é necessário um exame de inglês).",
+            "typeSubscription": "O valor total pelo seu programa de #ME_MONTHS# meses é de #ME_TOTAL_FEE#. Este preço será cobrado em #ME_MONTHS# mensalidades sem juros de #ME_FEE# cada uma. Hoje será feita a primeira cobrança.\n\nDepois de completar seu programa, você terá um nível avançado de inglês. Se isso não for alcançado, reembolsaremos a quantia de #ME_TOTAL_FEE# (é necessário um exame de inglês)."
+          },
+          "type": "payment"
+        },
+        {
+          "appRatingStars": true,
+          "appRatingTexts": {
+            "def": "Nossa avaliação na App Store é de 4.9/5.",
+            "MX": "Nossa avaliação na App Store é de 4.9/5."
+          },
+          "type": "appRating"
+        }
+      ],
+      "dark": true,
+      "id": 156,
+      "navbar": true,
+      "progress": false,
+      "tiles": true,
+      "type": "ProgramView"
+    },
+    {
+      "contents": [],
+      "id": 157,
+      "navbar": true,
+      "progress": true,
+      "tiles": true,
+      "type": "PostPurchase"
+    }
+  ],
+  "userLevelMappings": [
+    {
+      "first": 19,
+      "last": 22,
+      "userLevel": "beginner"
+    },
+    {
+      "first": 23,
+      "last": 26,
+      "userLevel": "elementary"
+    },
+    {
+      "first": 27,
+      "last": 32,
+      "userLevel": "basic"
+    },
+    {
+      "first": 33,
+      "last": 39,
+      "userLevel": "intermediate"
+    }
+  ]
+}
