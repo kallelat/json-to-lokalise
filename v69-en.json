@@ -36,17 +36,17 @@
         {
           "currency": "MXN",
           "percentage": 11,
-          "tag": "SAVE\u003cbr/\u003e11%"
+          "tag": "SAVE<br/>11%"
         },
         {
           "currency": "USD",
           "percentage": 9,
-          "tag": "SAVE\u003cbr/\u003e9%"
+          "tag": "SAVE<br/>9%"
         },
         {
           "currency": "ARS",
           "percentage": 12,
-          "tag": "SAVE\u003cbr/\u003e12%"
+          "tag": "SAVE<br/>12%"
         }
       ],
       "paymentTexts": {
@@ -66,17 +66,17 @@
         {
           "currency": "MXN",
           "percentage": 16,
-          "tag": "SAVE\u003cbr/\u003e16%"
+          "tag": "SAVE<br/>16%"
         },
         {
           "currency": "USD",
           "percentage": 17,
-          "tag": "SAVE\u003cbr/\u003e17%"
+          "tag": "SAVE<br/>17%"
         },
         {
           "currency": "ARS",
           "percentage": 17,
-          "tag": "SAVE\u003cbr/\u003e17%"
+          "tag": "SAVE<br/>17%"
         }
       ],
       "paymentTexts": {
@@ -96,17 +96,17 @@
         {
           "currency": "MXN",
           "percentage": 22,
-          "tag": "SAVE\u003cbr/\u003e22%"
+          "tag": "SAVE<br/>22%"
         },
         {
           "currency": "USD",
           "percentage": 19,
-          "tag": "SAVE\u003cbr/\u003e19%"
+          "tag": "SAVE<br/>19%"
         },
         {
           "currency": "ARS",
           "percentage": 22,
-          "tag": "SAVE\u003cbr/\u003e22%"
+          "tag": "SAVE<br/>22%"
         }
       ],
       "paymentTexts": {
@@ -183,7 +183,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "I\u0027m just about to start",
+          "description": "I'm just about to start",
           "followUpQuestion": 6,
           "id": 1,
           "meta": {
@@ -233,7 +233,7 @@
           }
         },
         {
-          "description": "I don\u0027t know",
+          "description": "I don't know",
           "followUpQuestion": 5,
           "id": 6,
           "meta": {
@@ -254,7 +254,7 @@
           "type": "title"
         },
         {
-          "text": "We\u0027re happy for you! However, our specialty is helping people with basic or intermediate English to improve their skills. Would you like to know more about our program?",
+          "text": "We're happy for you! However, our specialty is helping people with basic or intermediate English to improve their skills. Would you like to know more about our program?",
           "type": "description"
         }
       ],
@@ -445,7 +445,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Spanish",
+          "description": "English",
           "followUpQuestion": 10,
           "id": 1
         },
@@ -472,7 +472,7 @@
           "type": "title"
         },
         {
-          "text": "Great! The Master English program is designed for Spanish speakers.",
+          "text": "Great! The Master English program is designed for English speakers.",
           "type": "description"
         }
       ],
@@ -496,7 +496,7 @@
           "type": "title"
         },
         {
-          "text": "The Master English program is designed for Spanish speakers. Can you use Spanish as the study language?",
+          "text": "The Master English program is designed for English speakers. Can you use Spanish as the study language?",
           "type": "description"
         }
       ],
@@ -525,7 +525,7 @@
           "type": "title"
         },
         {
-          "text": "If you can\u0027t use Spanish as the source language, the Master English program is unfortunately not the right solution for you. Thank you for considering us!",
+          "text": "If you can't use Spanish as the source language, the Master English program is unfortunately not the right solution for you. Thank you for considering us!",
           "type": "description"
         }
       ],
@@ -585,7 +585,7 @@
           "type": "title"
         },
         {
-          "text": "The Master English app is based on \u003cstrong\u003eadvanced personalization\u003c/strong\u003e to facilitate effective learning. We ensure that you learn what \u003cstrong\u003eyou need to achieve your goals\u003c/strong\u003e.\n\nWe have helped over 1.2 million adults improve their English, which has allowed us to optimize the learning process.",
+          "text": "The Master English app is based on <strong>advanced personalization</strong> to facilitate effective learning. We ensure that you learn what <strong>you need to achieve your goals</strong>.\n\nWe have helped over 1.2 million adults improve their English, which has allowed us to optimize the learning process.",
           "type": "description"
         }
       ],
@@ -769,7 +769,7 @@
           "type": "title"
         },
         {
-          "text": "Please answer the following questions about your English skills to estimate \u003cstrong\u003ehow long it will take you to achieve an advanced level\u003c/strong\u003e.",
+          "text": "Please answer the following questions about your English skills to estimate <strong>how long it will take you to achieve an advanced level</strong>.",
           "type": "description"
         }
       ],
@@ -815,7 +815,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s do it!",
+          "description": "Let's do it!",
           "followUpQuestion": 19,
           "id": 1
         }
@@ -1023,7 +1023,7 @@
           "type": "Maybe"
         },
         {
-          "description": "I couldn\u0027t do it.",
+          "description": "I couldn't do it.",
           "followUpQuestion": 24,
           "id": 3,
           "type": "No"
@@ -1367,7 +1367,7 @@
           "type": "Maybe"
         },
         {
-          "description": "I don\u0027t think so.",
+          "description": "I don't think so.",
           "followUpQuestion": 32,
           "id": 3,
           "type": "No"
@@ -1404,7 +1404,7 @@
           "type": "Yes"
         },
         {
-          "description": "I\u0027m not sure",
+          "description": "I'm not sure",
           "followUpQuestion": 33,
           "id": 2,
           "type": "Maybe"
@@ -1672,13 +1672,13 @@
           "type": "Yes"
         },
         {
-          "description": "Yes, but only if the person doesn\u0027t speak too fast",
+          "description": "Yes, but only if the person doesn't speak too fast",
           "followUpQuestion": 37,
           "id": 2,
           "type": "Maybe"
         },
         {
-          "description": "No, it\u0027s difficult for me",
+          "description": "No, it's difficult for me",
           "followUpQuestion": 37,
           "id": 3,
           "type": "No"
@@ -1824,7 +1824,7 @@
           "type": "title"
         },
         {
-          "text": "Thank you for your answers! We now know how long it will take you to reach an advanced level in English.\n\nOnce you practice with your program, we\u0027ll track your progress and adapt the lessons based on your personal needs.",
+          "text": "Thank you for your answers! We now know how long it will take you to reach an advanced level in English.\n\nOnce you practice with your program, we'll track your progress and adapt the lessons based on your personal needs.",
           "type": "description"
         }
       ],
@@ -1918,7 +1918,7 @@
           "type": "title"
         },
         {
-          "text": "It is an online program created \u003cstrong\u003eby highly qualified English teachers\u003c/strong\u003e. It is designed \u003cstrong\u003efor Spanish-speaking adults\u003c/strong\u003e who need an advanced level of English.",
+          "text": "It is an online program created <strong>by highly qualified English teachers</strong>. It is designed <strong>for Spanish-speaking adults</strong> who need an advanced level of English.",
           "type": "description"
         },
         {
@@ -2067,7 +2067,7 @@
           }
         },
         {
-          "text": "Let\u0027s continue to confirm this estimate.",
+          "text": "Let's continue to confirm this estimate.",
           "type": "description"
         }
       ],
@@ -2075,7 +2075,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s go!",
+          "description": "Let's go!",
           "followUpQuestion": 50,
           "id": 1
         }
@@ -2101,7 +2101,7 @@
           }
         },
         {
-          "text": "Let\u0027s continue to confirm this estimate.",
+          "text": "Let's continue to confirm this estimate.",
           "type": "description"
         }
       ],
@@ -2109,7 +2109,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s go!",
+          "description": "Let's go!",
           "followUpQuestion": 50,
           "id": 1
         }
@@ -2135,7 +2135,7 @@
           }
         },
         {
-          "text": "Let\u0027s continue to confirm this estimate.",
+          "text": "Let's continue to confirm this estimate.",
           "type": "description"
         }
       ],
@@ -2143,7 +2143,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s go!",
+          "description": "Let's go!",
           "followUpQuestion": 50,
           "id": 1
         }
@@ -2160,7 +2160,7 @@
           "type": "title"
         },
         {
-          "text": "Next, let\u0027s personalize your program further.\n\nTo fine down your program schedule, we need to define your key problem areas in English. Please answer the following questions carefully.",
+          "text": "Next, let's personalize your program further.\n\nTo fine down your program schedule, we need to define your key problem areas in English. Please answer the following questions carefully.",
           "type": "description"
         }
       ],
@@ -2409,7 +2409,7 @@
     {
       "contents": [
         {
-          "text": "Let\u0027s focus on you",
+          "text": "Let's focus on you",
           "type": "title"
         },
         {
@@ -2459,11 +2459,11 @@
     {
       "contents": [
         {
-          "text": "Let\u0027s focus on you",
+          "text": "Let's focus on you",
           "type": "title"
         },
         {
-          "text": "Let\u0027s make sure your first English learning experience will be a good one.\n\nThe thing in adult English learning is that everyone has their unique starting point, problem areas and learning speed.\n\nMaster English app uses special technology to personalise your learning experience according to your needs.",
+          "text": "Let's make sure your first English learning experience will be a good one.\n\nThe thing in adult English learning is that everyone has their unique starting point, problem areas and learning speed.\n\nMaster English app uses special technology to personalise your learning experience according to your needs.",
           "type": "description"
         }
       ],
@@ -2509,11 +2509,11 @@
     {
       "contents": [
         {
-          "text": "Let\u0027s focus on you",
+          "text": "Let's focus on you",
           "type": "title"
         },
         {
-          "text": "Based on your answers, you already have a study method that fits your level well. Great!\n\nLet\u0027s try to understand if we could still find a way to improve your learning results.\n\nMaster English app uses special technology to focus your studies on your problem areas. And by doing interactive exercises we can build you skills that you can use in actual real life conversations.",
+          "text": "Based on your answers, you already have a study method that fits your level well. Great!\n\nLet's try to understand if we could still find a way to improve your learning results.\n\nMaster English app uses special technology to focus your studies on your problem areas. And by doing interactive exercises we can build you skills that you can use in actual real life conversations.",
           "type": "description"
         }
       ],
@@ -2854,7 +2854,7 @@
           "type": "title"
         },
         {
-          "text": "Have you received feedback on your pronunciation with \u003cstrong\u003edetailed instructions\u003c/strong\u003e to improve it?",
+          "text": "Have you received feedback on your pronunciation with <strong>detailed instructions</strong> to improve it?",
           "type": "description"
         }
       ],
@@ -2919,7 +2919,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following: \"I wouldn\u0027t start a conversation in English because I wouldn\u0027t know how to continue it.\"",
+          "text": "Do you relate to the following: \"I wouldn't start a conversation in English because I wouldn't know how to continue it.\"",
           "type": "description"
         }
       ],
@@ -2959,7 +2959,7 @@
           "type": "title"
         },
         {
-          "text": "To participate in a conversation, \u003cstrong\u003econversational skills\u003c/strong\u003e are needed. The only way to develop them is through interactive exercises where you take an active role and can practice speaking in English.\n\nWe will provide you with these exercises set in real-life contexts and situations.",
+          "text": "To participate in a conversation, <strong>conversational skills</strong> are needed. The only way to develop them is through interactive exercises where you take an active role and can practice speaking in English.\n\nWe will provide you with these exercises set in real-life contexts and situations.",
           "type": "description"
         }
       ],
@@ -2989,7 +2989,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following: \"I\u0027m not confident enough to use English even in simple situations.\"",
+          "text": "Do you relate to the following: \"I'm not confident enough to use English even in simple situations.\"",
           "type": "description"
         }
       ],
@@ -3029,7 +3029,7 @@
           "type": "title"
         },
         {
-          "text": "You might not feel confident about your English right now, but after studying with us, \u003cstrong\u003eyou will no longer have any fear\u003c/strong\u003e, as on your learning path we will ensure that:",
+          "text": "You might not feel confident about your English right now, but after studying with us, <strong>you will no longer have any fear</strong>, as on your learning path we will ensure that:",
           "type": "description"
         },
         {
@@ -3052,7 +3052,7 @@
             },
             {
               "number": 5,
-              "text": "\u003cstrong\u003eGain confidence\u003c/strong\u003e"
+              "text": "<strong>Gain confidence</strong>"
             }
           ],
           "listType": "number",
@@ -3173,7 +3173,7 @@
           "id": 2
         },
         {
-          "description": "It\u0027s not a problem",
+          "description": "It's not a problem",
           "followUpQuestion": 78,
           "id": 3
         }
@@ -3247,7 +3247,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Yes, for me it\u0027s too fast.",
+          "description": "Yes, for me it's too fast.",
           "followUpQuestion": 79,
           "id": 1
         },
@@ -3384,7 +3384,7 @@
           "type": "title"
         },
         {
-          "text": "Have you received feedback on your pronunciation with \u003cstrong\u003edetailed instructions\u003c/strong\u003e to improve it?",
+          "text": "Have you received feedback on your pronunciation with <strong>detailed instructions</strong> to improve it?",
           "type": "description"
         }
       ],
@@ -3449,7 +3449,7 @@
           "type": "title"
         },
         {
-          "text": "Do you feel that you can\u0027t find the right words when you want to explain something in English?",
+          "text": "Do you feel that you can't find the right words when you want to explain something in English?",
           "type": "description"
         }
       ],
@@ -3467,7 +3467,7 @@
           "id": 2
         },
         {
-          "description": "It\u0027s not a problem",
+          "description": "It's not a problem",
           "followUpQuestion": 87,
           "id": 3
         }
@@ -3524,7 +3524,7 @@
           "type": "title"
         },
         {
-          "text": "Words are \u003cstrong\u003einformation\u003c/strong\u003e, but the art of knowing how to use them is a \u003cstrong\u003eskill\u003c/strong\u003e.\n\n\u003cstrong\u003eYou can acquire this skill\u003c/strong\u003e with interactive exercises where you take an active role. This way, you\u0027ll be able to use words and expressions fluently in different contexts.",
+          "text": "Words are <strong>information</strong>, but the art of knowing how to use them is a <strong>skill</strong>.\n\n<strong>You can acquire this skill</strong> with interactive exercises where you take an active role. This way, you'll be able to use words and expressions fluently in different contexts.",
           "type": "description"
         }
       ],
@@ -3554,7 +3554,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following: \"I\u0027m not confident enough with my English to join a conversation.\"",
+          "text": "Do you relate to the following: \"I'm not confident enough with my English to join a conversation.\"",
           "type": "description"
         }
       ],
@@ -3594,7 +3594,7 @@
           "type": "title"
         },
         {
-          "text": "You might not feel confident about your English right now, but after studying with us, \u003cstrong\u003eyou will no longer have any fear\u003c/strong\u003e, as on your learning path we will ensure that:",
+          "text": "You might not feel confident about your English right now, but after studying with us, <strong>you will no longer have any fear</strong>, as on your learning path we will ensure that:",
           "type": "description"
         },
         {
@@ -3617,7 +3617,7 @@
             },
             {
               "number": 5,
-              "text": "\u003cstrong\u003eGain confidence\u003c/strong\u003e"
+              "text": "<strong>Gain confidence</strong>"
             }
           ],
           "listType": "number",
@@ -3738,7 +3738,7 @@
           "id": 2
         },
         {
-          "description": "It\u0027s not a problem",
+          "description": "It's not a problem",
           "followUpQuestion": 93,
           "id": 3
         }
@@ -3949,7 +3949,7 @@
           "type": "title"
         },
         {
-          "text": "Have you received feedback on your pronunciation with \u003cstrong\u003edetailed instructions\u003c/strong\u003e to improve it?",
+          "text": "Have you received feedback on your pronunciation with <strong>detailed instructions</strong> to improve it?",
           "type": "description"
         }
       ],
@@ -4032,7 +4032,7 @@
           "id": 2
         },
         {
-          "description": "It\u0027s not a problem",
+          "description": "It's not a problem",
           "followUpQuestion": 102,
           "id": 3
         }
@@ -4089,7 +4089,7 @@
           "type": "title"
         },
         {
-          "text": "Words are \u003cstrong\u003einformation\u003c/strong\u003e, but the art of knowing how to use them is a \u003cstrong\u003eskill\u003c/strong\u003e.\n\n\u003cstrong\u003eYou can acquire this skill\u003c/strong\u003e with interactive exercises where you take an active role. This way, you\u0027ll be able to use words and expressions fluently in different contexts.",
+          "text": "Words are <strong>information</strong>, but the art of knowing how to use them is a <strong>skill</strong>.\n\n<strong>You can acquire this skill</strong> with interactive exercises where you take an active role. This way, you'll be able to use words and expressions fluently in different contexts.",
           "type": "description"
         }
       ],
@@ -4159,7 +4159,7 @@
           "type": "title"
         },
         {
-          "text": "Don\u0027t worry, once you understand where those expressions come from, it will be a lot easier for you to remember them.",
+          "text": "Don't worry, once you understand where those expressions come from, it will be a lot easier for you to remember them.",
           "type": "description"
         }
       ],
@@ -4189,7 +4189,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following: \"I\u0027m not confident enough with my English to participate into any conversation without hesitation.\"",
+          "text": "Do you relate to the following: \"I'm not confident enough with my English to participate into any conversation without hesitation.\"",
           "type": "description"
         }
       ],
@@ -4229,7 +4229,7 @@
           "type": "title"
         },
         {
-          "text": "You might not feel confident about your English right now, but after studying with us, \u003cstrong\u003eyou will no longer have any fear\u003c/strong\u003e, as on your learning path we will ensure that:",
+          "text": "You might not feel confident about your English right now, but after studying with us, <strong>you will no longer have any fear</strong>, as on your learning path we will ensure that:",
           "type": "description"
         },
         {
@@ -4303,7 +4303,7 @@
           "id": 2
         },
         {
-          "description": "It doesn\u0027t cost me",
+          "description": "It doesn't cost me",
           "followUpQuestion": 108,
           "id": 3
         }
@@ -4325,7 +4325,7 @@
           "type": "title"
         },
         {
-          "text": "Well, that\u0027s going to change! We will focus on internalizing your conversational skills so that you feel much more natural when participating in any conversation in English.\n\nThe more internalized your skills are, the less cognitive effort you will need to think about what to say.",
+          "text": "Well, that's going to change! We will focus on internalizing your conversational skills so that you feel much more natural when participating in any conversation in English.\n\nThe more internalized your skills are, the less cognitive effort you will need to think about what to say.",
           "type": "description"
         }
       ],
@@ -4579,7 +4579,7 @@
           "type": "list"
         },
         {
-          "text": "Once you start practicing with your program and \u003cstrong\u003eour app has more information about your learning\u003c/strong\u003e, we will further personalize your program to ensure that you are learning \u003cstrong\u003ewhat you need\u003c/strong\u003e to achieve your goals.",
+          "text": "Once you start practicing with your program and <strong>our app has more information about your learning</strong>, we will further personalize your program to ensure that you are learning <strong>what you need</strong> to achieve your goals.",
           "type": "description"
         }
       ],
@@ -4625,7 +4625,7 @@
     {
       "contents": [
         {
-          "text": "#FIRSTNAME#\u0027s English program",
+          "text": "#FIRSTNAME#'s English program",
           "type": "title"
         },
         {
@@ -4662,7 +4662,7 @@
                   }
                 ]
               },
-              "text": "Let\u0027s improve your results by personalizing your learning"
+              "text": "Let's improve your results by personalizing your learning"
             },
             {
               "number": 3,
@@ -4698,7 +4698,7 @@
                   }
                 ]
               },
-              "text": "You haven\u0027t studied English before"
+              "text": "You haven't studied English before"
             },
             {
               "number": 6,
@@ -4710,7 +4710,7 @@
                   }
                 ]
               },
-              "text": "Let\u0027s start your learning with a personalized program"
+              "text": "Let's start your learning with a personalized program"
             }
           ],
           "type": "list"
@@ -4732,7 +4732,7 @@
     {
       "contents": [
         {
-          "text": "#FIRSTNAME#\u0027s English program",
+          "text": "#FIRSTNAME#'s English program",
           "type": "title"
         },
         {
@@ -4769,7 +4769,7 @@
                   }
                 ]
               },
-              "text": "Let\u0027s improve your results by personalizing your learning"
+              "text": "Let's improve your results by personalizing your learning"
             },
             {
               "number": 3,
@@ -4805,7 +4805,7 @@
                   }
                 ]
               },
-              "text": "You haven\u0027t studied English before"
+              "text": "You haven't studied English before"
             },
             {
               "number": 6,
@@ -4817,7 +4817,7 @@
                   }
                 ]
               },
-              "text": "Let\u0027s start your learning with a personalized program"
+              "text": "Let's start your learning with a personalized program"
             }
           ],
           "type": "list"
@@ -4839,7 +4839,7 @@
     {
       "contents": [
         {
-          "text": "#FIRSTNAME#\u0027s English program",
+          "text": "#FIRSTNAME#'s English program",
           "type": "title"
         },
         {
@@ -4876,7 +4876,7 @@
                   }
                 ]
               },
-              "text": "Let\u0027s improve your results by personalizing your learning"
+              "text": "Let's improve your results by personalizing your learning"
             },
             {
               "number": 3,
@@ -4912,7 +4912,7 @@
                   }
                 ]
               },
-              "text": "You haven\u0027t studied English before"
+              "text": "You haven't studied English before"
             },
             {
               "number": 6,
@@ -4924,7 +4924,7 @@
                   }
                 ]
               },
-              "text": "Let\u0027s start your learning with a personalized program"
+              "text": "Let's start your learning with a personalized program"
             }
           ],
           "type": "list"
@@ -4950,7 +4950,7 @@
           "type": "title"
         },
         {
-          "text": "You will have an English program \u003cstrong\u003etailored to you\u003c/strong\u003e and accessible from \u003cstrong\u003ethe Master English mobile app.\u003c/strong\u003e\n\nAll our exercises are highly interactive and have been designed by highly qualified English teachers. Additionally, we use native English speaker voice models in all our exercises.\n\nWe will create your program \u003cstrong\u003ebased on your current level of English\u003c/strong\u003e and will personalize it as we get to know \u003cstrong\u003eyour areas of difficulty and learning speed.\u003c/strong\u003e\n\nWe will help you to speak fluently and achieve \u003cstrong\u003ean advanced level of English.\u003c/strong\u003e",
+          "text": "You will have an English program <strong>tailored to you</strong> and accessible from <strong>the Master English mobile app.</strong>\n\nAll our exercises are highly interactive and have been designed by highly qualified English teachers. Additionally, we use native English speaker voice models in all our exercises.\n\nWe will create your program <strong>based on your current level of English</strong> and will personalize it as we get to know <strong>your areas of difficulty and learning speed.</strong>\n\nWe will help you to speak fluently and achieve <strong>an advanced level of English.</strong>",
           "type": "description"
         }
       ],
@@ -4980,7 +4980,7 @@
           "type": "title"
         },
         {
-          "text": "Although you will have independent learning, you will not be alone. \u003cstrong\u003eYour program will always tell you what to do\u003c/strong\u003e and provide you with constant feedback.\n\nFor the first time, you will have access to \u003cstrong\u003ea complete and fully personalized program\u003c/strong\u003e from a mobile app.\n\nWe will create review lessons based on your progress and use cutting-edge technology to detect your pronunciation errors and teach you how to correct them.\n\nMaster English is very different from any other language app you have tried before.",
+          "text": "Although you will have independent learning, you will not be alone. <strong>Your program will always tell you what to do</strong> and provide you with constant feedback.\n\nFor the first time, you will have access to <strong>a complete and fully personalized program</strong> from a mobile app.\n\nWe will create review lessons based on your progress and use cutting-edge technology to detect your pronunciation errors and teach you how to correct them.\n\nMaster English is very different from any other language app you have tried before.",
           "type": "description"
         }
       ],
@@ -5010,7 +5010,7 @@
             "items": [
               {
                 "image": "Phone0",
-                "text": "While we prepare your program, we\u0027ll show you how it works..."
+                "text": "While we prepare your program, we'll show you how it works..."
               },
               {
                 "image": "Phone1",
@@ -5089,7 +5089,7 @@
           "type": "description"
         },
         {
-          "text": "\u003cstrong\u003eThe program is 100% online in our mobile app.\u003c/strong\u003e Once we finish personalizing it, you will receive access to your program. You will only need your mobile device (iPhone or Android) and an Internet connection.",
+          "text": "<strong>The program is 100% online in our mobile app.</strong> Once we finish personalizing it, you will receive access to your program. You will only need your mobile device (iPhone or Android) and an Internet connection.",
           "type": "description"
         }
       ],
@@ -5157,7 +5157,7 @@
           "id": 2
         },
         {
-          "description": "I haven\u0027t had many experiences",
+          "description": "I haven't had many experiences",
           "followUpQuestion": 117,
           "id": 3
         }
@@ -5173,7 +5173,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following statement?\n\n\"I have hoped that a professional would set me a study program that \u003cstrong\u003efits my needs\u003c/strong\u003e and that I can trust.\"",
+          "text": "Do you relate to the following statement?\n\n\"I have hoped that a professional would set me a study program that <strong>fits my needs</strong> and that I can trust.\"",
           "type": "description"
         }
       ],
@@ -5230,7 +5230,7 @@
           "id": 2
         },
         {
-          "description": "I\u0027m still looking for motivation",
+          "description": "I'm still looking for motivation",
           "followUpQuestion": 119,
           "id": 3
         }
@@ -5448,7 +5448,7 @@
           "type": "title"
         },
         {
-          "text": "It\u0027s easy to forget what you learned at basic or intermediate levels, but when you reach an advanced level, it\u0027s much more likely that the learning will be permanent.",
+          "text": "It's easy to forget what you learned at basic or intermediate levels, but when you reach an advanced level, it's much more likely that the learning will be permanent.",
           "type": "description"
         },
         {
@@ -5509,7 +5509,7 @@
           "id": 1
         },
         {
-          "description": "I\u0027m busy but I try to make time for myself",
+          "description": "I'm busy but I try to make time for myself",
           "followUpQuestion": 127,
           "id": 2
         },
@@ -5541,7 +5541,7 @@
           "type": "title"
         },
         {
-          "text": "We understand. Let\u0027s try to find a schedule that is possible for you but still enough to deliver real results.",
+          "text": "We understand. Let's try to find a schedule that is possible for you but still enough to deliver real results.",
           "type": "description"
         }
       ],
@@ -5567,7 +5567,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s go!",
+          "description": "Let's go!",
           "followUpQuestion": 127,
           "id": 1
         }
@@ -5589,7 +5589,7 @@
           "type": "title"
         },
         {
-          "text": "We should be able to find a solution that doesn\u0027t take too much of your time but is still enough to deliver real results.",
+          "text": "We should be able to find a solution that doesn't take too much of your time but is still enough to deliver real results.",
           "type": "description"
         }
       ],
@@ -5615,7 +5615,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s go!",
+          "description": "Let's go!",
           "followUpQuestion": 128,
           "id": 1
         }
@@ -5663,7 +5663,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s go!",
+          "description": "Let's go!",
           "followUpQuestion": 129,
           "id": 1
         }
@@ -5824,7 +5824,7 @@
           "id": 1
         },
         {
-          "description": "I don\u0027t want to decide the days. I prefer to practice when I have time.",
+          "description": "I don't want to decide the days. I prefer to practice when I have time.",
           "followUpQuestion": 135,
           "id": 2
         }
@@ -5853,7 +5853,7 @@
           "id": 1
         },
         {
-          "description": "I don\u0027t want to decide the days. I prefer to practice when I have time.",
+          "description": "I don't want to decide the days. I prefer to practice when I have time.",
           "followUpQuestion": 135,
           "id": 2
         }
@@ -6035,7 +6035,7 @@
           "type": "title"
         },
         {
-          "text": "#FIRSTNAME#, your program is almost ready.\n\nBut before, did you know that having a set goal helps us stay focused and motivated?\n\nWhen we have a clear idea of \u003cstrong\u003ewhy we are doing something\u003c/strong\u003e, it\u0027s easier to keep going and not give up.\n\nSo, let\u0027s set your goal!",
+          "text": "#FIRSTNAME#, your program is almost ready.\n\nBut before, did you know that having a set goal helps us stay focused and motivated?\n\nWhen we have a clear idea of <strong>why we are doing something</strong>, it's easier to keep going and not give up.\n\nSo, let's set your goal!",
           "type": "description"
         }
       ],
@@ -6115,7 +6115,7 @@
           "type": "title"
         },
         {
-          "text": "In 2020, Master English won the \u003cstrong\u003eEdTech Breakthrough Award\u003c/strong\u003e for its exceptionally fast and efficient learning method.",
+          "text": "In 2020, Master English won the <strong>EdTech Breakthrough Award</strong> for its exceptionally fast and efficient learning method.",
           "type": "description"
         }
       ],
@@ -6154,13 +6154,13 @@
                 "small": true
               },
               {
-                "content": "Other\u003cbr/\u003eapps",
+                "content": "Other<br/>apps",
                 "type": "string",
                 "width": 10,
                 "small": true
               },
               {
-                "content": "Live classes\u003cbr/\u003e",
+                "content": "Live classes<br/>",
                 "type": "string",
                 "width": 10,
                 "small": true
@@ -6333,8 +6333,8 @@
       "contents": [
         {
           "appRatingTexts": {
-            "def": "\u003cstrong\u003eMore than 14,900 reviews\u003c/strong\u003e\n\nOur app has a rating of \u003cstrong\u003e4.9/5\u003c/strong\u003e on the App Store.",
-            "MX": "\u003cstrong\u003eMore than 3,100 reviews\u003c/strong\u003e\n\nOur app has a rating of \u003cstrong\u003e4.9/5\u003c/strong\u003e on the App Store."
+            "def": "<strong>More than 14,900 reviews</strong>\n\nOur app has a rating of <strong>4.9/5</strong> on the App Store.",
+            "MX": "<strong>More than 3,100 reviews</strong>\n\nOur app has a rating of <strong>4.9/5</strong> on the App Store."
           },
           "type": "appRating"
         },
@@ -6460,11 +6460,11 @@
     {
       "contents": [
         {
-          "text": "Let\u0027s reason your schedule",
+          "text": "Let's reason your schedule",
           "type": "title"
         },
         {
-          "text": "Your program includes #DAYS# weekly sessions of #MINUTES_PER_SESSION# minutes each.\n\nBut why don\u0027t we just reduce the practice to a single #TOTAL_WEEKLY_TIME# session per week?",
+          "text": "Your program includes #DAYS# weekly sessions of #MINUTES_PER_SESSION# minutes each.\n\nBut why don't we just reduce the practice to a single #TOTAL_WEEKLY_TIME# session per week?",
           "type": "description"
         }
       ],
@@ -6477,7 +6477,7 @@
           "id": 1
         },
         {
-          "description": "It\u0027s difficult to find time for such a long session",
+          "description": "It's difficult to find time for such a long session",
           "followUpQuestion": 148,
           "id": 2
         },
@@ -6498,7 +6498,7 @@
           "type": "title"
         },
         {
-          "text": "Correct answer: \u003cstrong\u003eIt wouldn\u0027t allow to repeat learnings within reasonable intervals\u003c/strong\u003e.\n\nOf course, focusing for #TOTAL_WEEKLY_TIME# would be extremely hard. But that\u0027s not the most important reason.\n\nWhy is the repetition interval so important? Because of how our memory works.\n\n\u003cstrong\u003eOur memory needs to be stimulated several times within an optimal repetition window\u003c/strong\u003e. Otherwise, it\u0027s easy to forget what we\u0027ve learned.",
+          "text": "Correct answer: <strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.\n\nOf course, focusing for #TOTAL_WEEKLY_TIME# would be extremely hard. But that's not the most important reason.\n\nWhy is the repetition interval so important? Because of how our memory works.\n\n<strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
           "type": "description"
         }
       ],
@@ -6506,7 +6506,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s continue!",
+          "description": "Let's continue!",
           "followUpQuestion": 150,
           "id": 1
         }
@@ -6522,7 +6522,7 @@
           "type": "title"
         },
         {
-          "text": "Correct answer: \u003cstrong\u003eIt wouldn\u0027t allow to repeat learnings within reasonable intervals\u003c/strong\u003e.\n\nOf course, it\u0027s hard to schedule a #TOTAL_WEEKLY_TIME# -hour session. But that\u0027s not the most important reason.\n\nWhy is the repetition interval so important? Because of how our memory works.\n\n\u003cstrong\u003eOur memory needs to be stimulated several times within an optimal repetition window\u003c/strong\u003e. Otherwise, it\u0027s easy to forget what we\u0027ve learned.",
+          "text": "Correct answer: <strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.\n\nOf course, it's hard to schedule a #TOTAL_WEEKLY_TIME# -hour session. But that's not the most important reason.\n\nWhy is the repetition interval so important? Because of how our memory works.\n\n<strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
           "type": "description"
         }
       ],
@@ -6530,7 +6530,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Let\u0027s continue!",
+          "description": "Let's continue!",
           "followUpQuestion": 150,
           "id": 1
         }
@@ -6546,7 +6546,7 @@
           "type": "title"
         },
         {
-          "text": "\u003cstrong\u003eIt wouldn\u0027t allow to repeat learnings within reasonable intervals\u003c/strong\u003e.\n\nAnd why is the repetition interval so important? Because of how our memory works. \n \n\u003cstrong\u003eOur memory needs to be stimulated several times within an optimal repetition window\u003c/strong\u003e. Otherwise, it\u0027s easy to forget what we\u0027ve learned.",
+          "text": "<strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.\n\nAnd why is the repetition interval so important? Because of how our memory works. \n \n<strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
           "type": "description"
         }
       ],
@@ -6594,7 +6594,7 @@
           "type": "title"
         },
         {
-          "text": "We saved the best part to the last. Here it comes:\n\nAt Master English, we are committed to helping Spanish speakers to achieve an advanced level in English. We think that if you don\u0027t reach an advanced level with our program, you should not pay.\n\nWe are willing to take the risk of getting results for you.",
+          "text": "We saved the best part to the last. Here it comes:\n\nAt Master English, we are committed to helping Spanish speakers to achieve an advanced level in English. We think that if you don't reach an advanced level with our program, you should not pay.\n\nWe are willing to take the risk of getting results for you.",
           "type": "description"
         }
       ],
@@ -6618,7 +6618,7 @@
           "type": "title"
         },
         {
-          "text": "We guarantee that if you complete your Master English online program of\n\n#MONTHS# months\n#PRACTICE_DAYS_PER_WEEK# sessions of #MINUTES_PER_SESSION# minutes per week\n\nyou will achieve an advanced level in English. Otherwise, \u003cstrong\u003ewe will refund all your subscription fees in full\u003c/strong\u003e.",
+          "text": "We guarantee that if you complete your Master English online program of\n\n#MONTHS# months\n#PRACTICE_DAYS_PER_WEEK# sessions of #MINUTES_PER_SESSION# minutes per week\n\nyou will achieve an advanced level in English. Otherwise, <strong>we will refund all your subscription fees in full</strong>.",
           "type": "description"
         }
       ],
@@ -6664,7 +6664,7 @@
               "title": "Cambridge English test"
             },
             {
-              "text": "TOEIC Listening \u0026 Reading: 865 points\nTOEIC Speaking \u0026 Writing: 335 points",
+              "text": "TOEIC Listening & Reading: 865 points\nTOEIC Speaking & Writing: 335 points",
               "title": "TOEIC"
             }
           ],
@@ -6776,14 +6776,14 @@
       "badge": "DiscountBadge",
       "contents": [
         {
-          "text": "#FIRSTNAME#\u0027s English program",
+          "text": "#FIRSTNAME#'s English program",
           "type": "title"
         },
         {
-          "listHeading": "\u003cspan style\u003d\u0027color: white; font-weight: 600;\u0027\u003eGoals:\u003c/span\u003e",
+          "listHeading": "<span style='color: white; font-weight: 600;'>Goals:</span>",
           "listItems": [
             {
-              "text": "Achieve \u003cspan style\u003d\u0027color: #007AFF;\u0027\u003ean advanced level\u003c/span\u003e of English by \u003cspan style\u003d\u0027color: #007AFF;\u0027\u003e#END_DATE_LONG#\u003c/span\u003e"
+              "text": "Achieve <span style='color: #007AFF;'>an advanced level</span> of English by <span style='color: #007AFF;'>#END_DATE_LONG#</span>"
             },
             {
               "requirements": {
@@ -6877,7 +6877,7 @@
         {
           "guaranteeOptions": {
             "label": "Guarantee:",
-            "text": "You will have an advanced level of English once you have completed your program by \u003cspan style\u003d\u0027color: #007AFF;\u0027\u003e#END_DATE_LONG#\u003c/span\u003e. Otherwise, we will refund all your subscription fees in full (an official English exam is required, more information at #HANDLE#).",
+            "text": "You will have an advanced level of English once you have completed your program by <span style='color: #007AFF;'>#END_DATE_LONG#</span>. Otherwise, we will refund all your subscription fees in full (an official English exam is required, more information at #HANDLE#).",
             "modal": {
               "handle": "Instructions and Warranty Terms",
               "title": "Instructions and Warranty Terms",
@@ -6887,7 +6887,7 @@
                   "listType": "none",
                   "listItems": [
                     {
-                      "text": "1. Complete your program by \u003cspan style\u003d\u0027color: #007AFF;\u0027\u003e#END_DATE_LONG#\u003c/span\u003e.\n\n2. Take an English test and send us your results (soporte@masterenglish.com) within 2 months after you have completed your program.\n\n3. If you do not achieve at least the results listed below, we will refund all your subscription fees in full:"
+                      "text": "1. Complete your program by <span style='color: #007AFF;'>#END_DATE_LONG#</span>.\n\n2. Take an English test and send us your results (soporte@masterenglish.com) within 2 months after you have completed your program.\n\n3. If you do not achieve at least the results listed below, we will refund all your subscription fees in full:"
                     }
                   ]
                 },
@@ -6908,7 +6908,7 @@
                       "title": "Cambridge English test"
                     },
                     {
-                      "text": "TOEIC Listening \u0026 Reading: 865 points\nTOEIC Speaking \u0026 Writing: 335 points",
+                      "text": "TOEIC Listening & Reading: 865 points\nTOEIC Speaking & Writing: 335 points",
                       "title": "TOEIC"
                     }
                   ]
