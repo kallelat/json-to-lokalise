@@ -525,7 +525,7 @@
           "type": "title"
         },
         {
-          "text": "If you can't use Spanish as the source language, the Master English program is unfortunately not the right solution for you. Thank you for considering us!",
+          "text": "If you can't use English as the source language, the Master English program is unfortunately not the right solution for you. Thank you for considering us!",
           "type": "description"
         }
       ],
@@ -585,7 +585,7 @@
           "type": "title"
         },
         {
-          "text": "The Master English app is based on <strong>advanced personalization</strong> to facilitate effective learning. We ensure that you learn what <strong>you need to achieve your goals</strong>.\n\nWe have helped over 1.2 million adults improve their English, which has allowed us to optimize the learning process.",
+          "text": "The Master English app is build on <strong>advanced personalization</strong> to make learning for effective. We make sure you learn exactly what <strong>you need to reach your goals</strong>.\n\nWe’ve helped over 1.2 million adults improve their English, allowing us to refine and optimize the learning process.",
           "type": "description"
         }
       ],
@@ -1386,7 +1386,7 @@
           }
         },
         {
-          "text": "Meeting with clients",
+          "text": "Meeting customers",
           "type": "title"
         },
         {
@@ -1496,7 +1496,7 @@
           "type": "Maybe"
         },
         {
-          "description": "No, my level of English prevents me from doing so.",
+          "description": "No, my level of English prevents me from doing so",
           "followUpQuestion": 35,
           "id": 3,
           "type": "No"
@@ -1744,7 +1744,7 @@
           "type": "title"
         },
         {
-          "text": "Do you feel as comfortable speaking English in any situation as you would in Spanish?",
+          "text": "Do you feel as comfortable using English in any situation as you would in your native language?",
           "type": "description"
         }
       ],
@@ -1758,7 +1758,7 @@
           "type": "Yes"
         },
         {
-          "description": "I do better in Spanish",
+          "description": "I feel more comfortable using my native language",
           "followUpQuestion": 39,
           "id": 2,
           "type": "Maybe"
@@ -1918,7 +1918,7 @@
           "type": "title"
         },
         {
-          "text": "It is an online program created <strong>by highly qualified English teachers</strong>. It is designed <strong>for Spanish-speaking adults</strong> who need an advanced level of English.",
+          "text": "It is an online program created <strong>by highly qualified English teachers</strong>. It is designed <strong>for adults</strong> who need an advanced level of English.",
           "type": "description"
         },
         {
@@ -2265,7 +2265,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Yes, they suit me perfectly.",
+          "description": "Yes, they suit me perfectly",
           "followUpQuestion": 55,
           "id": 1
         },
@@ -2784,7 +2784,7 @@
           "type": "title"
         },
         {
-          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for Spanish speakers to understand.",
+          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
           "type": "description"
         }
       ],
@@ -3247,7 +3247,7 @@
       "navbar": true,
       "options": [
         {
-          "description": "Yes, for me it's too fast.",
+          "description": "Yes, for me it's too fast",
           "followUpQuestion": 79,
           "id": 1
         },
@@ -3257,7 +3257,7 @@
           "id": 2
         },
         {
-          "description": "No, I understand what they say.",
+          "description": "No, I understand what they say",
           "followUpQuestion": 81,
           "id": 3
         }
@@ -3314,7 +3314,7 @@
           "type": "title"
         },
         {
-          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for Spanish speakers to understand.",
+          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
           "type": "description"
         }
       ],
@@ -3879,7 +3879,7 @@
           "type": "title"
         },
         {
-          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for Spanish speakers to understand.",
+          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
           "type": "description"
         }
       ],
@@ -5152,7 +5152,7 @@
           "id": 1
         },
         {
-          "description": "I am used to doing interactive Speaking exercises.",
+          "description": "I am used to doing interactive Speaking exercises",
           "followUpQuestion": 117,
           "id": 2
         },
@@ -5679,7 +5679,7 @@
           "type": "title"
         },
         {
-          "text": "According to our research, English learning is most effective when you study from 2,5 to 4 hours per week and take at least 3 separate lessons.\n\nWhich of the following 3 schedules fits your needs the best?",
+          "text": "According to our research, English learning is most effective when you study from 2 hours 30 mins to 4 hours per week and take at least 3 separate lessons.\n\nWhich of the following 3 schedules fits your needs the best?",
           "type": "description"
         },
         {
@@ -5745,7 +5745,7 @@
           "type": "title"
         },
         {
-          "text": "According to our research, English learning is most effective when you study from 2,5 to 5 hours per week and take at least 3 separate lessons.\n\nWhich of the following 3 schedules fits your needs the best?",
+          "text": "According to our research, English learning is most effective when you study from 2 hours 30 mins to 5 hours per week and take at least 3 separate lessons.\n\nWhich of the following 3 schedules fits your needs the best?",
           "type": "description"
         },
         {
@@ -5824,7 +5824,7 @@
           "id": 1
         },
         {
-          "description": "I don't want to decide the days. I prefer to practice when I have time.",
+          "description": "I don't want to decide the days. I prefer to practice when I have time",
           "followUpQuestion": 135,
           "id": 2
         }
@@ -5853,7 +5853,7 @@
           "id": 1
         },
         {
-          "description": "I don't want to decide the days. I prefer to practice when I have time.",
+          "description": "I don't want to decide the days. I prefer to practice when I have time",
           "followUpQuestion": 135,
           "id": 2
         }
@@ -6160,7 +6160,7 @@
                 "small": true
               },
               {
-                "content": "Live classes<br/>",
+                "content": "Live lessons<br/>",
                 "type": "string",
                 "width": 10,
                 "small": true
@@ -6279,7 +6279,7 @@
                 "cells": [
                   {
                     "align": "left",
-                    "content": "Initial level suitable",
+                    "content": "Suitable initial level",
                     "type": "title"
                   },
                   {
@@ -6346,7 +6346,7 @@
           "testimonialOptions": {
             "country": "Mexico",
             "name": "Gretchen",
-            "text": "I tried several English courses in the past and never managed to learn as much as with this one. It adapts to your schedule and helps you achieve your goals. I recommend it 100%."
+            "text": "I have taken several English courses in the past, but I have never learned as much as I did in this one. It adapts to your schedule and helps you achieve your goals. I 100% recommend it."
           },
           "type": "testimonial"
         },
@@ -6416,7 +6416,7 @@
           "type": "title"
         },
         {
-          "text": "With an optimized program, adults can learn faster than children.\n\nWe are able to embrace large quantities of information when we learn them in meaningful contexts and through clear explanations.\n\nWhen our learning needs are taken into account, we can improve our English skills quickly.",
+          "text": "With an optimized program, adults can learn faster than children.\n\nWe are capable of absorbing large amounts of information when we learn in meaningful contexts and through clear explanations.\n\nWhen our learning needs are taken into account, we can improve our English skills quickly.",
           "type": "description"
         }
       ],
@@ -6440,7 +6440,7 @@
           "type": "title"
         },
         {
-          "text": "With an optimized program, adults can learn faster than children.\n\nWe are capable of storing large amounts of information when we learn them in meaningful contexts and through clear explanations.\n\nWhen our learning needs are taken into account, we can improve our English skills quickly.",
+          "text": "With an optimized program, adults can learn faster than children.\n\nWe are capable of absorbing large amounts of information when we learn in meaningful contexts and through clear explanations.\n\nWhen our learning needs are taken into account, we can improve our English skills quickly.",
           "type": "description"
         }
       ],
@@ -6594,7 +6594,7 @@
           "type": "title"
         },
         {
-          "text": "We saved the best part to the last. Here it comes:\n\nAt Master English, we are committed to helping Spanish speakers to achieve an advanced level in English. We think that if you don't reach an advanced level with our program, you should not pay.\n\nWe are willing to take the risk of getting results for you.",
+          "text": "We saved the best part to the last. Here it comes:\n\nAt Master English, we are committed to helping English speakers to achieve an advanced level in English. We think that if you don't reach an advanced level with our program, you should not pay.\n\nWe are willing to take the risk of getting results for you.",
           "type": "description"
         }
       ],
