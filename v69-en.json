@@ -22,7 +22,7 @@
     {
       "paymentTexts": {
         "paymentFooter": "You can cancel your subscription and your program at any time. To do so, send us an email at soporte@masterenglish.com.",
-        "typeText": "Your subscription will renew monthly until you cancel it. You can cancel your subscription and your program at any time.\n\nWe will send you an email 3 days before the 6-month duration of your program is up to remind you to cancel your subscription before it renews for the 7th month, if you wish."
+        "typeText": "Your subscription will renew monthly until you cancel it. You can cancel your subscription and your program at any time.<br/><br/>We will send you an email 3 days before the 6-month duration of your program is up to remind you to cancel your subscription before it renews for the 7th month, if you wish."
       },
       "productPlan": "1M",
       "productType": "subscription",
@@ -51,7 +51,7 @@
       ],
       "paymentTexts": {
         "paymentFooter": "You can cancel your subscription and your program at any time. To do so, send us an email at soporte@masterenglish.com.",
-        "typeText": "Save #ME_DISCOUNT_PERCENTAGE#% compared to the monthly payment plan.\n\nYour subscription will renew every #ME_MONTHS# months until you cancel it. We will send you an email 3 days before each renewal date to remind you to cancel your subscription or switch to a monthly subscription if you prefer."
+        "typeText": "Save #ME_DISCOUNT_PERCENTAGE#% compared to the monthly payment plan.<br/><br/>Your subscription will renew every #ME_MONTHS# months until you cancel it. We will send you an email 3 days before each renewal date to remind you to cancel your subscription or switch to a monthly subscription if you prefer."
       },
       "productPlan": "3M",
       "productType": "subscription",
@@ -81,7 +81,7 @@
       ],
       "paymentTexts": {
         "paymentFooter": "You can cancel your subscription and your program at any time. To do so, send us an email at soporte@masterenglish.com.",
-        "typeText": "Save #ME_DISCOUNT_PERCENTAGE#% compared to the monthly payment plan.\n\nYour subscription will renew every #ME_MONTHS# months until you cancel it. We will send you an email 3 days before each renewal date to remind you to cancel your subscription or switch to a monthly subscription if you prefer."
+        "typeText": "Save #ME_DISCOUNT_PERCENTAGE#% compared to the monthly payment plan.<br/><br/>Your subscription will renew every #ME_MONTHS# months until you cancel it. We will send you an email 3 days before each renewal date to remind you to cancel your subscription or switch to a monthly subscription if you prefer."
       },
       "productPlan": "6M",
       "productType": "subscription",
@@ -111,7 +111,7 @@
       ],
       "paymentTexts": {
         "paymentFooter": "You can cancel your subscription and your program at any time. To do so, send us an email at soporte@masterenglish.com.",
-        "typeText": "Save #ME_DISCOUNT_PERCENTAGE#% compared to the monthly payment plan.\n\nYour subscription will renew every #ME_MONTHS# months until you cancel it. We will send you an email 3 days before each renewal date to remind you to cancel your subscription or switch to a monthly subscription if you prefer."
+        "typeText": "Save #ME_DISCOUNT_PERCENTAGE#% compared to the monthly payment plan.<br/><br/>Your subscription will renew every #ME_MONTHS# months until you cancel it. We will send you an email 3 days before each renewal date to remind you to cancel your subscription or switch to a monthly subscription if you prefer."
       },
       "productPlan": "9M",
       "productType": "subscription",
@@ -175,7 +175,7 @@
           "type": "title"
         },
         {
-          "text": "What level of English do you think you have?\n\nYou can estimate it. We will specify it more precisely later.",
+          "text": "What level of English do you think you have?<br/><br/>You can estimate it. We will specify it more precisely later.",
           "type": "description"
         }
       ],
@@ -585,7 +585,7 @@
           "type": "title"
         },
         {
-          "text": "The Master English app is build on <strong>advanced personalization</strong> to make learning for effective. We make sure you learn exactly what <strong>you need to reach your goals</strong>.\n\nWe’ve helped over 1.2 million adults improve their English, allowing us to refine and optimize the learning process.",
+          "text": "The Master English app is build on <strong>advanced personalization</strong> to make learning for effective. We make sure you learn exactly what <strong>you need to reach your goals</strong>.<br/><br/>We’ve helped over 1.2 million adults improve their English, allowing us to refine and optimize the learning process.",
           "type": "description"
         }
       ],
@@ -739,7 +739,7 @@
           "type": "title"
         },
         {
-          "text": "Having a clear reason will keep you motivated during your learning.\n\nMaster English will help you get closer to achieving your goals every day.",
+          "text": "Having a clear reason will keep you motivated during your learning.<br/><br/>Master English will help you get closer to achieving your goals every day.",
           "type": "description"
         }
       ],
@@ -1824,7 +1824,7 @@
           "type": "title"
         },
         {
-          "text": "Thank you for your answers! We now know how long it will take you to reach an advanced level in English.\n\nOnce you practice with your program, we'll track your progress and adapt the lessons based on your personal needs.",
+          "text": "Thank you for your answers! We now know how long it will take you to reach an advanced level in English.<br/><br/>Once you practice with your program, we'll track your progress and adapt the lessons based on your personal needs.",
           "type": "description"
         }
       ],
@@ -1848,7 +1848,7 @@
           "type": "title"
         },
         {
-          "text": "Congratulations! Based on your answers, you already have an advanced level.\n\nOur specialty is helping people with a basic or intermediate level to achieve an advanced level of English. Still, would you like to know more about our program?",
+          "text": "Congratulations! Based on your answers, you already have an advanced level.<br/><br/>Our specialty is helping people with a basic or intermediate level to achieve an advanced level of English. Still, would you like to know more about our program?",
           "type": "description"
         }
       ],
@@ -2160,7 +2160,7 @@
           "type": "title"
         },
         {
-          "text": "Next, let's personalize your program further.\n\nTo fine down your program schedule, we need to define your key problem areas in English. Please answer the following questions carefully.",
+          "text": "Next, let's personalize your program further.<br/><br/>To fine down your program schedule, we need to define your key problem areas in English. Please answer the following questions carefully.",
           "type": "description"
         }
       ],
@@ -2413,7 +2413,7 @@
           "type": "title"
         },
         {
-          "text": "When it comes to English learning for adults, everyone has their own starting level, problem areas, and learning speed.\n\nThe Master English app uses advanced technology to personalize your learning experience according to your needs.",
+          "text": "When it comes to English learning for adults, everyone has their own starting level, problem areas, and learning speed.<br/><br/>The Master English app uses advanced technology to personalize your learning experience according to your needs.",
           "type": "description"
         }
       ],
@@ -2463,7 +2463,7 @@
           "type": "title"
         },
         {
-          "text": "Let's make sure your first English learning experience will be a good one.\n\nThe thing in adult English learning is that everyone has their unique starting point, problem areas and learning speed.\n\nMaster English app uses special technology to personalise your learning experience according to your needs.",
+          "text": "Let's make sure your first English learning experience will be a good one.<br/><br/>The thing in adult English learning is that everyone has their unique starting point, problem areas and learning speed.<br/><br/>Master English app uses special technology to personalise your learning experience according to your needs.",
           "type": "description"
         }
       ],
@@ -2513,7 +2513,7 @@
           "type": "title"
         },
         {
-          "text": "Based on your answers, you already have a study method that fits your level well. Great!\n\nLet's try to understand if we could still find a way to improve your learning results.\n\nMaster English app uses special technology to focus your studies on your problem areas. And by doing interactive exercises we can build you skills that you can use in actual real life conversations.",
+          "text": "Based on your answers, you already have a study method that fits your level well. Great!<br/><br/>Let's try to understand if we could still find a way to improve your learning results.<br/><br/>Master English app uses special technology to focus your studies on your problem areas. And by doing interactive exercises we can build you skills that you can use in actual real life conversations.",
           "type": "description"
         }
       ],
@@ -2679,7 +2679,7 @@
           "type": "title"
         },
         {
-          "text": "We will teach you to form sentences that you can then use in real-life conversations in English.\n\nAs you improve your level, we will introduce you to more complex sentences.",
+          "text": "We will teach you to form sentences that you can then use in real-life conversations in English.<br/><br/>As you improve your level, we will introduce you to more complex sentences.",
           "type": "description"
         }
       ],
@@ -2784,7 +2784,7 @@
           "type": "title"
         },
         {
-          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
+          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.<br/><br/>Additionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
           "type": "description"
         }
       ],
@@ -2889,7 +2889,7 @@
           "type": "title"
         },
         {
-          "text": "In the Master English app, we use speech recognition technology to detect your pronunciation mistakes and teach you how to correct them.\n\nAdditionally, you will be able to listen to yourself and compare your recordings with those of native speakers.",
+          "text": "In the Master English app, we use speech recognition technology to detect your pronunciation mistakes and teach you how to correct them.<br/><br/>Additionally, you will be able to listen to yourself and compare your recordings with those of native speakers.",
           "type": "description"
         }
       ],
@@ -2959,7 +2959,7 @@
           "type": "title"
         },
         {
-          "text": "To participate in a conversation, <strong>conversational skills</strong> are needed. The only way to develop them is through interactive exercises where you take an active role and can practice speaking in English.\n\nWe will provide you with these exercises set in real-life contexts and situations.",
+          "text": "To participate in a conversation, <strong>conversational skills</strong> are needed. The only way to develop them is through interactive exercises where you take an active role and can practice speaking in English.<br/><br/>We will provide you with these exercises set in real-life contexts and situations.",
           "type": "description"
         }
       ],
@@ -3314,7 +3314,7 @@
           "type": "title"
         },
         {
-          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
+          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.<br/><br/>Additionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
           "type": "description"
         }
       ],
@@ -3419,7 +3419,7 @@
           "type": "title"
         },
         {
-          "text": "In the Master English app, we use speech recognition technology to detect your pronunciation mistakes and teach you how to correct them.\n\nAdditionally, you will be able to listen to yourself and compare your recordings with those of native speakers.",
+          "text": "In the Master English app, we use speech recognition technology to detect your pronunciation mistakes and teach you how to correct them.<br/><br/>Additionally, you will be able to listen to yourself and compare your recordings with those of native speakers.",
           "type": "description"
         }
       ],
@@ -3524,7 +3524,7 @@
           "type": "title"
         },
         {
-          "text": "Words are <strong>information</strong>, but the art of knowing how to use them is a <strong>skill</strong>.\n\n<strong>You can acquire this skill</strong> with interactive exercises where you take an active role. This way, you'll be able to use words and expressions fluently in different contexts.",
+          "text": "Words are <strong>information</strong>, but the art of knowing how to use them is a <strong>skill</strong>.<br/><br/><strong>You can acquire this skill</strong> with interactive exercises where you take an active role. This way, you'll be able to use words and expressions fluently in different contexts.",
           "type": "description"
         }
       ],
@@ -3879,7 +3879,7 @@
           "type": "title"
         },
         {
-          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.\n\nAdditionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
+          "text": "In Master English, you will be exposed to native English models to get accustomed to their accents and speaking speeds.<br/><br/>Additionally, we will teach you to recognize those words and expressions that are more difficult for English speakers to understand.",
           "type": "description"
         }
       ],
@@ -3984,7 +3984,7 @@
           "type": "title"
         },
         {
-          "text": "In the Master English app, we use speech recognition technology to detect your pronunciation mistakes and teach you how to correct them.\n\nAdditionally, you will be able to listen to yourself and compare your recordings with those of native speakers.",
+          "text": "In the Master English app, we use speech recognition technology to detect your pronunciation mistakes and teach you how to correct them.<br/><br/>Additionally, you will be able to listen to yourself and compare your recordings with those of native speakers.",
           "type": "description"
         }
       ],
@@ -4089,7 +4089,7 @@
           "type": "title"
         },
         {
-          "text": "Words are <strong>information</strong>, but the art of knowing how to use them is a <strong>skill</strong>.\n\n<strong>You can acquire this skill</strong> with interactive exercises where you take an active role. This way, you'll be able to use words and expressions fluently in different contexts.",
+          "text": "Words are <strong>information</strong>, but the art of knowing how to use them is a <strong>skill</strong>.<br/><br/><strong>You can acquire this skill</strong> with interactive exercises where you take an active role. This way, you'll be able to use words and expressions fluently in different contexts.",
           "type": "description"
         }
       ],
@@ -4325,7 +4325,7 @@
           "type": "title"
         },
         {
-          "text": "Well, that's going to change! We will focus on internalizing your conversational skills so that you feel much more natural when participating in any conversation in English.\n\nThe more internalized your skills are, the less cognitive effort you will need to think about what to say.",
+          "text": "Well, that's going to change! We will focus on internalizing your conversational skills so that you feel much more natural when participating in any conversation in English.<br/><br/>The more internalized your skills are, the less cognitive effort you will need to think about what to say.",
           "type": "description"
         }
       ],
@@ -4950,7 +4950,7 @@
           "type": "title"
         },
         {
-          "text": "You will have an English program <strong>tailored to you</strong> and accessible from <strong>the Master English mobile app.</strong>\n\nAll our exercises are highly interactive and have been designed by highly qualified English teachers. Additionally, we use native English speaker voice models in all our exercises.\n\nWe will create your program <strong>based on your current level of English</strong> and will personalize it as we get to know <strong>your areas of difficulty and learning speed.</strong>\n\nWe will help you to speak fluently and achieve <strong>an advanced level of English.</strong>",
+          "text": "You will have an English program <strong>tailored to you</strong> and accessible from <strong>the Master English mobile app.</strong><br/><br/>All our exercises are highly interactive and have been designed by highly qualified English teachers. Additionally, we use native English speaker voice models in all our exercises.<br/><br/>We will create your program <strong>based on your current level of English</strong> and will personalize it as we get to know <strong>your areas of difficulty and learning speed.</strong><br/><br/>We will help you to speak fluently and achieve <strong>an advanced level of English.</strong>",
           "type": "description"
         }
       ],
@@ -4980,7 +4980,7 @@
           "type": "title"
         },
         {
-          "text": "Although you will have independent learning, you will not be alone. <strong>Your program will always tell you what to do</strong> and provide you with constant feedback.\n\nFor the first time, you will have access to <strong>a complete and fully personalized program</strong> from a mobile app.\n\nWe will create review lessons based on your progress and use cutting-edge technology to detect your pronunciation errors and teach you how to correct them.\n\nMaster English is very different from any other language app you have tried before.",
+          "text": "Although you will have independent learning, you will not be alone. <strong>Your program will always tell you what to do</strong> and provide you with constant feedback.<br/><br/>For the first time, you will have access to <strong>a complete and fully personalized program</strong> from a mobile app.<br/><br/>We will create review lessons based on your progress and use cutting-edge technology to detect your pronunciation errors and teach you how to correct them.<br/><br/>Master English is very different from any other language app you have tried before.",
           "type": "description"
         }
       ],
@@ -5139,7 +5139,7 @@
           "type": "title"
         },
         {
-          "text": "Master English uses interactive exercises to teach you conversational skills.\n\nWhat kind of English learning experiences have you got before?",
+          "text": "Master English uses interactive exercises to teach you conversational skills.<br/><br/>What kind of English learning experiences have you got before?",
           "type": "description"
         }
       ],
@@ -5173,7 +5173,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following statement?\n\n\"I have hoped that a professional would set me a study program that <strong>fits my needs</strong> and that I can trust.\"",
+          "text": "Do you relate to the following statement?<br/><br/>\"I have hoped that a professional would set me a study program that <strong>fits my needs</strong> and that I can trust.\"",
           "type": "description"
         }
       ],
@@ -5212,7 +5212,7 @@
           "type": "title"
         },
         {
-          "text": "We believe that real-life focused conversation exercises with native speaker examples are key to making English learning practical and motivating.\n\nBut how motivated are you to improve your English?",
+          "text": "We believe that real-life focused conversation exercises with native speaker examples are key to making English learning practical and motivating.<br/><br/>But how motivated are you to improve your English?",
           "type": "description"
         }
       ],
@@ -5246,7 +5246,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following statement?\n\n\"When I have been trying to learn English before, the progress has been so slow that I have lost my motivation.\"",
+          "text": "Do you relate to the following statement?<br/><br/>\"When I have been trying to learn English before, the progress has been so slow that I have lost my motivation.\"",
           "type": "description"
         }
       ],
@@ -5285,7 +5285,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following statement?\n\n\"To stay motivated, I need to learn content that I can apply in my day-to-day life.\"",
+          "text": "Do you relate to the following statement?<br/><br/>\"To stay motivated, I need to learn content that I can apply in my day-to-day life.\"",
           "type": "description"
         }
       ],
@@ -5354,7 +5354,7 @@
           "type": "title"
         },
         {
-          "text": "Do you relate to the following statement?\n\n\"External factors like better career opportunities serve as a motivator for me to improve my English.\"",
+          "text": "Do you relate to the following statement?<br/><br/>\"External factors like better career opportunities serve as a motivator for me to improve my English.\"",
           "type": "description"
         }
       ],
@@ -5679,7 +5679,7 @@
           "type": "title"
         },
         {
-          "text": "According to our research, English learning is most effective when you study from 2 hours 30 mins to 4 hours per week and take at least 3 separate lessons.\n\nWhich of the following 3 schedules fits your needs the best?",
+          "text": "According to our research, English learning is most effective when you study from 2 hours 30 mins to 4 hours per week and take at least 3 separate lessons.<br/><br/>Which of the following 3 schedules fits your needs the best?",
           "type": "description"
         },
         {
@@ -5745,7 +5745,7 @@
           "type": "title"
         },
         {
-          "text": "According to our research, English learning is most effective when you study from 2 hours 30 mins to 5 hours per week and take at least 3 separate lessons.\n\nWhich of the following 3 schedules fits your needs the best?",
+          "text": "According to our research, English learning is most effective when you study from 2 hours 30 mins to 5 hours per week and take at least 3 separate lessons.<br/><br/>Which of the following 3 schedules fits your needs the best?",
           "type": "description"
         },
         {
@@ -5811,7 +5811,7 @@
           "type": "title"
         },
         {
-          "text": "Great choice! Would you like to plan on which weekdays you usually complete your 5 weekly sessions?\n\nAs the program is completed independently in our app, you can naturally practice whenever you have time and change the schedule when needed. However, the best way to achieve results is to plan a clear schedule and stick to it.",
+          "text": "Great choice! Would you like to plan on which weekdays you usually complete your 5 weekly sessions?<br/><br/>As the program is completed independently in our app, you can naturally practice whenever you have time and change the schedule when needed. However, the best way to achieve results is to plan a clear schedule and stick to it.",
           "type": "description"
         }
       ],
@@ -5840,7 +5840,7 @@
           "type": "title"
         },
         {
-          "text": "Great choice. Would you like to plan on which weekdays you usually complete your 3 weekly sessions? \n\nAs the program is completed independently in our app, you can naturally practice whenever you have time and change the schedule when needed. However, the best way to achieve results is to plan a clear schedule and stick to it.",
+          "text": "Great choice. Would you like to plan on which weekdays you usually complete your 3 weekly sessions? <br/><br/>As the program is completed independently in our app, you can naturally practice whenever you have time and change the schedule when needed. However, the best way to achieve results is to plan a clear schedule and stick to it.",
           "type": "description"
         }
       ],
@@ -6035,7 +6035,7 @@
           "type": "title"
         },
         {
-          "text": "#FIRSTNAME#, your program is almost ready.\n\nBut before, did you know that having a set goal helps us stay focused and motivated?\n\nWhen we have a clear idea of <strong>why we are doing something</strong>, it's easier to keep going and not give up.\n\nSo, let's set your goal!",
+          "text": "#FIRSTNAME#, your program is almost ready.<br/><br/>But before, did you know that having a set goal helps us stay focused and motivated?<br/><br/>When we have a clear idea of <strong>why we are doing something</strong>, it's easier to keep going and not give up.<br/><br/>So, let's set your goal!",
           "type": "description"
         }
       ],
@@ -6333,8 +6333,8 @@
       "contents": [
         {
           "appRatingTexts": {
-            "def": "<strong>More than 14,900 reviews</strong>\n\nOur app has a rating of <strong>4.9/5</strong> on the App Store.",
-            "MX": "<strong>More than 3,100 reviews</strong>\n\nOur app has a rating of <strong>4.9/5</strong> on the App Store."
+            "def": "<strong>More than 14,900 reviews</strong><br/><br/>Our app has a rating of <strong>4.9/5</strong> on the App Store.",
+            "MX": "<strong>More than 3,100 reviews</strong><br/><br/>Our app has a rating of <strong>4.9/5</strong> on the App Store."
           },
           "type": "appRating"
         },
@@ -6416,7 +6416,7 @@
           "type": "title"
         },
         {
-          "text": "With an optimized program, adults can learn faster than children.\n\nWe are capable of absorbing large amounts of information when we learn in meaningful contexts and through clear explanations.\n\nWhen our learning needs are taken into account, we can improve our English skills quickly.",
+          "text": "With an optimized program, adults can learn faster than children.<br/><br/>We are capable of absorbing large amounts of information when we learn in meaningful contexts and through clear explanations.<br/><br/>When our learning needs are taken into account, we can improve our English skills quickly.",
           "type": "description"
         }
       ],
@@ -6440,7 +6440,7 @@
           "type": "title"
         },
         {
-          "text": "With an optimized program, adults can learn faster than children.\n\nWe are capable of absorbing large amounts of information when we learn in meaningful contexts and through clear explanations.\n\nWhen our learning needs are taken into account, we can improve our English skills quickly.",
+          "text": "With an optimized program, adults can learn faster than children.<br/><br/>We are capable of absorbing large amounts of information when we learn in meaningful contexts and through clear explanations.<br/><br/>When our learning needs are taken into account, we can improve our English skills quickly.",
           "type": "description"
         }
       ],
@@ -6464,7 +6464,7 @@
           "type": "title"
         },
         {
-          "text": "Your program includes #DAYS# weekly sessions of #MINUTES_PER_SESSION# minutes each.\n\nBut why don't we just reduce the practice to a single #TOTAL_WEEKLY_TIME# session per week?",
+          "text": "Your program includes #DAYS# weekly sessions of #MINUTES_PER_SESSION# minutes each.<br/><br/>But why don't we just reduce the practice to a single #TOTAL_WEEKLY_TIME# session per week?",
           "type": "description"
         }
       ],
@@ -6498,7 +6498,7 @@
           "type": "title"
         },
         {
-          "text": "Correct answer: <strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.\n\nOf course, focusing for #TOTAL_WEEKLY_TIME# would be extremely hard. But that's not the most important reason.\n\nWhy is the repetition interval so important? Because of how our memory works.\n\n<strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
+          "text": "Correct answer: <strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.<br/><br/>Of course, focusing for #TOTAL_WEEKLY_TIME# would be extremely hard. But that's not the most important reason.<br/><br/>Why is the repetition interval so important? Because of how our memory works.<br/><br/><strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
           "type": "description"
         }
       ],
@@ -6522,7 +6522,7 @@
           "type": "title"
         },
         {
-          "text": "Correct answer: <strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.\n\nOf course, it's hard to schedule a #TOTAL_WEEKLY_TIME# -hour session. But that's not the most important reason.\n\nWhy is the repetition interval so important? Because of how our memory works.\n\n<strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
+          "text": "Correct answer: <strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.<br/><br/>Of course, it's hard to schedule a #TOTAL_WEEKLY_TIME# -hour session. But that's not the most important reason.<br/><br/>Why is the repetition interval so important? Because of how our memory works.<br/><br/><strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
           "type": "description"
         }
       ],
@@ -6546,7 +6546,7 @@
           "type": "title"
         },
         {
-          "text": "<strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.\n\nAnd why is the repetition interval so important? Because of how our memory works. \n \n<strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
+          "text": "<strong>It wouldn't allow to repeat learnings within reasonable intervals</strong>.<br/><br/>And why is the repetition interval so important? Because of how our memory works. <br/> <br/><strong>Our memory needs to be stimulated several times within an optimal repetition window</strong>. Otherwise, it's easy to forget what we've learned.",
           "type": "description"
         }
       ],
@@ -6594,7 +6594,7 @@
           "type": "title"
         },
         {
-          "text": "We saved the best part to the last. Here it comes:\n\nAt Master English, we are committed to helping English speakers to achieve an advanced level in English. We think that if you don't reach an advanced level with our program, you should not pay.\n\nWe are willing to take the risk of getting results for you.",
+          "text": "We saved the best part to the last. Here it comes:<br/><br/>At Master English, we are committed to helping English speakers to achieve an advanced level in English. We think that if you don't reach an advanced level with our program, you should not pay.<br/><br/>We are willing to take the risk of getting results for you.",
           "type": "description"
         }
       ],
@@ -6618,7 +6618,7 @@
           "type": "title"
         },
         {
-          "text": "We guarantee that if you complete your Master English online program of\n\n#MONTHS# months\n#PRACTICE_DAYS_PER_WEEK# sessions of #MINUTES_PER_SESSION# minutes per week\n\nyou will achieve an advanced level in English. Otherwise, <strong>we will refund all your subscription fees in full</strong>.",
+          "text": "We guarantee that if you complete your Master English online program of<br/><br/>#MONTHS# months<br/>#PRACTICE_DAYS_PER_WEEK# sessions of #MINUTES_PER_SESSION# minutes per week<br/><br/>you will achieve an advanced level in English. Otherwise, <strong>we will refund all your subscription fees in full</strong>.",
           "type": "description"
         }
       ],
@@ -6652,7 +6652,7 @@
         {
           "listItems": [
             {
-              "text": "TOEFL iBT: 72 points\n TOEFL ITP: 585 points",
+              "text": "TOEFL iBT: 72 points<br/> TOEFL ITP: 585 points",
               "title": "TOEFL"
             },
             {
@@ -6664,14 +6664,14 @@
               "title": "Cambridge English test"
             },
             {
-              "text": "TOEIC Listening & Reading: 865 points\nTOEIC Speaking & Writing: 335 points",
+              "text": "TOEIC Listening & Reading: 865 points<br/>TOEIC Speaking & Writing: 335 points",
               "title": "TOEIC"
             }
           ],
           "type": "list"
         },
         {
-          "text": "To get the refund, take your English level test and send the result to us (soporte@masterenglish.com) within 2 months after having completed your Master English program.\n\nA level test is only needed in case you want a refund.",
+          "text": "To get the refund, take your English level test and send the result to us (soporte@masterenglish.com) within 2 months after having completed your Master English program.<br/><br/>A level test is only needed in case you want a refund.",
           "type": "description"
         }
       ],
@@ -6887,7 +6887,7 @@
                   "listType": "none",
                   "listItems": [
                     {
-                      "text": "1. Complete your program by <span style='color: #007AFF;'>#END_DATE_LONG#</span>.\n\n2. Take an English test and send us your results (soporte@masterenglish.com) within 2 months after you have completed your program.\n\n3. If you do not achieve at least the results listed below, we will refund all your subscription fees in full:"
+                      "text": "1. Complete your program by <span style='color: #007AFF;'>#END_DATE_LONG#</span>.<br/><br/>2. Take an English test and send us your results (soporte@masterenglish.com) within 2 months after you have completed your program.<br/><br/>3. If you do not achieve at least the results listed below, we will refund all your subscription fees in full:"
                     }
                   ]
                 },
@@ -6896,7 +6896,7 @@
                   "listType": "normal",
                   "listItems": [
                     {
-                      "text": "TOEFL iBT: 72 points\n TOEFL ITP: 585 points",
+                      "text": "TOEFL iBT: 72 points<br/> TOEFL ITP: 585 points",
                       "title": "TOEFL"
                     },
                     {
@@ -6908,7 +6908,7 @@
                       "title": "Cambridge English test"
                     },
                     {
-                      "text": "TOEIC Listening & Reading: 865 points\nTOEIC Speaking & Writing: 335 points",
+                      "text": "TOEIC Listening & Reading: 865 points<br/>TOEIC Speaking & Writing: 335 points",
                       "title": "TOEIC"
                     }
                   ]
@@ -6931,8 +6931,8 @@
             "description": "No commitment. Cancel anytime.",
             "paymentHeader": "Select a payment method to start your program",
             "title": "Start a monthly subscription to begin your program",
-            "typeOnetime": "The total amount for your #ME_MONTHS# month program is #ME_TOTAL_FEE#. The charge will be made on the same day of purchase.\n\nOnce you have completed your program, you will have an advanced level of English. If this is not achieved, we will refund the sum of #ME_TOTAL_FEE# (an English exam is required).",
-            "typeSubscription": "The total amount for your #ME_MONTHS# month program is #ME_TOTAL_FEE#. This price will be charged to you in #ME_MONTHS# interest-free monthly installments of #ME_FEE# each. Today, the first charge will be made.\n\nOnce you have completed your program, you will have an advanced level of English. If this is not achieved, we will refund the sum of #ME_TOTAL_FEE# (an English test is required)."
+            "typeOnetime": "The total amount for your #ME_MONTHS# month program is #ME_TOTAL_FEE#. The charge will be made on the same day of purchase.<br/><br/>Once you have completed your program, you will have an advanced level of English. If this is not achieved, we will refund the sum of #ME_TOTAL_FEE# (an English exam is required).",
+            "typeSubscription": "The total amount for your #ME_MONTHS# month program is #ME_TOTAL_FEE#. This price will be charged to you in #ME_MONTHS# interest-free monthly installments of #ME_FEE# each. Today, the first charge will be made.<br/><br/>Once you have completed your program, you will have an advanced level of English. If this is not achieved, we will refund the sum of #ME_TOTAL_FEE# (an English test is required)."
           },
           "type": "payment"
         },

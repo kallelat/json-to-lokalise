@@ -48,7 +48,7 @@ const add = (masterValue: string, breadcrumb: string) => {
   //console.info(`${breadcrumb}: ${masterValue}`);
 
   // ignore numeric ones
-  if (!isNaN(parseInt(masterValue))) {
+  if (!isNaN(masterValue as any)) {
     return;
   }
 

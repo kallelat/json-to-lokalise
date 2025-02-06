@@ -22,7 +22,7 @@
     {
       "paymentTexts": {
         "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
-        "typeText": "Sua assinatura será renovada mensalmente até que você a cancele. Você pode cancelar sua assinatura e seu programa a qualquer momento.\n\nEnviaremos um e-mail 3 dias antes de completar os 6 meses de duração do seu programa para que você se lembre de cancelar sua assinatura antes de renovar no 7º mês, se assim desejar."
+        "typeText": "Sua assinatura será renovada mensalmente até que você a cancele. Você pode cancelar sua assinatura e seu programa a qualquer momento.<br/><br/>Enviaremos um e-mail 3 dias antes de completar os 6 meses de duração do seu programa para que você se lembre de cancelar sua assinatura antes de renovar no 7º mês, se assim desejar."
       },
       "productPlan": "1M",
       "productType": "subscription",
@@ -51,7 +51,7 @@
       ],
       "paymentTexts": {
         "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
-        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.\n\nSua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
+        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.<br/><br/>Sua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
       },
       "productPlan": "3M",
       "productType": "subscription",
@@ -81,7 +81,7 @@
       ],
       "paymentTexts": {
         "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
-        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.\n\nSua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
+        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.<br/><br/>Sua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
       },
       "productPlan": "6M",
       "productType": "subscription",
@@ -111,7 +111,7 @@
       ],
       "paymentTexts": {
         "paymentFooter": "Você pode cancelar sua assinatura e seu programa a qualquer momento. Para isso, envie um e-mail para suporte@masterenglish.com.",
-        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.\n\nSua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
+        "typeText": "Economize #ME_DISCOUNT_PERCENTAGE#% em comparação com o plano de pagamentos mensais.<br/><br/>Sua assinatura será renovada a cada #ME_MONTHS# meses até que você a cancele. Enviaremos um e-mail 3 dias antes de cada data de renovação para que você se lembre de cancelar sua assinatura ou alterá-la para uma assinatura mensal, se preferir."
       },
       "productPlan": "9M",
       "productType": "subscription",
@@ -175,7 +175,7 @@
           "type": "title"
         },
         {
-          "text": "Qual nível de inglês você acha que tem?\n\nVocê pode estimar. Mais adiante, especificaremos de forma mais precisa.",
+          "text": "Qual nível de inglês você acha que tem?<br/><br/>Você pode estimar. Mais adiante, especificaremos de forma mais precisa.",
           "type": "description"
         }
       ],
@@ -585,7 +585,7 @@
           "type": "title"
         },
         {
-          "text": "O app Master English se baseia na <strong>personalização avançada</strong> para facilitar um aprendizado eficaz. Nos certificamos de que você aprende o que <strong>você precisa para alcançar seus objetivos</strong>.\n\nAjudamos mais de 1,2 milhões de adultos a melhorar seu inglês, o que nos permitiu otimizar o processo de aprendizado.",
+          "text": "O app Master English se baseia na <strong>personalização avançada</strong> para facilitar um aprendizado eficaz. Nos certificamos de que você aprende o que <strong>você precisa para alcançar seus objetivos</strong>.<br/><br/>Ajudamos mais de 1,2 milhões de adultos a melhorar seu inglês, o que nos permitiu otimizar o processo de aprendizado.",
           "type": "description"
         }
       ],
@@ -739,7 +739,7 @@
           "type": "title"
         },
         {
-          "text": "Ter um motivo claro te manterá motivado durante seu aprendizado.\n\nMaster English te ajudará a estar cada dia mais perto de cumprir seus objetivos.",
+          "text": "Ter um motivo claro te manterá motivado durante seu aprendizado.<br/><br/>Master English te ajudará a estar cada dia mais perto de cumprir seus objetivos.",
           "type": "description"
         }
       ],
@@ -1824,7 +1824,7 @@
           "type": "title"
         },
         {
-          "text": "Obrigado por suas respostas! Agora já sabemos em quanto tempo você pode alcançar um nível avançado de inglês.\n\nQuando você praticar com seu programa, vamos registrar seu progresso e adaptar as lições com base em suas necessidades pessoais.",
+          "text": "Obrigado por suas respostas! Agora já sabemos em quanto tempo você pode alcançar um nível avançado de inglês.<br/><br/>Quando você praticar com seu programa, vamos registrar seu progresso e adaptar as lições com base em suas necessidades pessoais.",
           "type": "description"
         }
       ],
@@ -1848,7 +1848,7 @@
           "type": "title"
         },
         {
-          "text": "Parabéns! De acordo com suas respostas, você já tem um nível avançado.\n\nNossa especialidade é ajudar pessoas com um nível básico ou intermediário a conseguir um nível avançado de inglês. Ainda assim, você gostaria de saber mais sobre nosso programa?",
+          "text": "Parabéns! De acordo com suas respostas, você já tem um nível avançado.<br/><br/>Nossa especialidade é ajudar pessoas com um nível básico ou intermediário a conseguir um nível avançado de inglês. Ainda assim, você gostaria de saber mais sobre nosso programa?",
           "type": "description"
         }
       ],
@@ -1914,7 +1914,7 @@
     {
       "contents": [
         {
-          "text": "O programa\nMaster English",
+          "text": "O programa<br/>Master English",
           "type": "title"
         },
         {
@@ -2160,7 +2160,7 @@
           "type": "title"
         },
         {
-          "text": "A seguir, vamos continuar personalizando seu programa.\n\nPara isso, precisamos que você defina as áreas onde apresenta maiores dificuldades em inglês. Por favor, responda às seguintes perguntas.",
+          "text": "A seguir, vamos continuar personalizando seu programa.<br/><br/>Para isso, precisamos que você defina as áreas onde apresenta maiores dificuldades em inglês. Por favor, responda às seguintes perguntas.",
           "type": "description"
         }
       ],
@@ -2413,7 +2413,7 @@
           "type": "title"
         },
         {
-          "text": "No que se refere ao aprendizado de inglês para adultos, cada um tem seu próprio nível inicial, áreas de dificuldade e ritmo de aprendizado.\n\nO app Master English utiliza tecnologia avançada para personalizar sua experiência de aprendizado de acordo com suas necessidades.",
+          "text": "No que se refere ao aprendizado de inglês para adultos, cada um tem seu próprio nível inicial, áreas de dificuldade e ritmo de aprendizado.<br/><br/>O app Master English utiliza tecnologia avançada para personalizar sua experiência de aprendizado de acordo com suas necessidades.",
           "type": "description"
         }
       ],
@@ -2463,7 +2463,7 @@
           "type": "title"
         },
         {
-          "text": "Vamos garantir que sua primeira experiência aprendendo inglês seja positiva.\n\nQuando se trata de aprender inglês para adultos, cada um tem seu próprio nível inicial, áreas de dificuldade e ritmo de aprendizado.\n\nO app Master English utiliza tecnologia avançada para personalizar sua experiência de aprendizado de acordo com suas necessidades.",
+          "text": "Vamos garantir que sua primeira experiência aprendendo inglês seja positiva.<br/><br/>Quando se trata de aprender inglês para adultos, cada um tem seu próprio nível inicial, áreas de dificuldade e ritmo de aprendizado.<br/><br/>O app Master English utiliza tecnologia avançada para personalizar sua experiência de aprendizado de acordo com suas necessidades.",
           "type": "description"
         }
       ],
@@ -2513,7 +2513,7 @@
           "type": "title"
         },
         {
-          "text": "Com base em suas respostas, você já tem um método de aprendizado adaptado ao seu nível. Estupendo!\n\nAinda assim, vamos ver se podemos melhorar seus resultados de aprendizado.\n\nNo app Master English, utilizamos tecnologia avançada para que você possa se concentrar em suas áreas de dificuldade. Além disso, você desenvolverá habilidades que depois <strong>poderá utilizar em conversas reais em inglês</strong>.",
+          "text": "Com base em suas respostas, você já tem um método de aprendizado adaptado ao seu nível. Estupendo!<br/><br/>Ainda assim, vamos ver se podemos melhorar seus resultados de aprendizado.<br/><br/>No app Master English, utilizamos tecnologia avançada para que você possa se concentrar em suas áreas de dificuldade. Além disso, você desenvolverá habilidades que depois <strong>poderá utilizar em conversas reais em inglês</strong>.",
           "type": "description"
         }
       ],
@@ -2679,7 +2679,7 @@
           "type": "title"
         },
         {
-          "text": "Vamos te ensinar a formar frases que você poderá usar em conversas reais em inglês.\n\nÀ medida que você for melhorando seu nível, vamos introduzir frases mais complexas.",
+          "text": "Vamos te ensinar a formar frases que você poderá usar em conversas reais em inglês.<br/><br/>À medida que você for melhorando seu nível, vamos introduzir frases mais complexas.",
           "type": "description"
         }
       ],
@@ -2784,7 +2784,7 @@
           "type": "title"
         },
         {
-          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.\n\nAlém disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
+          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.<br/><br/>Além disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
           "type": "description"
         }
       ],
@@ -2889,7 +2889,7 @@
           "type": "title"
         },
         {
-          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nAlém disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
+          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.<br/><br/>Além disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
           "type": "description"
         }
       ],
@@ -2959,7 +2959,7 @@
           "type": "title"
         },
         {
-          "text": "Para participar de uma conversa, são necessárias <strong>habilidades de conversação</strong>. A única maneira de desenvolvê-las é por meio de exercícios interativos onde você adota um papel ativo e pode praticar falando em inglês.\n\nVamos fornecer esses exercícios ambientados em contextos e situações da vida real.",
+          "text": "Para participar de uma conversa, são necessárias <strong>habilidades de conversação</strong>. A única maneira de desenvolvê-las é por meio de exercícios interativos onde você adota um papel ativo e pode praticar falando em inglês.<br/><br/>Vamos fornecer esses exercícios ambientados em contextos e situações da vida real.",
           "type": "description"
         }
       ],
@@ -3314,7 +3314,7 @@
           "type": "title"
         },
         {
-          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.\n\nAlém disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
+          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.<br/><br/>Além disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
           "type": "description"
         }
       ],
@@ -3419,7 +3419,7 @@
           "type": "title"
         },
         {
-          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nAlém disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
+          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.<br/><br/>Além disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
           "type": "description"
         }
       ],
@@ -3524,7 +3524,7 @@
           "type": "title"
         },
         {
-          "text": "As palavras são <strong>informação</strong>, mas a arte de saber usá-las é uma <strong>habilidade</strong>.\n\n<strong>Você pode adquirir essa habilidade</strong> com exercícios interativos onde adota um papel ativo. Assim, você será capaz de usar palavras e expressões de forma fluida em diferentes contextos.",
+          "text": "As palavras são <strong>informação</strong>, mas a arte de saber usá-las é uma <strong>habilidade</strong>.<br/><br/><strong>Você pode adquirir essa habilidade</strong> com exercícios interativos onde adota um papel ativo. Assim, você será capaz de usar palavras e expressões de forma fluida em diferentes contextos.",
           "type": "description"
         }
       ],
@@ -3879,7 +3879,7 @@
           "type": "title"
         },
         {
-          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.\n\nAlém disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
+          "text": "No Master English, você estará exposto a falantes nativos de inglês para se acostumar com seus sotaques e velocidades de fala.<br/><br/>Além disso, vamos ensinar você a reconhecer aquelas palavras e expressões que são mais difíceis de entender para os falantes de português.",
           "type": "description"
         }
       ],
@@ -3984,7 +3984,7 @@
           "type": "title"
         },
         {
-          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nAlém disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
+          "text": "No aplicativo Master English usamos tecnologia de reconhecimento de voz para detectar seus erros de pronúncia e ensiná-lo a corrigi-los.<br/><br/>Além disso, você poderá se ouvir e comparar suas gravações com as de falantes nativos.",
           "type": "description"
         }
       ],
@@ -4089,7 +4089,7 @@
           "type": "title"
         },
         {
-          "text": "As palavras são <strong>informação</strong>, mas a arte de saber usá-las é uma <strong>habilidade</strong>.\n\n<strong>Você pode adquirir essa habilidade</strong> com exercícios interativos onde adota um papel ativo. Assim, você será capaz de usar palavras e expressões de forma fluida em diferentes contextos.",
+          "text": "As palavras são <strong>informação</strong>, mas a arte de saber usá-las é uma <strong>habilidade</strong>.<br/><br/><strong>Você pode adquirir essa habilidade</strong> com exercícios interativos onde adota um papel ativo. Assim, você será capaz de usar palavras e expressões de forma fluida em diferentes contextos.",
           "type": "description"
         }
       ],
@@ -4325,7 +4325,7 @@
           "type": "title"
         },
         {
-          "text": "Pois isso vai mudar! Vamos nos concentrar em fazer com que você interiorize suas habilidades de conversação para que se sinta muito mais natural ao participar de qualquer conversação em inglês.\n\nQuanto mais interiorizadas estiverem suas habilidades, menores serão seus esforços cognitivos para pensar no que deve dizer.",
+          "text": "Pois isso vai mudar! Vamos nos concentrar em fazer com que você interiorize suas habilidades de conversação para que se sinta muito mais natural ao participar de qualquer conversação em inglês.<br/><br/>Quanto mais interiorizadas estiverem suas habilidades, menores serão seus esforços cognitivos para pensar no que deve dizer.",
           "type": "description"
         }
       ],
@@ -4950,7 +4950,7 @@
           "type": "title"
         },
         {
-          "text": "Você terá um programa de inglês <strong>feito sob medida para você</strong> e poderá acessá-lo a partir do <strong>app móvel Master English.</strong>\n\nTodos os nossos exercícios são muito interativos e foram desenvolvidos por professores de inglês altamente qualificados. Além disso, utilizamos modelos de voz de falantes nativos de inglês em todos os nossos exercícios.\n\nVamos criar seu programa <strong>com base no seu nível atual de inglês</strong> e personalizá-lo à medida que identificamos <strong>suas áreas de dificuldade e seu ritmo de aprendizado.</strong>\n\nVamos ajudá-lo a falar fluentemente e a alcançar <strong>um nível avançado de inglês.</strong>",
+          "text": "Você terá um programa de inglês <strong>feito sob medida para você</strong> e poderá acessá-lo a partir do <strong>app móvel Master English.</strong><br/><br/>Todos os nossos exercícios são muito interativos e foram desenvolvidos por professores de inglês altamente qualificados. Além disso, utilizamos modelos de voz de falantes nativos de inglês em todos os nossos exercícios.<br/><br/>Vamos criar seu programa <strong>com base no seu nível atual de inglês</strong> e personalizá-lo à medida que identificamos <strong>suas áreas de dificuldade e seu ritmo de aprendizado.</strong><br/><br/>Vamos ajudá-lo a falar fluentemente e a alcançar <strong>um nível avançado de inglês.</strong>",
           "type": "description"
         }
       ],
@@ -4980,7 +4980,7 @@
           "type": "title"
         },
         {
-          "text": "Embora você tenha um aprendizado independente, não estará sozinho. <strong>Seu programa sempre dirá o que fazer</strong> e fornecerá feedback constantemente.\n\nPela primeira vez, você poderá ter acesso a <strong>um programa completo e totalmente personalizado</strong> a partir de um app móvel.\n\nVamos criar lições de revisão com base no seu progresso e utilizar uma tecnologia de ponta para identificar seus erros de pronúncia e ensiná-lo a corrigi-los.\n\nMaster English é muito diferente de qualquer outro app de idiomas que você já tenha experimentado antes.",
+          "text": "Embora você tenha um aprendizado independente, não estará sozinho. <strong>Seu programa sempre dirá o que fazer</strong> e fornecerá feedback constantemente.<br/><br/>Pela primeira vez, você poderá ter acesso a <strong>um programa completo e totalmente personalizado</strong> a partir de um app móvel.<br/><br/>Vamos criar lições de revisão com base no seu progresso e utilizar uma tecnologia de ponta para identificar seus erros de pronúncia e ensiná-lo a corrigi-los.<br/><br/>Master English é muito diferente de qualquer outro app de idiomas que você já tenha experimentado antes.",
           "type": "description"
         }
       ],
@@ -5139,7 +5139,7 @@
           "type": "title"
         },
         {
-          "text": "Master English utiliza exercícios interativos para que você desenvolva habilidades de conversação.\n\nAnteriormente, como foram suas experiências de aprendizado com o inglês?",
+          "text": "Master English utiliza exercícios interativos para que você desenvolva habilidades de conversação.<br/><br/>Anteriormente, como foram suas experiências de aprendizado com o inglês?",
           "type": "description"
         }
       ],
@@ -5173,7 +5173,7 @@
           "type": "title"
         },
         {
-          "text": "Você se identifica com esta afirmação?\n\n\"Gostaria que um profissional me desenvolvesse um programa de aprendizagem que <strong>se encaixasse nas minhas necessidades</strong> e no qual eu pudesse confiar.\"",
+          "text": "Você se identifica com esta afirmação?<br/><br/>\"Gostaria que um profissional me desenvolvesse um programa de aprendizagem que <strong>se encaixasse nas minhas necessidades</strong> e no qual eu pudesse confiar.\"",
           "type": "description"
         }
       ],
@@ -5212,7 +5212,7 @@
           "type": "title"
         },
         {
-          "text": "Acreditamos que os exercícios de conversação focados na vida real, e com exemplos de falantes nativos, são a chave para que o aprendizado de inglês seja prático e motivador.\n\nMas, quão motivado você está para melhorar seu inglês?",
+          "text": "Acreditamos que os exercícios de conversação focados na vida real, e com exemplos de falantes nativos, são a chave para que o aprendizado de inglês seja prático e motivador.<br/><br/>Mas, quão motivado você está para melhorar seu inglês?",
           "type": "description"
         }
       ],
@@ -5246,7 +5246,7 @@
           "type": "title"
         },
         {
-          "text": "Você se identifica com esta afirmação?\n\n\"Quando tentei aprender inglês no passado, o progresso era tão lento que perdi a motivação.\"",
+          "text": "Você se identifica com esta afirmação?<br/><br/>\"Quando tentei aprender inglês no passado, o progresso era tão lento que perdi a motivação.\"",
           "type": "description"
         }
       ],
@@ -5285,7 +5285,7 @@
           "type": "title"
         },
         {
-          "text": "Você se identifica com esta afirmação?\n\n\"Para me manter motivado, preciso aprender conteúdo que eu possa aplicar no meu dia a dia.\"",
+          "text": "Você se identifica com esta afirmação?<br/><br/>\"Para me manter motivado, preciso aprender conteúdo que eu possa aplicar no meu dia a dia.\"",
           "type": "description"
         }
       ],
@@ -5354,7 +5354,7 @@
           "type": "title"
         },
         {
-          "text": "Você se identifica com esta afirmação?\n\n\"Fatores externos, como melhores oportunidades de trabalho, me motivam a melhorar meu inglês.\"",
+          "text": "Você se identifica com esta afirmação?<br/><br/>\"Fatores externos, como melhores oportunidades de trabalho, me motivam a melhorar meu inglês.\"",
           "type": "description"
         }
       ],
@@ -5679,7 +5679,7 @@
           "type": "title"
         },
         {
-          "text": "De acordo com nossos estudos, é mais eficaz aprender inglês quando se estuda entre 2 horas e 30 minutos e 4 horas por semana, divididas em 3 sessões.\n\nQual desses 3 horários se adapta melhor às suas necessidades?",
+          "text": "De acordo com nossos estudos, é mais eficaz aprender inglês quando se estuda entre 2 horas e 30 minutos e 4 horas por semana, divididas em 3 sessões.<br/><br/>Qual desses 3 horários se adapta melhor às suas necessidades?",
           "type": "description"
         },
         {
@@ -5745,7 +5745,7 @@
           "type": "title"
         },
         {
-          "text": "De acordo com nossos estudos, é mais eficaz aprender inglês quando se estuda entre 2 horas e 30 minutos e 5 horas por semana, divididas em 3 sessões.\n\nQual desses 3 horários se adapta melhor às suas necessidades?",
+          "text": "De acordo com nossos estudos, é mais eficaz aprender inglês quando se estuda entre 2 horas e 30 minutos e 5 horas por semana, divididas em 3 sessões.<br/><br/>Qual desses 3 horários se adapta melhor às suas necessidades?",
           "type": "description"
         },
         {
@@ -5811,7 +5811,7 @@
           "type": "title"
         },
         {
-          "text": "Excelente escolha! Você gostaria de planejar em quais dias terá suas 5 sessões semanais?\n\nA vantagem de completar seu programa em nosso app é que você pode praticar quando tiver tempo e mudar seu horário sempre que precisar.\n\nLembre-se de que para alcançar um bom resultado é melhor seguir um horário fixo.",
+          "text": "Excelente escolha! Você gostaria de planejar em quais dias terá suas 5 sessões semanais?<br/><br/>A vantagem de completar seu programa em nosso app é que você pode praticar quando tiver tempo e mudar seu horário sempre que precisar.<br/><br/>Lembre-se de que para alcançar um bom resultado é melhor seguir um horário fixo.",
           "type": "description"
         }
       ],
@@ -5840,7 +5840,7 @@
           "type": "title"
         },
         {
-          "text": "Excelente escolha! Gostaria de planejar em quais dias você terá suas 3 sessões semanais?\n\nA vantagem de completar seu programa em nosso app é que você pode praticar quando tiver tempo e mudar seu horário sempre que precisar.\n\nLembre-se de que, para obter um bom resultado, é melhor seguir um horário fixo.",
+          "text": "Excelente escolha! Gostaria de planejar em quais dias você terá suas 3 sessões semanais?<br/><br/>A vantagem de completar seu programa em nosso app é que você pode praticar quando tiver tempo e mudar seu horário sempre que precisar.<br/><br/>Lembre-se de que, para obter um bom resultado, é melhor seguir um horário fixo.",
           "type": "description"
         }
       ],
@@ -6035,7 +6035,7 @@
           "type": "title"
         },
         {
-          "text": "#FIRSTNAME#, seu programa está quase pronto.\n\nMas antes, você sabia que ter uma meta definida nos ajuda a manter o foco e a motivação?\n\nQuando temos uma ideia clara de <strong>por que fazemos algo</strong>, é mais fácil continuar e não desistir.\n\nEntão, vamos definir sua meta!",
+          "text": "#FIRSTNAME#, seu programa está quase pronto.<br/><br/>Mas antes, você sabia que ter uma meta definida nos ajuda a manter o foco e a motivação?<br/><br/>Quando temos uma ideia clara de <strong>por que fazemos algo</strong>, é mais fácil continuar e não desistir.<br/><br/>Então, vamos definir sua meta!",
           "type": "description"
         }
       ],
@@ -6333,8 +6333,8 @@
       "contents": [
         {
           "appRatingTexts": {
-            "def": "<strong>Mais de 14.900 avaliações</strong>\n\nNosso app tem uma avaliação de <strong>4.9/5</strong> na App Store.",
-            "MX": "<strong>Mais de 3 100 avaliações</strong>\n\nNosso app tem uma avaliação de <strong>4.9/5</strong> na App Store."
+            "def": "<strong>Mais de 14.900 avaliações</strong><br/><br/>Nosso app tem uma avaliação de <strong>4.9/5</strong> na App Store.",
+            "MX": "<strong>Mais de 3 100 avaliações</strong><br/><br/>Nosso app tem uma avaliação de <strong>4.9/5</strong> na App Store."
           },
           "type": "appRating"
         },
@@ -6416,7 +6416,7 @@
           "type": "title"
         },
         {
-          "text": "Com um programa otimizado, os adultos podem aprender mais rápido que as crianças.\n\nSomos capazes de armazenar grandes quantidades de informação quando as aprendemos em contextos significativos e mediante explicações claras.\n\nQuando levamos em conta nossas necessidades de aprendizado, podemos melhorar nossas habilidades de inglês rapidamente.",
+          "text": "Com um programa otimizado, os adultos podem aprender mais rápido que as crianças.<br/><br/>Somos capazes de armazenar grandes quantidades de informação quando as aprendemos em contextos significativos e mediante explicações claras.<br/><br/>Quando levamos em conta nossas necessidades de aprendizado, podemos melhorar nossas habilidades de inglês rapidamente.",
           "type": "description"
         }
       ],
@@ -6440,7 +6440,7 @@
           "type": "title"
         },
         {
-          "text": "Com um programa otimizado, os adultos podem aprender mais rápido que as crianças.\n\nSomos capazes de armazenar grandes quantidades de informação quando as aprendemos em contextos significativos e mediante explicações claras.\n\nQuando levamos em conta nossas necessidades de aprendizado, podemos melhorar nossas habilidades de inglês rapidamente.",
+          "text": "Com um programa otimizado, os adultos podem aprender mais rápido que as crianças.<br/><br/>Somos capazes de armazenar grandes quantidades de informação quando as aprendemos em contextos significativos e mediante explicações claras.<br/><br/>Quando levamos em conta nossas necessidades de aprendizado, podemos melhorar nossas habilidades de inglês rapidamente.",
           "type": "description"
         }
       ],
@@ -6464,7 +6464,7 @@
           "type": "title"
         },
         {
-          "text": "Seu programa inclui #DAYS# sessões semanais de #MINUTES_PER_SESSION# minutos cada uma.\n\nMas, por que não reduzimos a prática a uma única sessão de #TOTAL_WEEKLY_TIME# por semana?",
+          "text": "Seu programa inclui #DAYS# sessões semanais de #MINUTES_PER_SESSION# minutos cada uma.<br/><br/>Mas, por que não reduzimos a prática a uma única sessão de #TOTAL_WEEKLY_TIME# por semana?",
           "type": "description"
         }
       ],
@@ -6498,7 +6498,7 @@
           "type": "title"
         },
         {
-          "text": "Resposta correta: <strong>Não seria possível revisar o que foi aprendido em intervalos adequados</strong>.\n\nClaro que manter o foco durante #TOTAL_WEEKLY_TIME# seria muito complicado. Mas essa não é a razão mais importante.\n\nPor que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória.\n\n<strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
+          "text": "Resposta correta: <strong>Não seria possível revisar o que foi aprendido em intervalos adequados</strong>.<br/><br/>Claro que manter o foco durante #TOTAL_WEEKLY_TIME# seria muito complicado. Mas essa não é a razão mais importante.<br/><br/>Por que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória.<br/><br/><strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
           "type": "description"
         }
       ],
@@ -6522,7 +6522,7 @@
           "type": "title"
         },
         {
-          "text": "Resposta correta: <strong>Não seria possível revisar o que foi aprendido em intervalos adequados</strong>.\n\nClaro que é difícil encontrar tempo para uma sessão longa de #TOTAL_WEEKLY_TIME#. Mas essa não é a razão mais importante.\n\nPor que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória.\n\n<strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
+          "text": "Resposta correta: <strong>Não seria possível revisar o que foi aprendido em intervalos adequados</strong>.<br/><br/>Claro que é difícil encontrar tempo para uma sessão longa de #TOTAL_WEEKLY_TIME#. Mas essa não é a razão mais importante.<br/><br/>Por que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória.<br/><br/><strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
           "type": "description"
         }
       ],
@@ -6546,7 +6546,7 @@
           "type": "title"
         },
         {
-          "text": "<strong>Não se poderia revisar o aprendido em intervalos adequados</strong>.\n\nE por que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória. \n \n<strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
+          "text": "<strong>Não se poderia revisar o aprendido em intervalos adequados</strong>.<br/><br/>E por que os intervalos de repetição são tão importantes? Por causa de como funciona nossa memória. <br/> <br/><strong>Nossa memória precisa ser estimulada várias vezes dentro de uma faixa de repetição ideal</strong>. Caso contrário, é fácil esquecer o que aprendemos.",
           "type": "description"
         }
       ],
@@ -6594,7 +6594,7 @@
           "type": "title"
         },
         {
-          "text": "Reservamos o melhor para o final:\n\nNo Master English, estamos comprometidos a ajudar pessoas falantes de português a conseguir um nível avançado em inglês. Consideramos que, se você não alcançar um nível avançado com nosso programa, não deve pagar.\n\nEstamos dispostos a assumir o risco para que você obtenha resultados.",
+          "text": "Reservamos o melhor para o final:<br/><br/>No Master English, estamos comprometidos a ajudar pessoas falantes de português a conseguir um nível avançado em inglês. Consideramos que, se você não alcançar um nível avançado com nosso programa, não deve pagar.<br/><br/>Estamos dispostos a assumir o risco para que você obtenha resultados.",
           "type": "description"
         }
       ],
@@ -6618,7 +6618,7 @@
           "type": "title"
         },
         {
-          "text": "Garantimos que se você completar seu programa Master English online em\n\n#MONTHS# meses\n#PRACTICE_DAYS_PER_WEEK# sessões de #MINUTES_PER_SESSION# minutos por semana\n\nvocê alcançará um nível avançado de inglês. Caso contrário, <strong>reembolsaremos todas as suas taxas de assinatura na íntegra</strong>.",
+          "text": "Garantimos que se você completar seu programa Master English online em<br/><br/>#MONTHS# meses<br/>#PRACTICE_DAYS_PER_WEEK# sessões de #MINUTES_PER_SESSION# minutos por semana<br/><br/>você alcançará um nível avançado de inglês. Caso contrário, <strong>reembolsaremos todas as suas taxas de assinatura na íntegra</strong>.",
           "type": "description"
         }
       ],
@@ -6652,7 +6652,7 @@
         {
           "listItems": [
             {
-              "text": "TOEFL iBT: 72 pontos\n TOEFL ITP: 585 pontos",
+              "text": "TOEFL iBT: 72 pontos<br/> TOEFL ITP: 585 pontos",
               "title": "TOEFL"
             },
             {
@@ -6664,14 +6664,14 @@
               "title": "Cambridge English test"
             },
             {
-              "text": "TOEIC Listening & Reading: 865 pontos\nTOEIC Speaking & Writing: 335 pontos",
+              "text": "TOEIC Listening & Reading: 865 pontos<br/>TOEIC Speaking & Writing: 335 pontos",
               "title": "TOEIC"
             }
           ],
           "type": "list"
         },
         {
-          "text": "Para obter seu reembolso, faça um exame de inglês e envie-nos seus resultados (suporte@masterenglish.com) no prazo de 2 meses após ter concluído seu programa Master English.\n\nVocê só precisa fazer um exame de inglês caso queira um reembolso.",
+          "text": "Para obter seu reembolso, faça um exame de inglês e envie-nos seus resultados (suporte@masterenglish.com) no prazo de 2 meses após ter concluído seu programa Master English.<br/><br/>Você só precisa fazer um exame de inglês caso queira um reembolso.",
           "type": "description"
         }
       ],
@@ -6776,7 +6776,7 @@
       "badge": "DiscountBadge",
       "contents": [
         {
-          "text": "O programa\nde inglês de #FIRSTNAME#",
+          "text": "O programa<br/>de inglês de #FIRSTNAME#",
           "type": "title"
         },
         {
@@ -6887,7 +6887,7 @@
                   "listType": "none",
                   "listItems": [
                     {
-                      "text": "1. Complete seu programa para o <span style='color: #007AFF;'>#END_DATE_LONG#</span>.\n\n2. Realize um exame de inglês e nos envie seus resultados (soporte@masterenglish.com) no prazo de 2 meses após ter completado seu programa.\n\n3. Se você não obtiver, no mínimo, os resultados listados a seguir, reembolsaremos todas as suas cobranças de assinatura na íntegra:"
+                      "text": "1. Complete seu programa para o <span style='color: #007AFF;'>#END_DATE_LONG#</span>.<br/><br/>2. Realize um exame de inglês e nos envie seus resultados (soporte@masterenglish.com) no prazo de 2 meses após ter completado seu programa.<br/><br/>3. Se você não obtiver, no mínimo, os resultados listados a seguir, reembolsaremos todas as suas cobranças de assinatura na íntegra:"
                     }
                   ]
                 },
@@ -6896,7 +6896,7 @@
                   "listType": "normal",
                   "listItems": [
                     {
-                      "text": "TOEFL iBT: 72 pontos\n TOEFL ITP: 585 pontos",
+                      "text": "TOEFL iBT: 72 pontos<br/> TOEFL ITP: 585 pontos",
                       "title": "TOEFL"
                     },
                     {
@@ -6908,7 +6908,7 @@
                       "title": "Cambridge English test"
                     },
                     {
-                      "text": "TOEIC Listening & Reading: 865 pontos\nTOEIC Speaking & Writing: 335 pontos",
+                      "text": "TOEIC Listening & Reading: 865 pontos<br/>TOEIC Speaking & Writing: 335 pontos",
                       "title": "TOEIC"
                     }
                   ]
@@ -6931,8 +6931,8 @@
             "description": "Sem compromisso. Cancele a qualquer momento.",
             "paymentHeader": "Selecione um método de pagamento para começar seu programa",
             "title": "Inicie uma assinatura mensal para começar seu programa",
-            "typeOnetime": "O valor total pelo seu programa de #ME_MONTHS# meses é de #ME_TOTAL_FEE#. A cobrança será realizada no mesmo dia da compra.\n\nDepois de completar seu programa, você terá um nível avançado de inglês. Se isso não for cumprido, reembolsaremos a quantia de #ME_TOTAL_FEE# (é necessário um exame de inglês).",
-            "typeSubscription": "O valor total pelo seu programa de #ME_MONTHS# meses é de #ME_TOTAL_FEE#. Este preço será cobrado em #ME_MONTHS# mensalidades sem juros de #ME_FEE# cada uma. Hoje será feita a primeira cobrança.\n\nDepois de completar seu programa, você terá um nível avançado de inglês. Se isso não for alcançado, reembolsaremos a quantia de #ME_TOTAL_FEE# (é necessário um exame de inglês)."
+            "typeOnetime": "O valor total pelo seu programa de #ME_MONTHS# meses é de #ME_TOTAL_FEE#. A cobrança será realizada no mesmo dia da compra.<br/><br/>Depois de completar seu programa, você terá um nível avançado de inglês. Se isso não for cumprido, reembolsaremos a quantia de #ME_TOTAL_FEE# (é necessário um exame de inglês).",
+            "typeSubscription": "O valor total pelo seu programa de #ME_MONTHS# meses é de #ME_TOTAL_FEE#. Este preço será cobrado em #ME_MONTHS# mensalidades sem juros de #ME_FEE# cada uma. Hoje será feita a primeira cobrança.<br/><br/>Depois de completar seu programa, você terá um nível avançado de inglês. Se isso não for alcançado, reembolsaremos a quantia de #ME_TOTAL_FEE# (é necessário um exame de inglês)."
           },
           "type": "payment"
         },
