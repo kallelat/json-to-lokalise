@@ -10,7 +10,7 @@
   "validator_phone": "Introduce un número válido con prefijo",
 
   "old_os_text1": "La aplicación Master English admite los siguientes sistemas operativos:",
-  "old_os_text2": "iOS: versión 14.0 o posterior\nAndroid: versión 11.0 o posterior",
+  "old_os_text2": "iOS: versión 14.0 o posterior<br/>Android: versión 11.0 o posterior",
   "old_os_text3": "Por favor, actualice su sistema operativo antes de continuar.",
   "old_os_title": "Tu sistema operativo no es compatible",
   "old_os_button": "Aceptar",
@@ -116,7 +116,7 @@
   "reactivate_list_title_2": "Cómo funciona:",
   "reactivate_list_text_1": "Speaking, Listening, Reading, Writing y Grammar",
   "reactivate_list_text_2": "Hemos guardado tu progreso anterior. Tu programa continuará desde donde lo dejaste. Después de que hayas reactivado tu programa, podrás iniciar sesión en la aplicación Master English con tu iPhone o teléfono Android. Nuestras lecciones personalizadas te permitirán ponerte al día rápidamente.",
-  "reactivate_payment_type": "Tu suscripción se renovará mensualmente hasta que la canceles. Puedes cancelar tu suscripción y tu programa en cualquier momento.\n\nTe enviaremos un email 3 días antes de que se cumplan los ${months} meses que dura tu programa para que te acuerdes de cancelar tu suscripción antes de que se renueve el #MONTHS# º mes, si así lo deseas.",
+  "reactivate_payment_type": "Tu suscripción se renovará mensualmente hasta que la canceles. Puedes cancelar tu suscripción y tu programa en cualquier momento.<br/><br/>Te enviaremos un email 3 días antes de que se cumplan los ${months} meses que dura tu programa para que te acuerdes de cancelar tu suscripción antes de que se renueve el #MONTHS# º mes, si así lo deseas.",
   "reactivate_payment_description": "Sin compromiso. Cancela en cualquier momento.",
   "reactivate_payment_header": "Selecciona un método de pago para reactivar tu programa",
   "reactivate_payment_title": "Inicia una suscripción mensual para reactivar tu programa",
