@@ -16,32 +16,37 @@ const files: File[] = [
   { locale: "pt", filename: "v69-pt.json", translations: {} },
 ];
 
+const example = /foobar/gi;
 // if these string are included in either masterValue or breadCrumb, do not process the string
-const blacklist: string[] = [
-  "userLevel",
-  "listType",
-  "initialLevelType",
-  "badge",
-  "filename",
-  "extension",
-  ".type",
-  "image",
-  "onPass",
-  "code",
-  "locale",
-  "productType",
-  "single-frame",
-  "currency",
-  "barColor",
-  "textColor",
-  "buttonStyle",
+const blacklist: RegExp[] = [
+  /^userLevel$/,
+  /^listType$/,
+  /^initialLevelType$/,
+  /^badge$/,
+  /^filename^/,
+  /^extension$/,
+  /^type$/,
+  /^image$/,
+  /^onPass$/,
+  /^code$/,
+  /^locale$/,
+  /^productType$/,
+  /^single-frame$/,
+  /^currency$/,
+  /^barColor$/,
+  /^textColor$/,
+  /^buttonStyle$/,
+  /^left$/,
+  /^large$/,
+  /^[1-9]M$/,
+  /^#ME_FEE#$/,
 ];
 
 const isBlacklisted = (str: string) => {
-  return blacklist.filter((rule) => str.includes(rule)).length > 0;
+  return blacklist.filter((rule) => rule.test(str)).length > 0;
 };
 
-const add = (masterValue: string, breadcrumb: string) => {
+const add = (key: string, masterValue: string, breadcrumb: string) => {
   if (masterValue === "") {
     return;
   }
@@ -53,7 +58,11 @@ const add = (masterValue: string, breadcrumb: string) => {
   }
 
   // some blacklist checks
-  if (isBlacklisted(masterValue) || isBlacklisted(breadcrumb)) {
+  if (
+    isBlacklisted(key) ||
+    isBlacklisted(masterValue) ||
+    isBlacklisted(breadcrumb)
+  ) {
     return;
   }
 
@@ -71,7 +80,7 @@ const handleObject = (jsonObject: any, breadcrumb: string) => {
 
     // strings are to be translated
     if (typeof value === "string") {
-      add(value, newBreadCrumb);
+      add(key, value, newBreadCrumb);
       continue;
     }
 
@@ -98,7 +107,7 @@ const handleArray = (array: any[], breadcrumb: string) => {
 
     // strings
     if (typeof value === "string") {
-      add(value, newBreadCrumb);
+      add(k.toString(), value, newBreadCrumb);
       continue;
     }
 
