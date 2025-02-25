@@ -11,9 +11,9 @@ interface File {
 
 // define source files (the first one is the "master")
 const files: File[] = [
-  { locale: "en", filename: "v69-en.json", translations: {} },
-  { locale: "es", filename: "v69-es.json", translations: {} },
-  { locale: "pt", filename: "v69-pt.json", translations: {} },
+  { locale: "en", filename: "questionnaire_en-US_v62.json", translations: {} },
+  { locale: "es", filename: "questionnaire_es-419_v62.json", translations: {} },
+  //{ locale: "pt", filename: "v69-pt.json", translations: {} },
 ];
 
 const example = /foobar/gi;
