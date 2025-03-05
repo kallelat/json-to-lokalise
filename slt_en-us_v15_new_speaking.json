@@ -1,0 +1,3296 @@
+{
+  "startingLevelState": {
+    "version": "15",
+    "guaranteeDate": "0001-01-01",
+    "initialLevel": "elementary",
+    "step": -1,
+    "viewId": -1,
+    "completed": false,
+    "levelFound": false,
+    "answers": [],
+    "userLevel": "elementary",
+    "resultGoals": [],
+    "resultLevels": [],
+    "weeklyPracticeDays": 0,
+    "dailyPracticeLessons": 0,
+    "totalPracticeWeekCount": 0
+  },
+  "startingLevelDashboard": {
+    "introFlowId": 11,
+    "preInfo": {
+      "title": "Starting level test",
+      "description": "Complete the 6 parts of the starting level test to get your personalised English program."
+    },
+    "dashboardItems": [
+      {
+        "id": 0,
+        "name": "Instructions",
+        "description": "3 min",
+        "itemType": "InfoFlow",
+        "image": {
+          "url": "/personalized-dashboard/Badge08@3x.jpg"
+        },
+        "groupId": 1,
+        "flowId": 15
+      },
+      {
+        "id": 1,
+        "name": "Part 1 - Vocabulary",
+        "description": "10 min",
+        "itemType": "Exercise",
+        "image": {
+          "url": "/personalized-dashboard/Badge09@3x.jpg"
+        },
+        "groupId": 1,
+        "flowId": -1,
+        "preFlowId": 26,
+        "testCorrectId": 28,
+        "testIncorrectId": 32,
+        "testLowerBoundaryId": 31,
+        "testUpperBoundaryId": 35,
+        "testLongCorrectId": 37,
+        "testLongIncorrectId": 38,
+        "postFlowId": -1
+      },
+      {
+        "id": 2,
+        "name": "Part 2 - Grammar",
+        "description": "10 min",
+        "itemType": "Exercise",
+        "image": {
+          "url": "/personalized-dashboard/Badge10@3x.jpg"
+        },
+        "groupId": 1,
+        "flowId": -1,
+        "preFlowId": 43,
+        "testCorrectId": 45,
+        "testIncorrectId": 49,
+        "testLowerBoundaryId": 48,
+        "testUpperBoundaryId": 52,
+        "testLongCorrectId": 54,
+        "testLongIncorrectId": 55,
+        "postFlowId": -1
+      },
+      {
+        "id": 3,
+        "name": "Part 3 - Reading",
+        "description": "10 min",
+        "itemType": "Exercise",
+        "image": {
+          "url": "/personalized-dashboard/Badge11@3x.jpg"
+        },
+        "groupId": 1,
+        "flowId": -1,
+        "preFlowId": 60,
+        "testCorrectId": 62,
+        "testIncorrectId": 66,
+        "testLowerBoundaryId": 65,
+        "testUpperBoundaryId": 69,
+        "testLongCorrectId": 71,
+        "testLongIncorrectId": 72,
+        "postFlowId": -1
+      },
+      {
+        "id": 4,
+        "name": "Part 4 - Writing",
+        "description": "10 min",
+        "itemType": "Exercise",
+        "image": {
+          "url": "/personalized-dashboard/Badge12@3x.jpg"
+        },
+        "groupId": 2,
+        "flowId": -1,
+        "preFlowId": 82,
+        "testCorrectId": 84,
+        "testIncorrectId": 84,
+        "testLowerBoundaryId": 84,
+        "testUpperBoundaryId": 84,
+        "testLongCorrectId": 96,
+        "testLongIncorrectId": 96,
+        "postFlowId": -1
+      },
+      {
+        "id": 5,
+        "name": "Part 5 - Listening",
+        "description": "10 min",
+        "itemType": "Exercise",
+        "image": {
+          "url": "/personalized-dashboard/Badge13@3x.jpg"
+        },
+        "groupId": 2,
+        "flowId": -1,
+        "preFlowId": 99,
+        "testCorrectId": 101,
+        "testIncorrectId": 105,
+        "testLowerBoundaryId": 104,
+        "testUpperBoundaryId": 108,
+        "testLongCorrectId": 110,
+        "testLongIncorrectId": 111,
+        "postFlowId": -1
+      },
+      {
+        "id": 6,
+        "name": "Part 6 - Speaking",
+        "description": "10 min",
+        "itemType": "Exercise",
+        "image": {
+          "url": "/personalized-dashboard/Badge14@3x.jpg"
+        },
+        "groupId": 2,
+        "flowId": 116,
+        "preFlowId": 116,
+        "testLongCorrectId": 130,
+        "testLongIncorrectId": 130,
+        "postFlowId": -1
+      },
+      {
+        "id": 7,
+        "name": "Results of the test",
+        "description": "2 min",
+        "itemType": "InfoFlow",
+        "image": {
+          "url": "/personalized-dashboard/Badge17@3x.jpg"
+        },
+        "groupId": 2,
+        "flowId": 136
+      }
+    ],
+    "postInfo": {
+      "title": "#FIRST_NAME#'s program",
+      "description": "We will finish personalizing your program based on the results of your test. Once you complete all the sections, you will be able to access your first week of practice."
+    },
+    "postFlowId": 143,
+    "endInfo": {
+      "title": "#FIRST_NAME#'s program",
+      "description": "We will finish personalizing your program based on the results of your test. You can now access the first week of practice in your program!"
+    },
+    "levelFoundEarlyFlowId": 54,
+    "dashboardImage": {
+      "url": "/personalized-dashboard/Header_Day_SLT@3x.jpg"
+    },
+    "speakingLessonViewIds": [
+      119,
+      121,
+      123,
+      125
+    ],
+    "upperIntermediateProgramSkipId": 146
+  },
+  "startingLevelItems": [
+    {
+      "id": 11,
+      "type": "ImageOption",
+      "title": "Welcome #FIRST_NAME#",
+      "description": "Welcome to your test!\n\nBased on your answers to our questionnaire, we have created a starting level test for you.\n\nHow are you feeling right now?",
+      "image": {
+        "url": "/starting-level-test/Bienvenido.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Excited to start",
+          "followUpQuestion": 12
+        },
+        {
+          "id": 2,
+          "description": "Not yet sure what to expect",
+          "followUpQuestion": 12
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "IconPrimary",
+      "title": "Starting level test",
+      "description": "This test consists of [strong]6 parts[/strong] and it will take you [strong]10 minutes[/strong] to complete each one of them.\n\nWe will use your results to optimize your prersonalized English program.",
+      "image": {
+        "url": "/starting-level-test/v4/illustration-icons/TestGo.png"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Go to the test",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "ImagePrimary",
+      "title": "Objective",
+      "description": "The purpose of the test is to confirm your current level in English and to better understand your problem areas.\n\nThe test is divided into 6 parts, we recommend you to complete three parts [strong]today[/strong] and three [strong]tomorrow.[/strong]",
+      "image": {
+        "url": "/starting-level-test/WelcomingNotes.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Sounds good!",
+          "followUpQuestion": 16
+        }
+      ],
+      "styleAttributes": [
+        "showProgressBar",
+        "resetProgress"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "InfoPrimary",
+      "title": "The six skills",
+      "description": "To assess your level comprehensively, we’ll test each of these skills separately:#SKILL_LIST#",
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 17
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "IconPrimary",
+      "title": "Exercises",
+      "description": "We’ll first use interactive exercises to assess your vocabulary and grammar.\n\nThen, we will evaluate your Reading, Writing, Listening and Speaking skills with exercises inspired by real-life situations.",
+      "image": {
+        "url": "/starting-level-test/v4/illustration-icons/Exercises.png"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 18
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "IconPrimary",
+      "title": "Levels of difficulty",
+      "description": "We’ll start each test with easier exercises, then we’ll increase the level of difficulty step by step.\n\nIf you don’t know the answer to an exercise, you can click the skip button in the upper right corner:#SKIP_IMG#",
+      "image": {
+        "url": "/starting-level-test/v4/illustration-icons/Difficulty.png"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 19
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "IconPrimary",
+      "title": "Confirming your level",
+      "description": "Our learning technology tracks how you are doing in the test. Moreover, we’ll take small pauses to ask you about [strong]your experience[/strong] with the exercises.\n\nWe’ll use this information to decide whether we should increase the level of difficulty or [strong]if we should exchange into a different type of exercise.[/strong]",
+      "image": {
+        "url": "/starting-level-test/v4/illustration-icons/Level.png"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 24
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "type": "InfoPrimary",
+      "styleAttributes": [
+        "completionScreen",
+        "hideProgressBar"
+      ],
+      "title": "Let's get started!",
+      "description": "Please, complete the test at a pace you find comfortable and to the best of your capability.",
+      "options": [
+        {
+          "id": 1,
+          "description": "Start the test",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "type": "ImagePrimary",
+      "title": "Part 1 - Vocabulary",
+      "description": "You’ll be first recognising some words and later writing them.\n\nWe’ll start with some easy words to confirm if you already know them. After that, we’ll advance step by step towards words that are new to you.",
+      "image": {
+        "url": "/starting-level-test/v4/TestVocabulary.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "type": "LevelQuestion",
+      "title": "#SHORT_SECTION_FAMILIAR_TITLE_RULE#",
+      "description": "It seems you were familiar with most words in the previous exercises.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults0.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 29
+        },
+        {
+          "id": 2,
+          "description": "No, most of the words were new to me",
+          "followUpQuestion": 30
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "type": "ImagePrimary",
+      "title": "¡Estupendo!",
+      "description": "Let's take a step towards more challenging words then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "type": "ImagePrimary",
+      "title": "Thank you for sharing",
+      "description": "Let's then move to an exercise where the [strong]words are a bit easier but you'll be writing them.[/strong] This allows us to confirm your level in vocabulary.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be [strong]writing words.[/strong] This allows us to confirm your level in vocabulary.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems most of the words in the previous exercises were new to you.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 33
+        },
+        {
+          "id": 2,
+          "description": "No, I was familiar with most of the words",
+          "followUpQuestion": 34
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where the [strong]words are a bit easier but you'll be writing them.[/strong] This allows us to confirm your level in vocabulary.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "type": "ImagePrimary",
+      "title": "Excellent",
+      "description": "Let's try a set of more challenging words then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be [strong]writing words.[/strong] This allows us to confirm your level in vocabulary.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "type": "LevelQuestion",
+      "title": "You've done a great job, #FIRST_NAME#!",
+      "description": "It seems that you were familiar with most of the words in the previous exercises.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 39
+        },
+        {
+          "id": 2,
+          "description": "No, most of the words were new to me",
+          "followUpQuestion": 39
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems that most of the words in the previous exercises were new to you.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 39
+        },
+        {
+          "id": 2,
+          "description": "No, I was familiar with most of the words",
+          "followUpQuestion": 39
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "¡Gracias #FIRST_NAME#!",
+      "description": "You have now completed the vocabulary test.\n\nLet's take a look at the results!",
+      "image": {
+        "url": "/starting-level-test/Test2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Show me the results",
+          "followUpQuestion": 40
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "ImagePrimary",
+      "title": "Your level in vocabulary",
+      "description": "Based on the test, your starting level in vocabulary is:\n\n#VOCABULARY_STARTING_LEVEL#\n\nWe'll finalize your personalized program once we confirm the level you have in the other 5 skill areas.",
+      "image": {
+        "url": "/starting-level-test/v4/TestVocabulary.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 41
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "type": "ImagePrimary",
+      "title": "Next up: grammar",
+      "description": "Keep up the great work in [strong]part 2 - grammar.[/strong]\n\nAfter that things willl get even more exciting as we move to test your real-life English skills.",
+      "image": {
+        "url": "/starting-level-test/v4/TestGrammar.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "ImagePrimary",
+      "title": "Part 2 - Grammar",
+      "description": "We are going to test your grammar level. To do this, complete the following sentences and then some short texts.\n\nWe will start with easy exercises and then we will increase the difficulty.",
+      "image": {
+        "url": "/starting-level-test/v4/TestGrammar.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "type": "LevelQuestion",
+      "title": "#SHORT_SECTION_FAMILIAR_TITLE_RULE#",
+      "description": "It seems you were familiar with most of the grammar needed in the previous exercises.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults0.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 46
+        },
+        {
+          "id": 2,
+          "description": "No, most of the exercises were challenging for me",
+          "followUpQuestion": 47
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "type": "ImagePrimary",
+      "title": "Great!",
+      "description": "Let's take a step towards more challenging grammar then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "type": "ImagePrimary",
+      "title": "Thank you for sharing",
+      "description": "Let's then move to an exercise where the needed grammar is a bit more simple.\n\nThis time, you'll be filling in the gaps to short texts. This allows us to get a more comprehensive idea of your level in grammar.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be filling in the gaps to short texts. This allows us to get a more comprehensive idea of your level in grammar.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems most of the previous grammar exercises were challenging for you.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 50
+        },
+        {
+          "id": 2,
+          "description": "No, I was familiar with most of the grammar",
+          "followUpQuestion": 51
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where the level of difficulty is a bit easier.\n\nThis time, you'll be filling in the gaps to short texts. This allows us to get a more comprehensive idea of your level in grammar.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "type": "ImagePrimary",
+      "title": "Excellent",
+      "description": "Let's try a set of more challenging grammar exercises then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be filling in the gaps to short texts. This allows us to get a more comprehensive idea of your level in grammar.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "type": "LevelQuestion",
+      "title": "Well done, #FIRST_NAME#!",
+      "description": "It seems you were familiar with most of the grammar needed in the previous exercises.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 56
+        },
+        {
+          "id": 2,
+          "description": "No, most of the exercises were challenging for me",
+          "followUpQuestion": 56
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems most of the previous grammar exercises were challenging for you.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 56
+        },
+        {
+          "id": 2,
+          "description": "No, I was familiar with most of the grammar",
+          "followUpQuestion": 56
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "Thank you, #FIRST_NAME#!",
+      "description": "You have now completed the grammar test.\n\nLet's take a look at the results!",
+      "image": {
+        "url": "/starting-level-test/Test2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Show me the results",
+          "followUpQuestion": 57
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "type": "ImagePrimary",
+      "title": "Your level in grammar",
+      "description": "Based on the test, your starting level in grammar is:\n\n#GRAMMAR_STARTING_LEVEL#\n\nWe'll finalize your personalized program based on your confirmed starting level in grammar and in the other skill areas. We'll teach you what you need to learn to achieve an advanced level in English.",
+      "image": {
+        "url": "/starting-level-test/v4/TestGrammar.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Sounds good",
+          "followUpQuestion": 58
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "type": "ImagePrimary",
+      "title": "Next up: reading",
+      "description": "You have been performing really well today, #FIRST_NAME#.\n\nNext, we'll start to test your communication skills in English, reading being the first of them.\n\nThat will be the final test part for today.",
+      "image": {
+        "url": "/starting-level-test/v4/TestReading.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's do it!",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "type": "ImagePrimary",
+      "title": "Part 3 - Reading",
+      "description": "Please complete the following sentences using their context. We'll start with easier to more difficult sentences.\n\nThen, you'll have to [strong]read a text[/strong] and answer some questions.",
+      "image": {
+        "url": "/starting-level-test/v4/TestReading.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "type": "LevelQuestion",
+      "title": "#SHORT_SECTION_FAMILIAR_TITLE_RULE#",
+      "description": "It seemed to be easy for you to understand most of the sentences.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults0.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 63
+        },
+        {
+          "id": 2,
+          "description": "No, most of the sentences were a bit unclear to me",
+          "followUpQuestion": 64
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "type": "ImagePrimary",
+      "title": "Great!",
+      "description": "In that case, we will give you more challenging sentences.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "ImagePrimary",
+      "title": "Thank you for sharing",
+      "description": "Let's then move to an exercise where the level is a bit easier.\n\nIn this case, you'll be [strong]reading a text and answering questions[/strong] related to its content. This allows us to get a more comprehensive idea of your reading skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be [strong]reading a text and answering questions[/strong] related to its content.\n\nThis allows us to get a more comprehensive idea of your reading skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems the meaning of most of those sentences was a bit unclear to you.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 67
+        },
+        {
+          "id": 2,
+          "description": "No, I understood most of the sentences completely",
+          "followUpQuestion": 68
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where the level is a bit easier.\n\nIn this case, you'll be [strong]reading a text and answering questions[/strong] related to its content. This allows us to get a more comprehensive idea of your reading skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "type": "ImagePrimary",
+      "title": "Excellent",
+      "description": "Let's try a set of more challenging sentences then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be [strong]reading a text and answering questions[/strong] related to its content.\n\nThis allows us to get a more comprehensive idea of your reading skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "type": "LevelQuestion",
+      "title": "Great job, #FIRST_NAME#!",
+      "description": "It seems that you were able to understand most of the text.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 73
+        },
+        {
+          "id": 2,
+          "description": "No, most of the text was a bit unclear to me",
+          "followUpQuestion": 73
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems that you had difficulties understanding the text.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 73
+        },
+        {
+          "id": 2,
+          "description": "No, I understood most of the text completely",
+          "followUpQuestion": 73
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "Thank you, #FIRST_NAME#!",
+      "description": "You have now completed the reading test.\n\nLet's take a look at the results!",
+      "image": {
+        "url": "/starting-level-test/Test2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Show me the results",
+          "followUpQuestion": 74
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "type": "ImagePrimary",
+      "title": "Your level in reading",
+      "description": "Based on the test, your level in reading is:\n\n#READING_STARTING_LEVEL#\n\nYou have done a great job today. We can see you really have what it takes to achieve an advanced level in English.",
+      "image": {
+        "url": "/starting-level-test/v4/TestReading.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Did I complete the first test day already?",
+          "followUpQuestion": 75
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "type": "IconOption",
+      "title": "Day 1 completed!",
+      "description": "Great job! You have finished the parts of the test corresponding to your first day. You have progressed a lot and deserve a break.\n\nTomorrow you will be able to continue with the remaining 3 parts of the test. After that, we will take you to your first week of practice.\n\nHow does that sound, #FIRST_NAME#?",
+      "image": {
+        "url": "/starting-level-test/v4/illustration-icons/DayComplete.png"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Great, see you tomorrow!",
+          "followUpQuestion": 76
+        },
+        {
+          "id": 2,
+          "description": "I would like to do more today",
+          "followUpQuestion": 78
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "type": "ImageOption",
+      "title": "We look forward to it",
+      "description": "But we don't want you to forget about your goal. We want to help you achieve it.\n\n[strong]Would you like us to remind you tomorrow to complete your starting level test?[/strong]",
+      "image": {
+        "url": "/starting-level-test/NotificationBackground.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes",
+          "followUpQuestion": 77,
+          "specialAction": "pushPermission"
+        },
+        {
+          "id": 2,
+          "description": "No, thank you",
+          "followUpQuestion": 77
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "All set!",
+      "description": "We will continue tomorrow by testing your [strong]writing, listening and speaking[/strong] skills.\n\nThe speaking part includes our state of the art pronunciation detecting technology. We are waiting a lot to show it to you!\n\nYou can now close the app and open it again tomorrow to complete the rest of the test.",
+      "image": {
+        "url": "/starting-level-test/NotificationBackground.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "type": "InfoPrimary",
+      "title": "If you want, you can continue the test",
+      "description": "If you want to make tomorrow easier for yourself, you can already complete [strong]the writing test[/strong] today and leave the rest for tomorrow.\n\nAnd we won't stop you from doing even more if you want to.\n\nHowever, please try to keep the amount of time you plan to devote to studying English on a level [strong]you can keep up with in the long term.[/strong] It's a common mistake to start too intensively and end up getting fed up soon after. So let's be smart about this!",
+      "options": [
+        {
+          "id": 1,
+          "description": "Got it",
+          "followUpQuestion": 79
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "type": "ImageOption",
+      "title": "Remember your goal",
+      "description": "Before continuing we wanted to ask you: Would you like us to remind you tomorrow to complete the rest of the test?",
+      "image": {
+        "url": "/starting-level-test/NotificationBackground.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes",
+          "followUpQuestion": 80,
+          "specialAction": "pushPermission"
+        },
+        {
+          "id": 2,
+          "description": "No, thank you",
+          "followUpQuestion": 80
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "All set!",
+      "description": "You can now continue to test part 4 - [strong]writing.[/strong]",
+      "image": {
+        "url": "/starting-level-test/NotificationBackground.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's do it!",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "type": "ImagePrimary",
+      "title": "Part 4 - Writing",
+      "description": "In this part we are going to evaluate your writing. To do this, [strong]you must write a short text in English.[/strong]\n\nWhen you write the text, pay attention to:\n\n- the grammar and spelling\n- the topic that is asked\n- that the text is coherent",
+      "image": {
+        "url": "/starting-level-test/v4/TestWriting.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "type": "InfoOption",
+      "title": "Text received!",
+      "description": "Before checking your results, we’d like to know how you felt about your performance in this exercise, #FIRST_NAME#.",
+      "options": [
+        {
+          "id": 1,
+          "description": "I think I did well",
+          "followUpQuestion": 1012,
+          "specialAction": "nlpWasOkDifficult"
+        },
+        {
+          "id": 2,
+          "description": "It felt too difficult to me",
+          "followUpQuestion": 1013,
+          "specialAction": "nlpWasTooDifficult"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "type": "ImagePrimary",
+      "title": "Your level in writing",
+      "description": "Based on the test, your starting level in writing is:\n\n#WRITING_STARTING_LEVEL#\n\nKnowing your starting level in all skill areas allows us to teach you what you need to learn to achieve an advanced level in English.",
+      "image": {
+        "url": "/starting-level-test/v4/TestWriting.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Sounds good",
+          "followUpQuestion": 97
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "type": "ImagePrimary",
+      "title": "Next up: listening",
+      "description": "You only have [strong]2 parts[/strong] left to complete your test and go to the first practice week!\n\nNext, we will test your listening comprehension skills. Shall we continue?",
+      "image": {
+        "url": "/starting-level-test/v4/TestListening.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's do it!",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "type": "ImagePrimary",
+      "title": "Part 5 - Listening",
+      "description": "In the first listening exercises you will have to choose the word you hear. Then, you will have to choose the correct phrase to answer some audios.\n\nTo finish, we will ask you to listen to a longer audio and then answer some questions.",
+      "image": {
+        "url": "/starting-level-test/v4/TestListening.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "type": "LevelQuestion",
+      "title": "#SHORT_SECTION_FAMILIAR_TITLE_RULE#",
+      "description": "It seems to have been easy for you to understand most of what was being said in the previous exercises.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults0.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 102
+        },
+        {
+          "id": 2,
+          "description": "No, I had difficulties understanding what was being said",
+          "followUpQuestion": 103
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "type": "ImagePrimary",
+      "title": "Great!",
+      "description": "Let's take a step towards more challenging recordings then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "type": "ImagePrimary",
+      "title": "Thank you for sharing",
+      "description": "Let's then move to an exercise where the level is a bit easier.\n\nNext, you'll be listening to a [strong]longer audio clip[/strong] and [strong]answering questions[/strong] based on it. This allows us to get a more comprehensive idea of your listening skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be listening to a [strong]longer audio clip[/strong] and [strong]answering questions[/strong] based on it.\n\nThis allows us to get a more comprehensive idea of your listening skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems to have been difficult for you to understand what was said in the previous exercises.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 106
+        },
+        {
+          "id": 2,
+          "description": "No, most of what was said was clear to me",
+          "followUpQuestion": 107
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where the level is a bit easier.\n\nNext, you'll be listening to a [strong]longer audio clip[/strong] and [strong]answering questions[/strong] based on it. This allows us to get a more comprehensive idea of your listening skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "type": "ImagePrimary",
+      "title": "Excellent",
+      "description": "Let's try a set of more challenging recordings then.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I'm ready",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "type": "ImagePrimary",
+      "title": "Alright",
+      "description": "Let's then move to an exercise where you'll be listening to a [strong]longer audio clip[/strong] and [strong]answering questions[/strong] based on it.\n\nThis allows us to get a more comprehensive idea of your listening skills.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsNext.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "type": "LevelQuestion",
+      "title": "Excellent, #FIRST_NAME#!",
+      "description": "It seems to have been easy for you to understand what was being said in the previous exercise.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 112
+        },
+        {
+          "id": 2,
+          "description": "No, I had difficulties understanding what was being said",
+          "followUpQuestion": 112
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "type": "LevelQuestion",
+      "title": "Improvement area discovered",
+      "description": "It seems to have been difficult for you to understand what was said in the previous exercise.\n\nWould you agree?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResultsFeedback.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Yes, I agree",
+          "followUpQuestion": 112
+        },
+        {
+          "id": 2,
+          "description": "No, most of what was said was clear to me",
+          "followUpQuestion": 112
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "Thank you, #FIRST_NAME#!",
+      "description": "You have now completed the listening test.\n\nLet's take a look at the results!",
+      "image": {
+        "url": "/starting-level-test/Test2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Show me the results",
+          "followUpQuestion": 113
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "type": "ImagePrimary",
+      "title": "Your level in listening",
+      "description": "Based on the test, your starting level in listening is:\n\n#LISTENING_STARTING_LEVEL#\n\nYou are doing so well! We can tell that you'll be advancing very fast once we get started with your personalized program.",
+      "image": {
+        "url": "/starting-level-test/v4/TestListening.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Great!",
+          "followUpQuestion": 114
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "type": "ImagePrimary",
+      "title": "Next up: speaking",
+      "description": "Alright, just [strong]one more test part[/strong] to complete before we can finalize your program. And it will be an exciting one. It's time to speak!",
+      "image": {
+        "url": "/starting-level-test/v4/TestSpeaking.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's do it!",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "type": "ImagePrimary",
+      "title": "Microphone access",
+      "description": "Please, allow access to the microphone to do the Speaking test.",
+      "image": {
+        "url": "/starting-level-test/v4/TestSpeaking.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Allow microphone access",
+          "followUpQuestion": 117,
+          "specialAction": "micPermission"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "type": "ImagePrimary",
+      "title": "Part 6 - Speaking",
+      "description": "¡It's time to speak! We will first test your [strong]pronunciation skills[/strong] on nine English sounds that are the most difficult ones for native Spanish speakers.\n\nAfter that, we will test your [strong]communication skills[/strong] with three short dialogues in English.",
+      "image": {
+        "url": "/starting-level-test/v4/TestSpeaking.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 118
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "type": "ImagePrimary",
+      "title": "Pronunciation",
+      "description": "In these next exercises we'll use our [strong]pronunciation detecting technology[/strong] while having you say certain words and short sentences aloud.\n\nWe'll start with the sounds [blue]z[/blue] and [blue]∫[/blue]. They are typically spelled as [black]s[/black] and [black]sh[/black], respectively.",
+      "image": {
+        "url": "/starting-level-test/v4/TestSpeaking.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's go!",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Thank you for the input #FIRST_NAME#! Here are your results:\n\n#Z_SOUND_EVALUATION_IN_SLT_V4##ʃ_SOUND_EVALUATION_IN_SLT_V4#\nNext, let’s try the sounds [black]p[/black], [black]t[/black] and [black]k[/black].",
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's start",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Thank you for the input #FIRST_NAME#! Here are your results:\n\n#Z_SOUND_EVALUATION_IN_SLT_V4##ʃ_SOUND_EVALUATION_IN_SLT_V4#\nNext, let’s try the sounds [black]p[/black] and [black]k[/black].",
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's start",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Thank you for the input #FIRST_NAME#! Here are your results:\n\n#P_SOUND_EVALUATION_IN_SLT_V4##T_SOUND_EVALUATION_IN_SLT_V4##K_SOUND_EVALUATION_IN_SLT_V4#\nNext, let’s try the sounds [black]b[/black] and [black]v[/black].",
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's start",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Thank you for the input #FIRST_NAME#! Here are your results:\n\n#P_SOUND_EVALUATION_IN_SLT_V4##K_SOUND_EVALUATION_IN_SLT_V4#\nNext, let’s try the sound [black]t[/black].",
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's start",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Thank you for the input #FIRST_NAME#! Here are your results:\n\n#B_SOUND_EVALUATION_IN_SLT_V4##V_SOUND_EVALUATION_IN_SLT_V4#\n\nTo finish, let’s try the [black]th[/black] sounds [black]θ[/black] and [black]ð[/black] like in the words [black]thanks[/black] and [black]this[/black].",
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's start",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 323,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Thank you for the input #FIRST_NAME#! Here is your result:\n\n#T_SOUND_EVALUATION_IN_SLT_V4#\n\nTo finish, let’s try the [black]th[/black] sounds [black]θ[/black] and [black]ð[/black] like in the words [black]thanks[/black] and [black]this[/black].",
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's start",
+          "followUpQuestion": 1010,
+          "specialAction": "toShortTest"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "type": "InfoPrimary",
+      "title": "Your pronunciation",
+      "description": "Excellent work so far, #FIRST_NAME#! Here are your results:\n\n#θ_SOUND_EVALUATION_IN_SLT_V4##ð_SOUND_EVALUATION_IN_SLT_V4#\nYou have now finished your pronunciation test!",
+      "options": [
+        {
+          "id": 1,
+          "description": "Next",
+          "followUpQuestion": 126
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "type": "LevelQuestion",
+      "title": "Your impressions",
+      "description": "How did you feel overall about your pronunciation in these exercises #FIRST_NAME#?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults0.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I felt confident",
+          "followUpQuestion": 127
+        },
+        {
+          "id": 2,
+          "description": "I felt insecure",
+          "followUpQuestion": 128
+        },
+        {
+          "id": 3,
+          "description": "I'm not sure",
+          "followUpQuestion": 128
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "type": "ImagePrimary",
+      "title": "That's great!",
+      "description": "When you feel confident with your pronunciation, it helps you a lot when communicating in English.\n\nAnd that is what we are going to evaluate now! Let's see how you handle three short interactions in English.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults3.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's do it!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "type": "ImagePrimary",
+      "title": "Count on us",
+      "description": "We'll help you to improve your pronunciation until you have full confidence to speak in English.\n\nNow we will assess your ability to communicate in English through three short interactions.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults3.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Let's do it!",
+          "followUpQuestion": 1011,
+          "specialAction": "toLongTest"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "type": "LevelQuestion",
+      "title": "¡Well done, #FIRST_NAME#!",
+      "description": "How did you feel about the [strong]last[/strong] dialogue?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults2.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "I felt like I spoke naturally",
+          "followUpQuestion": 131
+        },
+        {
+          "id": 2,
+          "description": "I felt that I didn't speak naturally",
+          "followUpQuestion": 132
+        },
+        {
+          "id": 3,
+          "description": "I'm not sure",
+          "followUpQuestion": 132
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "That's great to hear!",
+      "description": "Now that we know you feel natural speaking English, we can focus on improving your speaking in more detail.\n\nAnd congratulations on completing your speaking test!\n\nWant to see your test results?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults3.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Show me the results",
+          "followUpQuestion": 133
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "type": "ImagePrimary",
+      "styleAttributes": [
+        "showCompletionTick"
+      ],
+      "title": "Count on us",
+      "description": "We'll practice your speaking until you feel natural speaking English.\n\nAnd congratulations on completing your speaking test!\n\nWant to see your test results?",
+      "image": {
+        "url": "/starting-level-test/v4/SectionResults3.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Show me the results",
+          "followUpQuestion": 133
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "type": "ImagePrimary",
+      "title": "Your level in speaking",
+      "description": "Based on the test, your starting level in speaking is:\n\n#SPEAKING_STARTING_LEVEL#\n\nYou have completed all of the parts of the starting level test. Absolutely amazing job!",
+      "image": {
+        "url": "/starting-level-test/v4/TestSpeaking.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Next",
+          "followUpQuestion": 134
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "type": "ImagePrimary",
+      "title": "Next up: final results",
+      "description": "We are ready to put your results together and finalize the personalization of your English program.",
+      "image": {
+        "url": "/starting-level-test/Test4.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Great!",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "type": "ImagePrimary",
+      "title": "Congratulations, #FIRST_NAME#!",
+      "description": "You have completed the starting level test. We are really happy to see the dedication you showed during the test.\n\nWe can now combine the results from all 6 skill areas to determine the starting level for your English program.",
+      "image": {
+        "url": "/starting-level-test/v4/SectionOverallResults.jpg"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "How exciting!",
+          "followUpQuestion": 137
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "type": "Radial",
+      "title": "Just a second…",
+      "description": "We are analyzing your results to define your initial level of English.",
+      "hiddenContinuation": [
+        {
+          "id": 1,
+          "followUpQuestion": 138
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "type": "Radial",
+      "title": "All set!",
+      "description": "Results are ready to be shown.",
+      "options": [
+        {
+          "id": 1,
+          "description": "Go to my results",
+          "followUpQuestion": 139
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "type": "InfoPrimary",
+      "styleAttributes": [
+        "lowerBackground",
+        "skillLevelList"
+      ],
+      "title": "Your starting level",
+      "description": "#OVERALL_STARTING_LEVEL#\n\nWe have defined your starting level based on the skill area specific results\n\nVocabulary: #VOCABULARY_STARTING_LEVEL#\nGrammar: #GRAMMAR_STARTING_LEVEL#\nReading: #READING_STARTING_LEVEL#\nWriting: #WRITING_STARTING_LEVEL#\nListening: #LISTENING_STARTING_LEVEL#\nSpeaking: #SPEAKING_STARTING_LEVEL#\n\n#ENCOURAGEMENT_WITH_LEVEL_AFTER_TEST#",
+      "options": [
+        {
+          "id": 1,
+          "description": "Next",
+          "followUpQuestion": 140
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "type": "IconPrimary",
+      "title": "Final steps",
+      "description": "We can now use your results from the starting level test to add the finishing touches to your personalized English program.\n\nAfter that, you can access the first practice week right away.",
+      "image": {
+        "url": "/starting-level-test/v4/illustration-icons/Personalization.png"
+      },
+      "options": [
+        {
+          "id": 1,
+          "description": "Sounds good",
+          "followUpQuestion": 1001,
+          "specialAction": "increaseStep"
+        }
+      ]
+    },
+    {
+      "description": "We are personalizing your program with your test results.",
+      "hiddenContinuation": [
+        {
+          "followUpQuestion": 145,
+          "id": 1,
+          "specialAction": "upperIntermediateProgramSkip"
+        }
+      ],
+      "id": 143,
+      "options": null,
+      "styleAttributes": [
+        "UseHeaderStyleTopBar"
+      ],
+      "title": "Finalizing your program…",
+      "type": "Programme"
+    },
+    {
+      "description": "Final personalization completed.",
+      "hiddenContinuation": null,
+      "id": 144,
+      "options": [
+        {
+          "description": "Let's get started!",
+          "followUpQuestion": 145,
+          "id": 1,
+          "specialAction": "upperIntermediateProgramSkip"
+        }
+      ],
+      "styleAttributes": null,
+      "title": "All set!",
+      "type": "Radial"
+    },
+    {
+      "description": "Your Master English program is made to take your skills from #OVERALL_STARTING_LEVEL# to an advanced level. The program is divided into the following #NUMBER_OF_LEVELS_IN_SLT_V4# levels\n\n:#LEVEL_LIST_IN_SLT_V4#\nYour first goal will be to achieve #FIRST_TARGET_AFTER_TEST_IN_SLT_V4# level English skills.\n\nAfter that, we will guide you step by step until you reach the advanced level.",
+      "hiddenContinuation": null,
+      "id": 145,
+      "options": [
+        {
+          "description": "How does my program work?",
+          "followUpQuestion": 147,
+          "id": 1
+        }
+      ],
+      "styleAttributes": null,
+      "title": "#FIRST_NAME#'s program",
+      "type": "Programme"
+    },
+    {
+      "description": "Your Master English program is made to take your skills from upper intermediate to advanced level.",
+      "hiddenContinuation": null,
+      "id": 146,
+      "options": [
+        {
+          "description": "How does my program work?",
+          "followUpQuestion": 147,
+          "id": 1
+        }
+      ],
+      "styleAttributes": null,
+      "title": "#FIRST_NAME#'s program",
+      "type": "Programme"
+    },
+    {
+      "id": 147,
+      "components": [
+        {
+          "type": "headerImage",
+          "componentData": {
+            "url": "/starting-level-test/SLT_End_Comms_Header@3x.jpg"
+          }
+        },
+        {
+          "type": "title",
+          "text": "Our method"
+        },
+        {
+          "type": "description",
+          "text": "We use interactive exercises to teach you English skills that you can use in real life.\n\nTo create an effective learning experience, you will have bite-sized, personalized lessons to practice the six skill areas. Each lesson is focusing on one specific skill."
+        },
+        {
+          "type": "button",
+          "text": "How will my lessons be personalized?",
+          "componentData": {
+            "followUpQuestion": 148,
+            "id": 1
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar",
+        "resetProgress"
+      ]
+    },
+    {
+      "id": 148,
+      "components": [
+        {
+          "type": "title",
+          "text": "Optimizing your learning"
+        },
+        {
+          "type": "description",
+          "text": "During your first practice week, we track your speed of learning to adjust our learning algorithm for your needs.\n\nAfter you complete your first week of practice, we will take you to your full English program."
+        },
+        {
+          "type": "button",
+          "text": "How will you continue to optimize my program?",
+          "componentData": {
+            "followUpQuestion": 149,
+            "id": 1
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 149,
+      "components": [
+        {
+          "type": "title",
+          "text": "Continuous optimization"
+        },
+        {
+          "type": "description",
+          "text": "In every lesson, even after practice week 1, we continue to track what is easy for you and what requires more attention.\n\nThe things that you learn fast will be dealt with only briefly. We will focus on the areas where you need more support.\n\nTo make sure the learning is permanent, we create revision exercises for you."
+        },
+        {
+          "type": "button",
+          "text": "How much should I practice?",
+          "componentData": {
+            "followUpQuestion": 150,
+            "id": 1
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 150,
+      "components": [
+        {
+          "type": "title",
+          "text": "Your first practice week"
+        },
+        {
+          "type": "description",
+          "text": "You have planned to practice:          ",
+          "componentData": {
+            "spacingBefore": 0,
+            "spacingAfter": 20
+          }
+
+        },
+        {
+          "type": "list",
+          "componentData": {
+            "listItems": [
+              {
+                "number": 1,
+                "text": "#PRACTICE_DAYS_PER_WEEK_NO_STYLE# days per week"
+              },
+              {
+                "number": 2,
+                "text": "#MINUTES_PER_PRACTICE_DAY_NO_STYLE# minutes per day"
+              }
+            ],
+            "listType": "bulletPoint",
+            "type": "list"
+          }
+        },
+        {
+          "type": "description",
+          "text": "Does this still sound good to you?",
+          "componentData": {
+            "spacingBefore": 10,
+            "spacingAfter": 50
+          }
+        },
+        {
+          "type": "button",
+          "text": "Yes",
+          "componentData": {
+            "followUpQuestion": 151,
+            "id": 1,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        },
+        {
+          "type": "button",
+          "text": "I could practice even more",
+          "componentData": {
+            "followUpQuestion": 152,
+            "id": 2,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        },
+        {
+          "type": "button",
+          "text": "I could practice a bit less",
+          "componentData": {
+            "followUpQuestion": 152,
+            "id": 3,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 151,
+      "components": [
+        {
+          "type": "title",
+          "text": "Perfect"
+        },
+        {
+          "type": "description",
+          "text": "The #MINUTES_PER_PRACTICE_DAY_NO_STYLE# minutes per Practice day means that you should be able to complete about #PRACTICE_DAYS_SELECTED_PER_WEEK# lessons each Practice day. The estimation is based on your results in the Starting level test.",
+          "componentData": {
+            "spacingBefore": 0,
+            "spacingAfter": 20
+          }
+        },
+        {
+          "type": "subtitle",
+          "text": "Your Practice week 1 will include:",
+          "componentData": {
+            "spacingBefore": 15,
+            "spacingAfter": 20
+          }
+        },
+        {
+          "type": "horizontalLayoutGroupForceExpandWidth",
+          "componentData": {
+            "widthToForceExpand": 335,
+            "components": [
+              {
+                "type": "independentShadow"
+              },
+              {
+                "type": "estimationCard",
+                "componentData": {
+                  "text": "Practice days",
+                  "type": "practiceDays",
+                  "hasCard": true,
+                  "unit": "/week"
+                }
+              },
+              {
+                "type": "estimationCard",
+                "componentData": {
+                  "text": "Lecciones",
+                  "type": "lessons",
+                  "hasCard": true,
+                  "unit": "/day"
+                }
+              }
+            ],
+            "spacing": 10
+          }
+        },
+        {
+          "type": "description",
+          "text": "¿Ready to proceed?",
+          "componentData": {
+            "spacingBefore": 45,
+            "spacingAfter": 50
+          }
+        },
+        {
+          "type": "button",
+          "text": "Let's get into it",
+          "componentData": {
+            "followUpQuestion": 153,
+            "id": 1,
+            "type": "primary",
+            "disableAutoSpacer": true
+          }
+        },
+        {
+          "type": "button",
+          "text": "I would like to change my selections",
+          "componentData": {
+            "followUpQuestion": 152,
+            "id": 1,
+            "type": "link",
+            "disableAutoSpacer": true
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 152,
+      "components": [
+        {
+          "type": "title",
+          "text": "How much are you ready to practice in your first week?"
+        },
+        {
+          "type": "description",
+          "text": "Choose how many days and lessons you would like for your first week. To reach learning results effectively, at least 3 Practice days per week are required."
+        },
+        {
+          "type": "segmentedController",
+          "text": "Select the number practice days",
+          "componentData": {
+            "segmentCount": "5",
+            "segmentFirstValue": "3",
+            "segmentUsage": "daysPerWeek"
+          }
+        },
+        {
+          "type": "segmentedController",
+          "text": "Select the number of lessons per day",
+          "componentData": {
+            "segmentCount": "9",
+            "segmentFirstValue": "2",
+            "segmentUsage": "lessonsPerDay"
+          }
+        },
+        {
+          "type": "subtitle",
+          "text": "Estimate:"
+        },
+        {
+          "type": "description",
+          "text": "You'll complete each Practice day in [blue]#AVERAGE_LESSON_DURATION#[/blue] minutes on average. The estimation is based on your speed to complete the Starting level test."
+        },
+        {
+          "type": "button",
+          "text": "Confirm selections",
+          "componentData": {
+            "followUpQuestion": 153,
+            "id": 1,
+            "type": "primary"
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 153,
+      "components": [
+        {
+          "type": "headerImage",
+          "componentData": {
+            "url": "/starting-level-test/Handshake_Header@3x.jpg"
+          }
+        },
+        {
+          "type": "title",
+          "text": "Results guarantee"
+        },
+        {
+          "type": "description",
+          "text": "If you follow your program but do not achieve an advanced level of English by #END_DATE_LONG#, we will refund all your money (a level test will be required)."
+        },
+        {
+          "type": "button",
+          "text": "When does my program start?",
+          "componentData": {
+            "followUpQuestion": 154,
+            "id": 1,
+            "type": "primary"
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 154,
+      "components": [
+        {
+          "type": "title",
+          "text": "You decide"
+        },
+        {
+          "type": "description",
+          "text": "You did a great job with the starting level test. That's why we'd like you to take a break.\n\nTomorrow will be a great day to complete the first actual practice day of your program.\n\nBut if you have the energy to start today, go for it!\n\nWhat would you like to do?"
+        },
+        {
+          "type": "button",
+          "text": "I want to rest today and continue tomorrow",
+          "componentData": {
+            "followUpQuestion": 155,
+            "id": 1,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        },
+        {
+          "type": "button",
+          "text": "I want to start my first practice day today",
+          "componentData": {
+            "followUpQuestion": 156,
+            "id": 2,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 155,
+      "components": [
+        {
+          "type": "title",
+          "text": "Good decision!"
+        },
+        {
+          "type": "description",
+          "text": "The best learning results are achieved when you feel refreshed and focused.\n\nBefore we call it a day, would you like to set practice reminders?\n\nThe reminders will help you to stay consistent with your English program. That's the key to reach the advanced level."
+        },
+        {
+          "type": "button",
+          "text": "Yes, I would like to have practice reminders",
+          "componentData": {
+            "followUpQuestion": 157,
+            "id": 1,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        },
+        {
+          "type": "button",
+          "text": "No, thank you",
+          "componentData": {
+            "followUpQuestion": 159,
+            "id": 2,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "id": 156,
+      "components": [
+        {
+          "type": "title",
+          "text": "Great attitude!"
+        },
+        {
+          "type": "description",
+          "text": "We really appreciate how motivated you are! You have what it takes to achieve an advanced level in English.\n\nBefore we go to your program, would you like to set practice reminders?\n\nThe reminders will help you to stay consistent with your English program. That's the key to reach the advanced level."
+        },
+        {
+          "type": "button",
+          "text": "Yes, I would like to have practice reminders",
+          "componentData": {
+            "followUpQuestion": 158,
+            "id": 1,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        },
+        {
+          "type": "button",
+          "text": "No, thank you",
+          "componentData": {
+            "followUpQuestion": 160,
+            "id": 2,
+            "type": "option",
+            "disableAutoSpacer": true
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "description": "You have planned to complete #PRACTICE_DAYS_SELECTED_PER_WEEK# days per week.\n\nAt what time would you like to get reminders to practice? #SET_REMINDER_TIME# #PRACTICE_DAYS_WEEKDAY_LIST#",
+      "hiddenContinuation": null,
+      "id": 157,
+      "image": {
+        "url": "/starting-level-test/NotificationBackground.jpg"
+      },
+      "options": [
+        {
+          "description": "Set reminders",
+          "followUpQuestion": 159,
+          "id": 1,
+          "disableAutoSpacer": true
+        },
+        {
+          "description": "Not now",
+          "followUpQuestion": 159,
+          "id": 2,
+          "disableAutoSpacer": true
+        }
+      ],
+      "title": "Practice reminders",
+      "type": "Reminder",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    },
+    {
+      "description": "You have planned to complete #PRACTICE_DAYS_SELECTED_PER_WEEK# days per week.\n\nAt what time would you like to get reminders to practice? #SET_REMINDER_TIME# #PRACTICE_DAYS_WEEKDAY_LIST#",
+      "hiddenContinuation": null,
+      "id": 158,
+      "image": {
+        "url": "/starting-level-test/NotificationBackground.jpg"
+      },
+      "options": [
+        {
+          "description": "Set reminders",
+          "followUpQuestion": 160,
+          "id": 1,
+          "disableAutoSpacer": true
+        },
+        {
+          "description": "Not now",
+          "followUpQuestion": 160,
+          "id": 2,
+          "disableAutoSpacer": true
+        }
+      ],
+      "styleAttributes": [
+        "showProgressBar"
+      ],
+      "title": "Practice reminders",
+      "type": "Reminder"
+    },
+    {
+      "hiddenContinuation": null,
+      "id": 159,
+
+      "components": [
+        {
+          "type": "completionTickmark"
+        },
+        {
+          "type": "title",
+          "text": "All set!"
+        },
+        {
+          "type": "description",
+          "text": "Rest for today and get ready to start your lessons tomorrow.\n\nBut first, let us show you your first week of practice so you'll know what to do.\n\nWe're excited to show you what we've created for you!"
+        },
+        {
+          "type": "button",
+          "text": "Show me my program",
+          "componentData": {
+            "followUpQuestion": 1002,
+            "id": 1,
+            "specialAction": "fromSltToPd"
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "completionScreen",
+        "showProgressBar"
+      ]
+    },
+    {
+      "hiddenContinuation": null,
+      "id": 160,
+
+      "components": [
+        {
+          "type": "completionTickmark"
+        },
+        {
+          "type": "title",
+          "text": "All set!"
+        },
+        {
+          "type": "description",
+          "text": "Let's go to your program's first practice week!\n\nWe're excited to show you what we've created for you!"
+        },
+        {
+          "type": "button",
+          "text": "Let's go!",
+          "componentData": {
+            "followUpQuestion": 1002,
+            "id": 1,
+            "specialAction": "fromSltToPd"
+          }
+        }
+      ],
+      "type": "ComponentBased",
+      "styleAttributes": [
+        "showProgressBar"
+      ]
+    }
+  ],
+  "startingLevelGoal": {
+    "background": {
+      "url": "/goals/0.jpg"
+    },
+    "courses": [
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Vocabulary test: Short",
+        "id": 2139,
+        "lessons": [
+          {
+            "lessonId": 1672,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1673,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1674,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1675,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Vocabulary test: Short",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Grammar test: Short",
+        "id": 2140,
+        "lessons": [
+          {
+            "lessonId": 1676,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1677,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1678,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1679,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Grammar test: Short",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Reading test: Short",
+        "id": 2141,
+        "lessons": [
+          {
+            "lessonId": 1680,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1681,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1682,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1683,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Reading test: Short",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Writing test: Short",
+        "id": 2134,
+        "lessons": [
+          {
+            "lessonId": 1886,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1887,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1888,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1889,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Writing test: Short",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Listening test: Short",
+        "id": 2142,
+        "lessons": [
+          {
+            "lessonId": 1684,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1685,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1686,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1687,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Listening test: Short",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Speaking and pronunciation test: Pronunciation",
+        "id": 2147,
+        "lessons": [
+          {
+            "lessonId": 1704,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1705,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1718,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1719,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Speaking and pronunciation test: Pronunciation",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Vocabulary test: Long",
+        "id": 2143,
+        "lessons": [
+          {
+            "lessonId": 1688,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1689,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1690,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1691,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Vocabulary test: Long",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Grammar test: Long",
+        "id": 2144,
+        "lessons": [
+          {
+            "lessonId": 1692,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1693,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1694,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1695,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Grammar test: Long",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Reading test: Long",
+        "id": 2145,
+        "lessons": [
+          {
+            "lessonId": 1696,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1697,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1698,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1699,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Reading test: Long",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Writing test: Long (NOT IN USE IN SLT V5)",
+        "id": 2134,
+        "lessons": [
+          {
+            "lessonId": 1886,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1887,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1888,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1889,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Writing test: Long",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Listening test: Long",
+        "id": 2146,
+        "lessons": [
+          {
+            "lessonId": 1700,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1701,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1702,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 1703,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Listening test: Long",
+        "progress": {
+          "denominator": 1
+        }
+      },
+      {
+        "background": {
+          "url": "/courses/0.jpg"
+        },
+        "description": "SLTv4 Speaking and pronunciation test: Dialogue",
+        "id": 2304,
+        "lessons": [
+          {
+            "lessonId": 2594,
+            "lessonNumber": 1,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 2595,
+            "lessonNumber": 2,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 2596,
+            "lessonNumber": 3,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          },
+          {
+            "lessonId": 2597,
+            "lessonNumber": 4,
+            "progress": {
+              "denominator": 1
+            },
+            "status": "NotStarted"
+          }
+        ],
+        "name": "SLTv4 Speaking and pronunciation test: Dialogue",
+        "progress": {
+          "denominator": 1
+        }
+      }
+    ],
+    "description": "Just a goal to test the starting level test material.",
+    "id": 542,
+    "level": "elementary",
+    "name": "SLT",
+    "progress": {
+      "denominator": 1
+    }
+  },
+  "startingLevelResultHandling": {
+    "startingLevelResultTresholds": [
+      {
+        "skill": "Vocabulary",
+        "treshold": 0.8,
+        "testIndex": 0
+      },
+      {
+        "skill": "Grammar",
+        "treshold": 0.75,
+        "testIndex": 0
+      },
+      {
+        "skill": "Reading",
+        "treshold": 0.75,
+        "testIndex": 0
+      },
+      {
+        "skill": "Writing",
+        "treshold": 0.70,
+        "testIndex": 0
+      },
+      {
+        "skill": "Listening",
+        "treshold": 0.71,
+        "testIndex": 0
+      },
+      {
+        "skill": "Vocabulary",
+        "treshold": 0.7,
+        "testIndex": 1
+      },
+      {
+        "skill": "Grammar",
+        "treshold": 0.5,
+        "testIndex": 1
+      },
+      {
+        "skill": "Reading",
+        "treshold": 0.67,
+        "testIndex": 1
+      },
+      {
+        "skill": "Writing",
+        "treshold": 0.5,
+        "testIndex": 1
+      },
+      {
+        "skill": "Listening",
+        "treshold": 0.8,
+        "testIndex": 1
+      }
+    ],
+    "StartingLevelResultTresholdOverrides": [
+      {
+        "lessonId": 1920,
+        "treshold": 0.8
+      }
+    ],
+    "startingLevelResultCalculationLogic": "OverallPoints",
+    "StartingLevelResultOverallPointsThresholds": [
+      {
+        "pointsMin": 0,
+        "pointsMax": 1
+      },
+      {
+        "pointsMin": 2,
+        "pointsMax": 4
+      },
+      {
+        "pointsMin": 5,
+        "pointsMax": 8
+      },
+      {
+        "pointsMin": 9,
+        "pointsMax": 13
+      },
+      {
+        "pointsMin": 14,
+        "pointsMax": 15
+      }
+    ]
+  },
+  "exerciseModeDurationCaps": [
+    {
+      "ExerciseModeType": "conversation",
+      "MaxDurationInMinutes": 7
+    },
+    {
+      "ExerciseModeType": "easy",
+      "MaxDurationInMinutes": 1
+    },
+    {
+      "ExerciseModeType": "easyTyping",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "interactiveTip",
+      "MaxDurationInMinutes": 4
+    },
+    {
+      "ExerciseModeType": "listening",
+      "MaxDurationInMinutes": 1
+    },
+    {
+      "ExerciseModeType": "listeningComprehension",
+      "MaxDurationInMinutes": 17
+    },
+    {
+      "ExerciseModeType": "main",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "matching",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "mediumTyping",
+      "MaxDurationInMinutes": 9
+    },
+    {
+      "ExerciseModeType": "nlpWriting",
+      "MaxDurationInMinutes": 12
+    },
+    {
+      "ExerciseModeType": "pronunciation",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "reactBySpeaking",
+      "MaxDurationInMinutes": 3
+    },
+    {
+      "ExerciseModeType": "reaction",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "readingComprehension",
+      "MaxDurationInMinutes": 17
+    },
+    {
+      "ExerciseModeType": "recitedConversation",
+      "MaxDurationInMinutes": 3
+    },
+    {
+      "ExerciseModeType": "roleplayBot",
+      "MaxDurationInMinutes": 11
+    },
+    {
+      "ExerciseModeType": "sentenceEasy",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "sentenceMedium",
+      "MaxDurationInMinutes": 2
+    },
+    {
+      "ExerciseModeType": "speaking",
+      "MaxDurationInMinutes": 1
+    }
+  ],
+  "estimationGroupMinutes": [
+    {
+      "UserLevel": "elementary",
+      "Values": [
+        4.4,
+        4.4,
+        4.6,
+        5.2
+      ]
+    },
+    {
+      "UserLevel": "basic",
+      "Values": [
+        4.7,
+        5.4,
+        5.8,
+        7.3
+      ]
+    },
+    {
+      "UserLevel": "intermediate",
+      "Values": [
+        5.5,
+        6.1,
+        6.8,
+        9.2
+      ]
+    },
+    {
+      "UserLevel": "upperIntermediate",
+      "Values": [
+        6.7,
+        6.9,
+        8.1,
+        9.8
+      ]
+    }
+  ],
+  "estimationGroupLimits": [
+    {
+      "UserLevel": "elementary",
+      "Values": [
+        13.55,
+        19.23,
+        25.16
+      ]
+    },
+    {
+      "UserLevel": "basic",
+      "Values": [
+        18.36,
+        22.88,
+        29.09
+      ]
+    },
+    {
+      "UserLevel": "intermediate",
+      "Values": [
+        19.64,
+        23.90,
+        30.53
+      ]
+    },
+    {
+      "UserLevel": "upperIntermediate",
+      "Values": [
+        22.00,
+        27.37,
+        33.09
+      ]
+    }
+  ]
+}

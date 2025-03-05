@@ -1,0 +1,727 @@
+{
+    "first_week": [
+        {
+            "title": "Practice week 1 completed",
+            "description": "Great work! We can now adjust our learning algorithm to match your learning pace.",
+            "hiddenContinuation":
+            [
+                {
+                    "followUpQuestion": 4,
+                    "id": 1
+                }
+            ],
+            "id": 3,
+            "options":
+            [
+                {
+                    "followUpQuestion": 4,
+                    "id": 1
+                }
+            ],
+            "styleAttributes": null,
+            "type": "Radial"
+        },
+        {
+            "title": "All set!",
+            "description": "Next, let's see your results for Practice week 1 and plan your Practice week 2.\n\nAfter that, we can take you to your complete English program.",
+            "id": 4,
+            "options":
+            [
+                {
+                    "description": "Show me the results",
+                    "followUpQuestion": 5,
+                    "id": 1
+                }
+            ],
+            "styleAttributes": null,
+            "type": "Radial"
+        },
+        {
+            "id": 5,
+            "components":
+            [
+                {
+                    "type": "colorBlur"
+                },
+                {
+                    "type": "card",
+                    "componentData":
+                    {
+                        "padding":
+                        {
+                            "top": 40,
+                            "bottom": 45,
+                            "left" : 30,
+                            "right" : 30
+                        },
+                        "cornerRounding" : 0.67,
+                        "components":
+                        [
+                            {
+                                "type": "title",
+                                "text": "Week #NUMBER_OF_ACTIVE_PRACTICE_WEEK#"
+                            },
+                            {
+                                "type": "description",
+                                "text": "You had #NUMBER_OF_LESSONS_FOR_THE_ACTIVE_PRACTICE_DAY# lessons per Practice day. Here's the completion time for each day:",
+                                "componentData":
+                                {
+                                    "disableAutoSpacer": true
+                                }                            },
+                            {
+                                "type": "barChart",
+                                "componentData":
+                                {
+                                    "unit": "min",
+                                    "dayIndicator": "D",
+                                    "averageText": "Average"
+                                }
+                            },
+                            {
+                                "type": "horizontalLayoutGroupForceExpandWidth",
+                                "componentData":
+                                {
+                                    "spacingBefore": 3,
+                                    "groupID": "EstimationCard1",
+                                    "components":
+                                    [
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Time spent studying",
+                                                "type": "timeStudied",
+                                                "hasCard": false
+                                            }
+                                        },
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Lessons",
+                                                "type": "lessonsDone",
+                                                "hasCard": false,
+                                                "unit": "completed"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "radioButtonSelector",
+                    "componentData":
+                    {
+                        "labelText": "How did Practice week #NUMBER_OF_ACTIVE_PRACTICE_WEEK# feel to you?",
+                        "options":
+                        [
+                            {
+                                "text": "Week #NUMBER_OF_ACTIVE_PRACTICE_WEEK# was perfect",
+                                "snackBarText": "Great! You have a good plan 🎉",
+                                "specialAction": "activateObject|perfect"
+                            },
+                            {
+                                "text": "I could practice more in Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                                "snackBarText": "Let's increase the study time 💪",
+                                "specialAction": "activateObject|more"
+                            },
+                            {
+                                "text": "I want to practice less during Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                                "snackBarText": "Alright, let's adjust your plan",
+                                "specialAction": "activateObject|less"
+                            }
+                        ],
+                        "buttonText": "Plan Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                        "specialAction": "enableGroup|PlanForNextWeekGroup"
+                    }
+                },
+                {
+                    "type": "verticalLayoutGroup",
+                    "componentData":
+                    {
+                        "groupdId": "PlanForNextWeekGroup",
+                        "isActiveOnCreation": false,
+                        "components":
+                        [
+                            {
+                                "type": "title",
+                                "text": "Plan for Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                                "componentData":
+                                {
+                                    "spacingBefore": 30,
+                                    "spacingAfter": 15
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "We recommend that you maintain the same pace in your upcoming week. However, if you wish, you can adjust your plan below:",
+                                "componentData":
+                                {
+                                    "uniqueID": "perfect",
+                                    "isActiveOnCreation": false,
+                                    "disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "You can increase the intensity of your plan below:",
+                                "componentData":
+                                {
+                                    "uniqueID": "more",
+                                    "isActiveOnCreation": false,
+                                    "disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "We suggest a minimum of 3 practice days per week to achieve effective results. You can adjust your plan below:",
+                                "componentData":
+                                {
+                                    "uniqueID": "less",
+                                    "isActiveOnCreation": false,
+                                    "disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "segmentedController",
+                                "text": "Practice days",
+                                "componentData":
+                                {
+                                    "segmentCount": "5",
+                                    "segmentFirstValue": "3",
+                                    "segmentUsage": "daysPerWeek",
+                                    "width": "315"
+                                }
+                            },
+                            {
+                                "type": "segmentedController",
+                                "text": "Lessons per day",
+                                "componentData":
+                                {
+                                    "segmentCount": "9",
+                                    "segmentFirstValue": "2",
+                                    "segmentUsage": "lessonsPerDay",
+                                    "width": "315"
+                                }
+                            },
+                            {
+                                "type": "verticalLayoutGroupDynamicWidth",
+                                "componentData":
+                                {
+                                    "components":
+                                    [
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "spacingBefore": 35,
+                                                "text": "Time estimate",
+                                                "type": "practiceDuration",
+                                                "hasCard": true,
+                                                "unit": "min / day"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "The estimate is based on your speed to complete Practice week #NUMBER_OF_ACTIVE_PRACTICE_WEEK#.",
+                                "componentData":
+                                {
+                                    "spacingBefore": 20,
+                                    "spacingAfter": 20,
+                                    "size": 12
+                                }
+                            },
+                            {
+                                "type": "subtitle",
+                                "text": "Total program estimate",
+                                "componentData":
+                                {
+                                    "spacingAfter": 20
+                                }
+                            },
+                            {
+                                "type": "horizontalLayoutGroupForceExpandWidth",
+                                "componentData":
+                                {
+                                    "widthToForceExpand": 335,
+                                    "spacing": 10,
+                                    "groupID": "EstimationCardGroup",
+                                    "components":
+                                    [
+                                        {
+                                            "type": "independentShadow"
+                                        },
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Remaining time",
+                                                "type": "practiceWeeksRemaining",
+                                                "hasCard": true,
+                                                "unit": "weeks"
+                                            }
+                                        },
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Advanced level",
+                                                "type": "infoTextLayoutDate",
+                                                "hasCard": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "If you follow your program systematically, you'll achieve an advanced level of English by [blue]#ESTIMATION_DATE_OF_ADVANCED_LEVEL#[/blue] with your current plan.",
+                                "componentData":
+                                {
+                                    "spacingBefore": 25,
+                                    "spacingAfter": 10,
+                                    "size": 12
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "text": "Confirm schedule",
+                                "componentData":
+                                {
+                                    "followUpQuestion": 6,
+                                    "id": 1
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "Note: You will be able to adjust your selections again after completing Practice week #NEXT_PRACTICE_WEEK_NUMBER#.",
+                                "componentData":
+                                {
+                                    "size": 12,
+                                    "spacingBefore": 10
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "type": "ComponentBased"
+        },
+        {
+            "description": "You have planned to complete #PRACTICE_DAYS_SELECTED_PER_WEEK# Practice days during the next week.\n\n what time would you like to get reminders to practice? #SET_REMINDER_TIME# #PRACTICE_DAYS_WEEKDAY_LIST#",
+            "hiddenContinuation": null,
+            "id": 6,
+            "image":
+            {
+                "url": "/starting-level-test/NotificationBackground.jpg"
+            },
+            "options":
+            [
+                {
+                    "description": "Set reminders",
+                    "followUpQuestion": 7,
+                    "id": 1,
+                    "disableAutoSpacer": true
+                },
+                {
+                    "description": "Not now",
+                    "followUpQuestion": 7,
+                    "id": 2,
+                    "disableAutoSpacer": true
+                }
+            ],
+            "styleAttributes":
+            [
+                "showInnerBackButton"
+            ],
+            "title": "Practice reminders",
+            "type": "Reminder"
+        },
+        {
+            "id": 7,
+            "components":
+            [
+                {
+                    "type": "completionTickmark"
+                },
+                {
+                    "type": "title",
+                    "text": "Ready to go",
+                    "componentData":
+                    {
+                        "spacingBefore": 50,
+                        "spacingAfter": 15
+                    }
+                },
+                {
+                    "type": "description",
+                    "text": "You can now access your full program and monitor your progress towards the advanced level!"
+                }
+            ],
+            "type": "ComponentBased",
+            "options":
+            [
+                {
+                    "description": "Continue",
+                    "followUpQuestion": -1,
+                    "id": 1,
+                    "type": "primary",
+					"specialAction": "endInfoFlow"
+                }
+            ],
+            "styleAttributes":
+            [
+                "showInnerBackButton"
+            ]
+        }
+    ],
+    "other_weeks": [
+        {
+            "id": 5,
+            "components": [
+                {
+                    "type": "colorBlur"
+                },
+                {
+                    "type": "card",
+                    "componentData":
+                    {
+                        "padding":
+                        {
+                            "top": 40,
+                            "bottom": 45,
+                            "left" : 30,
+                            "right" : 30
+                        },
+                        "cornerRounding" : 0.67,
+                        "components": [
+                            {
+                                "type": "title",
+                                "text": "Week #NUMBER_OF_ACTIVE_PRACTICE_WEEK#"
+                            },
+                            {
+                                "type": "description",
+                                "text": "You had #NUMBER_OF_LESSONS_FOR_THE_ACTIVE_PRACTICE_DAY# lessons per Practice day. Here's the completion time for each day:",
+                                "componentData":
+                                {
+                                    "disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "barChart",
+                                "componentData":
+                                {
+                                    "unit": "min",
+                                    "dayIndicator": "D",
+                                    "averageText": "Average"
+                                }
+                            },
+                            {
+                                "type": "horizontalLayoutGroupForceExpandWidth",
+                                "componentData":
+                                {
+                                    "spacingBefore": 3,
+                                    "groupID": "EstimationCard1",
+                                    "components":
+                                    [
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Time spent studying",
+                                                "type": "timeStudied",
+                                                "hasCard": false
+                                            }
+                                        },
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Lessons",
+                                                "type": "lessonsDone",
+                                                "hasCard": false,
+                                                "unit": "completed"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "radioButtonSelector",
+                    "componentData":
+                    {
+                        "labelText": "How did Practice week #NUMBER_OF_ACTIVE_PRACTICE_WEEK# feel to you?",
+                        "options":
+                        [
+                            {
+                                "text": "Week #NUMBER_OF_ACTIVE_PRACTICE_WEEK# was perfect",
+                                "snackBarText": "Great! You have a good plan 🎉",
+                                "specialAction": "activateObject|perfect"
+                            },
+                            {
+                                "text": "I could practice more in Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                                "snackBarText": "Let's increase the study time 💪",
+                                "specialAction": "activateObject|more"
+                            },
+                            {
+                                "text": "I want to practice less during Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                                "snackBarText": "Alright, let's adjust your plan",
+                                "specialAction": "activateObject|less"
+                            }
+                        ],
+                        "buttonText": "Plan Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                        "specialAction": "enableGroup|PlanForNextWeekGroup"
+                    }
+                },
+                {
+                    "type": "verticalLayoutGroup",
+                    "componentData":
+                    {
+                        "groupdId": "PlanForNextWeekGroup",
+                        "isActiveOnCreation":  false,
+                        "components":
+                        [
+                            {
+                                "type": "title",
+                                "text": "Plan for Week #NEXT_PRACTICE_WEEK_NUMBER#",
+                                "componentData":
+                                {
+                                    "spacingBefore": 30,
+                                    "spacingAfter": 15
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "We recommend that you maintain the same pace in your upcoming week. However, if you wish, you can adjust your plan below:",
+                                "componentData":
+                                {
+                                    "uniqueID": "perfect",
+                                    "isActiveOnCreation": false,
+									"disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "You can increase the intensity of your plan below:",
+                                "componentData":
+                                {
+                                    "uniqueID": "more",
+                                    "isActiveOnCreation": false,
+									"disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "We suggest a minimum of 3 practice days per week to achieve effective results. You can adjust your plan below:",
+                                "componentData":
+                                {
+                                    "uniqueID": "less",
+                                    "isActiveOnCreation": false,
+									"disableAutoSpacer": true
+                                }
+                            },
+                            {
+                                "type": "segmentedController",
+                                "text": "Practice days",
+                                "componentData":
+                                {
+                                    "segmentCount": "5",
+                                    "segmentFirstValue": "3",
+                                    "segmentUsage": "daysPerWeek",
+                                    "width": "315"
+                                }
+                            },
+                            {
+                                "type": "segmentedController",
+                                "text": "Lessons per day",
+                                "componentData":
+                                {
+                                    "segmentCount": "9",
+                                    "segmentFirstValue": "2",
+                                    "segmentUsage": "lessonsPerDay",
+                                    "width": "315"
+                                }
+                            },
+                            {
+                                "type": "verticalLayoutGroupDynamicWidth",
+                                "componentData":
+                                {
+                                    "components":
+                                    [
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "spacingBefore": 35,
+                                                "text": "Time estimate",
+                                                "type": "practiceDuration",
+                                                "hasCard": true,
+                                                "unit": "min / day"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "The estimate is based on your speed to complete Practice week #NUMBER_OF_ACTIVE_PRACTICE_WEEK#.",
+                                "componentData":
+                                {
+                                    "spacingBefore": 20,
+                                    "spacingAfter": 20,
+                                    "size": 12
+                                }
+                            },
+                            {
+                                "type": "subtitle",
+                                "text": "Total program estimate",
+                                "componentData":
+                                {
+                                    "spacingAfter": 20
+                                }
+                            },
+                            {
+                                "type": "horizontalLayoutGroupForceExpandWidth",
+                                "componentData":
+                                {
+                                    "widthToForceExpand": 335,
+                                    "spacing": 10,
+                                    "groupID": "EstimationCardGroup",
+                                    "components":
+                                    [
+                                        {
+                                            "type": "independentShadow"
+                                        },
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Remaining time",
+                                                "type": "practiceWeeksRemaining",
+                                                "hasCard": true,
+                                                "unit": "weeks"
+                                            }
+                                        },
+                                        {
+                                            "type": "estimationCard",
+                                            "componentData":
+                                            {
+                                                "text": "Advanced level",
+                                                "type": "infoTextLayoutDate",
+                                                "hasCard": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "description",
+							    "text": "If you follow your program systematically, you'll achieve an advanced level of English by [blue]#ESTIMATION_DATE_OF_ADVANCED_LEVEL#[/blue] with your current plan.",
+                                "componentData":
+                                {
+                                    "spacingBefore": 25,
+                                    "spacingAfter": 10,
+                                    "size": 12
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "text": "Confirm schedule",
+                                "componentData":
+                                {
+                                    "followUpQuestion": 6,
+                                    "id": 1
+                                }
+                            },
+                            {
+                                "type": "description",
+                                "text": "Note: You will be able to adjust your selections again after completing Practice week #NEXT_PRACTICE_WEEK_NUMBER#.",
+                                "componentData":
+                                {
+                                    "size": 12,
+                                    "spacingBefore": 10
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "type": "ComponentBased"
+        },
+        {
+            "description": "You have planned to complete #PRACTICE_DAYS_SELECTED_PER_WEEK# Practice days during the next week.\n\n what time would you like to get reminders to practice? #SET_REMINDER_TIME# #PRACTICE_DAYS_WEEKDAY_LIST#",
+            "hiddenContinuation": null,
+            "id": 6,
+            "image":
+            {
+                "url": "/starting-level-test/NotificationBackground.jpg"
+            },
+            "options":
+            [
+                {
+                    "description": "Set reminders",
+                    "followUpQuestion": 8,
+                    "id": 1,
+                    "disableAutoSpacer": true
+                },
+                {
+                    "description": "Not now",
+                    "followUpQuestion": 8,
+                    "id": 2,
+                    "disableAutoSpacer": true
+                }
+            ],
+            "styleAttributes":
+            [
+                "showInnerBackButton"
+            ],
+            "title": "Practice reminders",
+            "type": "Reminder"
+        },
+        {
+            "id": 8,
+            "components":
+            [
+                {
+                    "type": "completionTickmark"
+                },
+                {
+                    "type": "title",
+                    "text": "Ready to go",
+                    "componentData":
+                    {
+                        "spacingBefore": 50,
+                        "spacingAfter": 15
+                    }
+                },
+                {
+                    "type": "description",
+                    "text": "Your plan for Week #NEXT_PRACTICE_WEEK_NUMBER# is ready.\n\nComplete this week and take another step towards the advanced level of English!"
+                }
+            ],
+            "type": "ComponentBased",
+            "options":
+            [
+                {
+                    "description": "Continue",
+                    "followUpQuestion": -1,
+                    "id": 1,
+                    "type": "primary",
+					"specialAction": "endInfoFlow"
+                }
+            ],
+            "styleAttributes":
+            [
+                "showInnerBackButton"
+            ]
+        }
+    ]
+}
